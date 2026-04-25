@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Auto Parts Catalog | Warehouse System</title>
+    <meta name="description" content="Browse our professional auto parts virtual warehouse to find high-quality spare parts and filters for various vehicles.">
+    <!-- Fonts and Icons -->
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;800&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body dir="rtl">
+
+    <!-- Top Navigation Bar -->
+    <nav class="top-nav">
+        <a href="#" class="nav-brand">
+            <i class="fa-solid fa-gears"></i> Auto<span>Parts</span>
+        </a>
+        <div class="nav-links">
+            <a href="#">الرئيسية</a>
+            <a href="#inventory">المنتجات</a>
+            <a href="#contact-section">تواصل معنا</a>
+            <a href="https://wa.me/201107292913" id="nav-whatsapp-btn" class="nav-whatsapp" target="_blank">
+                <i class="fa-brands fa-whatsapp"></i> تواصل عبر الواتساب
+            </a>
+        </div>
+    </nav>
+
+    <!-- Unified Hero & Search Section -->
+    <div class="hero-wrapper">
+        <h1 class="hero-title"><i class="fa-solid fa-gears"></i> كل قطعة في مكانها الصح… وإحنا بنوصلهالك</h1>
+        
+        <div class="smart-search-container">
+            <div class="search-input-box">
+                <i class="fa-solid fa-magnifying-glass search-icon"></i>
+                <input type="text" id="main-search" placeholder="اكتب اسم أو رقم القطعة مثال: CE 0144 EX">
+            </div>
+
+            <div class="search-actions">
+                <button id="start-search-btn" class="btn-search-trigger">
+                    <span class="btn-search-copy">
+                        <strong>ابدأ البحث</strong>
+                        <small>اعرض القطع المتاحة الآن</small>
+                    </span>
+                    <span class="btn-search-icon-wrap">
+                        <i class="fa-solid fa-arrow-left"></i>
+                    </span>
+                </button>
+                <a href="https://wa.me/201107292913" id="hero-whatsapp-btn" class="btn btn-whatsapp" style="border-radius: 99px; padding: 1rem 2rem;" target="_blank">
+                    <i class="fa-brands fa-whatsapp"></i> ابعت صورة
+                </a>
+            </div>
+        </div>
+
+        <!-- Visual Selector (Vehicle Types) -->
+        <div class="vehicle-selector" id="vehicle-tabs">
+            <div class="vehicle-item selected" data-value="all">
+                <i class="fa-solid fa-layer-group"></i>
+                <span>الكل</span>
+            </div>
+            <div class="vehicle-item" data-value="Passenger">
+                <i class="fa-solid fa-car"></i>
+                <span>ملاكي</span>
+            </div>
+            <div class="vehicle-item" data-value="Truck">
+                <i class="fa-solid fa-truck"></i>
+                <span>نقل ثقيل</span>
+            </div>
+            <div class="vehicle-item" data-value="Commercial">
+                <i class="fa-solid fa-truck-pickup"></i>
+                <span>نقل خفيف</span>
+            </div>
+            <div class="vehicle-item" data-value="Bus">
+                <i class="fa-solid fa-bus"></i>
+                <span>أتوبيس</span>
+            </div>
+            <div class="vehicle-item" data-value="Minibus">
+                <i class="fa-solid fa-van-shuttle"></i>
+                <span>ميكروباص</span>
+            </div>
+            <div class="vehicle-item" data-value="Equipment">
+                <i class="fa-solid fa-tractor"></i>
+                <span>معدات</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Inventory Grid -->
+    <div class="catalog-container" id="inventory">
+        <div class="inventory-header">
+            <h2><i class="fa-solid fa-boxes-stacked"></i> مخزون القطع</h2>
+            
+            <!-- Secondary Filter for Category -->
+            <select class="filter-select" id="category-filter">
+                <option value="all">جميع أنواع الفلاتر</option>
+                <option value="Air Filter">فلتر هواء</option>
+                <option value="Oil Filter">فلتر زيت</option>
+                <option value="Fuel Filter">فلتر جاز</option>
+            </select>
+            
+            <!-- Kept for background logic, visually hidden -->
+            <select id="brand-filter" style="display: none;">
+                <option value="all">All Brands</option>
+            </select>
+        </div>
+
+        <div id="loader" class="loader-container">
+            <div class="loader"></div>
+        </div>
+
+        <div id="catalog" class="product-grid" style="display: none;">
+            <!-- Glassmorphic Cards injected here -->
+        </div>
+
+        <div id="no-results" style="display: none; text-align: center; padding: 3rem; background: var(--glass-bg); backdrop-filter: blur(10px); border-radius: 16px; border: 1px solid var(--glass-border);">
+            <h3><i class="fa-solid fa-circle-exclamation" style="color: var(--badge-out-of-stock); font-size: 2rem; margin-bottom: 1rem;"></i><br>القطعة غير متوفرة حالياً</h3>
+            <p style="color: var(--text-secondary); margin-top: 0.5rem;">جرب التحديث في الكلمات المفتاحية أو يمكنك طلبها عبر الواتساب.</p>
+        </div>
+    </div>
+
+    <!-- Advanced Footer Section -->
+    <footer class="advanced-footer">
+        <div class="footer-rows-container">
+            
+            <!-- Row 1: Supported Brands -->
+            <div class="footer-row brands-row">
+                <h3 class="row-heading"><i class="fa-solid fa-car-side"></i> ماركات السيارات المدعومة</h3>
+                <div class="brands-horizontal-list">
+                    <!-- Heavy Trucks -->
+                    <div class="brand-item" title="Mercedes"><div class="img-box"><img src="https://img.logo.dev/mercedes-benz.com?token=pk_BEqkFaEaTFSEkishNqUVlQ" alt="Mercedes" loading="lazy"><div class="img-protect"></div></div></div>
+                    <div class="brand-item" title="Scania"><div class="img-box"><img src="https://img.logo.dev/scania.com?token=pk_BEqkFaEaTFSEkishNqUVlQ" alt="Scania" loading="lazy"><div class="img-protect"></div></div></div>
+                    <div class="brand-item" title="Iveco"><div class="img-box"><img src="https://img.logo.dev/iveco.com?token=pk_BEqkFaEaTFSEkishNqUVlQ" alt="Iveco" loading="lazy"><div class="img-protect"></div></div></div>
+                    <div class="brand-item" title="Volvo"><div class="img-box"><img src="https://img.logo.dev/volvo.com?token=pk_BEqkFaEaTFSEkishNqUVlQ" alt="Volvo" loading="lazy"><div class="img-protect"></div></div></div>
+                    <div class="brand-item" title="MAN"><div class="img-box"><img src="https://img.logo.dev/man.eu?token=pk_BEqkFaEaTFSEkishNqUVlQ" alt="MAN" loading="lazy"><div class="img-protect"></div></div></div>
+                    <!-- Buses -->
+                    <div class="brand-item" title="MCV"><div class="img-box"><img src="https://img.logo.dev/mcv-eg.com?token=pk_BEqkFaEaTFSEkishNqUVlQ" alt="MCV" loading="lazy"><div class="img-protect"></div></div></div>
+                    <!-- Equipment -->
+                    <div class="brand-item" title="CAT"><div class="img-box"><img src="https://img.logo.dev/cat.com?token=pk_BEqkFaEaTFSEkishNqUVlQ" alt="CAT" loading="lazy"><div class="img-protect"></div></div></div>
+                    <!-- Passenger -->
+                    <div class="brand-item" title="Toyota"><div class="img-box"><img src="https://img.logo.dev/toyota.com?token=pk_BEqkFaEaTFSEkishNqUVlQ" alt="Toyota" loading="lazy"><div class="img-protect"></div></div></div>
+                    <div class="brand-item" title="Chevrolet"><div class="img-box"><img src="https://img.logo.dev/chevrolet.com?token=pk_BEqkFaEaTFSEkishNqUVlQ" alt="Chevrolet" loading="lazy"><div class="img-protect"></div></div></div>
+                    <div class="brand-item" title="Kia"><div class="img-box"><img src="https://img.logo.dev/kia.com?token=pk_BEqkFaEaTFSEkishNqUVlQ" alt="Kia" loading="lazy"><div class="img-protect"></div></div></div>
+                    <div class="brand-item" title="Nissan"><div class="img-box"><img src="assets/LOGO/Nissan Next Shadow.jpg" alt="Nissan" loading="lazy"><div class="img-protect"></div></div></div>
+                    <div class="brand-item" title="Hyundai"><div class="img-box"><img src="https://img.logo.dev/hyundai.com?token=pk_BEqkFaEaTFSEkishNqUVlQ" alt="Hyundai" loading="lazy"><div class="img-protect"></div></div></div>
+                    <div class="brand-item" title="Mitsubishi"><div class="img-box"><img src="https://img.logo.dev/mitsubishi-motors.com?token=pk_BEqkFaEaTFSEkishNqUVlQ" alt="Mitsubishi" loading="lazy"><div class="img-protect"></div></div></div>
+                    <div class="brand-item" title="BYD"><div class="img-box"><img src="https://img.logo.dev/byd.com?token=pk_BEqkFaEaTFSEkishNqUVlQ" alt="BYD" loading="lazy"><div class="img-protect"></div></div></div>
+                </div>
+            </div>
+
+            <hr class="footer-divider">
+
+            <!-- Row 2: Suppliers -->
+            <div class="footer-row suppliers-row">
+                <h3 class="row-heading"><i class="fa-solid fa-handshake"></i> الموردون المعتمدون</h3>
+                <div class="suppliers-horizontal-list">
+                    <div class="supplier-item">
+                        <div class="img-box"><img src="https://img.logo.dev/sampiyonfilter.com.tr?token=pk_BEqkFaEaTFSEkishNqUVlQ" alt="Sampiyon" class="supplier-logo" loading="lazy"><div class="img-protect"></div></div>
+                        <span>Sampiyon</span>
+                    </div>
+                    <div class="supplier-item">
+                        <div class="img-box"><img src="assets/LOGO/EUROSTAR GERMANY.jpeg" alt="EUROSTAR GERMANY" class="supplier-logo" loading="lazy"><div class="img-protect"></div></div>
+                        <span>EUROSTAR GERMANY</span>
+                    </div>
+                </div>
+            </div>
+
+            <hr class="footer-divider">
+
+            <!-- Row 3: Contact & Copyright -->
+            <div id="contact-section" class="footer-row contact-footer-row">
+                <h3 class="row-heading"><i class="fa-solid fa-address-book"></i> تواصل معنا</h3>
+                <div class="social-icons-centered">
+                    <a href="https://wa.me/201107292913" target="_blank" title="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+                    <a href="https://www.facebook.com/share/1CFeBVhqGg/" target="_blank" title="Facebook"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://www.instagram.com/mohamedosman.abu.al.anin?igsh=ZDBzN2xwbGRvYjRs" target="_blank" title="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                </div>
+                <div class="copyright-centered">
+                    <p dir="ltr">
+                        © 2025-2026 <a href="https://mohamedabuelanin.github.io/Portfolio/" target="_blank" class="portfolio-link">Mohamed Osman Abu Al-Anin</a> — All Rights Reserved.
+                    </p>
+                </div>
+            </div>
+
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>  

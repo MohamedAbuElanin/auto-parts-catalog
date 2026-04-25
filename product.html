@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>تفاصيل القطعة | Auto Parts Catalog</title>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;800&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body dir="rtl">
+
+    <!-- Top Navigation Bar -->
+    <nav class="top-nav">
+        <a href="index.html" class="nav-brand">
+            <i class="fa-solid fa-gears"></i> Auto<span>Parts</span>
+        </a>
+        <div class="nav-links">
+            <a href="index.html">الرئيسية</a>
+            <a href="index.html#inventory">المنتجات</a>
+            <a href="index.html#contact-section">تواصل معنا</a>
+        </div>
+    </nav>
+
+    <div class="hero-wrapper" style="margin-top: 100px; padding: 2rem;">
+        <main class="main-content" style="max-width: 1000px; width: 100%; margin: 0 auto;">
+            
+            <a href="index.html" class="back-link btn" style="background: rgba(255,255,255,0.1); backdrop-filter: blur(10px); color: #fff; margin-bottom: 2rem; width: fit-content;">
+                <i class="fa-solid fa-arrow-right"></i> عودة إلى الكتالوج
+            </a>
+
+            <div id="loader" class="loader-container">
+                <div class="loader"></div>
+            </div>
+
+            <!-- Premium Product Detail Board -->
+            <div id="product-detail" class="premium-detail-container" style="display: none;">
+                
+                <!-- Main Header: Image + Quick Info -->
+                <div class="product-main-header">
+                    <div class="product-visual-side">
+                        <div id="sticky-image-box" class="sticky-image-box">
+                            <!-- Image injected here -->
+                        </div>
+                    </div>
+                    
+                    <div class="product-info-side">
+                        <div class="product-eyebrow">
+                            <span class="eyebrow-pill"><i class="fa-solid fa-shield-heart"></i> Premium Fit</span>
+                            <span class="eyebrow-note">Catalog View</span>
+                        </div>
+                        <div class="header-top-row">
+                            <span class="part-number-neon" id="detail-part-number">Part No.</span>
+                            <span id="detail-badge" class="detail-status-badge">Available</span>
+                        </div>
+                        
+                        <h1 id="detail-name" class="product-title">Product Name</h1>
+                        <p id="detail-brand" class="product-brand-sub">Brand Name</p>
+
+                        <div class="product-summary-strip">
+                            <div class="summary-strip-item">
+                                <span>الجودة</span>
+                                <strong>فحص مخزني سريع</strong>
+                            </div>
+                            <div class="summary-strip-item">
+                                <span>الطلب</span>
+                                <strong>إرسال مباشر عبر واتساب</strong>
+                            </div>
+                        </div>
+                        
+                        <div class="quick-stats-grid">
+                            <div class="stat-card">
+                                <i class="fa-solid fa-truck"></i>
+                                <span>نوع المركبة</span>
+                                <strong id="detail-vehicle-type">-</strong>
+                            </div>
+                            <div class="stat-card">
+                                <i class="fa-solid fa-filter"></i>
+                                <span>القسم</span>
+                                <strong id="detail-category">-</strong>
+                            </div>
+                            <div class="stat-card">
+                                <i class="fa-solid fa-globe"></i>
+                                <span>المنشأ</span>
+                                <strong id="detail-origin">-</strong>
+                            </div>
+                        </div>
+
+                        <div class="marketing-description">
+                            <h4 class="section-label"><i class="fa-solid fa-file-lines"></i> وصف المنتج</h4>
+                            <p id="detail-description">Description...</p>
+                        </div>
+
+                        <div class="action-buttons-row">
+                            <a href="#" id="whatsapp-btn" class="btn-whatsapp-premium">
+                                <i class="fa-brands fa-whatsapp"></i> اطلب الآن عبر واتساب
+                            </a>
+                        </div>
+
+                        <div class="trust-notes">
+                            <div class="trust-note"><i class="fa-solid fa-circle-check"></i><span>تفاصيل واضحة للقطعة</span></div>
+                            <div class="trust-note"><i class="fa-solid fa-bolt"></i><span>طلب سريع مباشر</span></div>
+                            <div class="trust-note"><i class="fa-solid fa-layer-group"></i><span>تطبيقات منظمة لسهولة البحث</span></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Secondary Info: Dimensions & Features -->
+                <div class="product-details-grid">
+                    <div id="side-dimensions-section" class="details-card" style="display: none;">
+                        <h3 class="card-title"><i class="fa-solid fa-ruler-combined"></i> المقاسات الفنية (Dimensions)</h3>
+                        <div class="dim-table-wrapper">
+                            <table class="dim-table">
+                                <tbody id="side-dimensions-table-body"></tbody>
+                            </table>
+                        </div>
+                    </div>
+
+                    <div id="side-features-section" class="details-card" style="display: none;">
+                        <h3 class="card-title"><i class="fa-solid fa-shield-check"></i> مميزات القطعة</h3>
+                        <ul id="side-features-list" class="features-bullet-list"></ul>
+                    </div>
+                </div>
+
+                <!-- OEM Numbers Section -->
+                <div id="oem-section" class="full-width-card" style="display: none;">
+                    <h3 class="card-title"><i class="fa-solid fa-fingerprint"></i> أرقام OEM المطابقة</h3>
+                    <div id="oem-container" class="oem-grid-container"></div>
+                </div>
+
+                <!-- Detailed Applications Section -->
+                <div id="applications-section" class="full-width-card applications-card" style="display: none;">
+                    <div class="apps-header">
+                        <h3 class="card-title"><i class="fa-solid fa-list-check"></i> قائمة التطبيقات المتوافقة</h3>
+                        <div class="apps-search-box">
+                            <i class="fa-solid fa-search"></i>
+                            <input type="text" id="app-search" placeholder="ابحث عن موديل أو محرك...">
+                        </div>
+                    </div>
+                    <div id="apps-accordion" class="apps-accordion-container"></div>
+                </div>
+
+            </div>
+
+
+            <div id="error-message" style="display: none; text-align: center; padding: 3rem; background: var(--glass-bg); backdrop-filter: blur(10px); border-radius: 16px; border: 1px solid var(--glass-border); margin-top: 2rem;">
+                <i class="fa-solid fa-circle-exclamation" style="font-size: 4rem; color: var(--badge-out-of-stock); margin-bottom: 1rem;"></i>
+                <h2>عذراً، هذه القطعة غير موجودة!</h2>
+                <p style="color: var(--text-secondary); margin-top: 1rem;">ربما تم مسح القطعة أو الرابط غير صحيح.</p>
+                <a href="index.html" class="btn btn-primary" style="margin-top: 2rem; width: fit-content;">العودة للمخزن <i class="fa-solid fa-arrow-left"></i></a>
+            </div>
+        </main>
+    </div>
+
+    <!-- Advanced Footer Section -->
+    <footer class="advanced-footer">
+        <div class="footer-rows-container">
+            
+            <!-- Row 1: Supported Brands -->
+            <div class="footer-row brands-row">
+                <h3 class="row-heading"><i class="fa-solid fa-car-side"></i> ماركات السيارات المدعومة</h3>
+                <div class="brands-horizontal-list">
+                    <div class="brand-item" title="Mercedes"><div class="img-box"><img src="https://img.logo.dev/mercedes-benz.com?token=pk_BEqkFaEaTFSEkishNqUVlQ" alt="Mercedes" loading="lazy"><div class="img-protect"></div></div></div>
+                    <div class="brand-item" title="Scania"><div class="img-box"><img src="https://img.logo.dev/scania.com?token=pk_BEqkFaEaTFSEkishNqUVlQ" alt="Scania" loading="lazy"><div class="img-protect"></div></div></div>
+                    <div class="brand-item" title="Iveco"><div class="img-box"><img src="https://img.logo.dev/iveco.com?token=pk_BEqkFaEaTFSEkishNqUVlQ" alt="Iveco" loading="lazy"><div class="img-protect"></div></div></div>
+                    <div class="brand-item" title="Volvo"><div class="img-box"><img src="https://img.logo.dev/volvo.com?token=pk_BEqkFaEaTFSEkishNqUVlQ" alt="Volvo" loading="lazy"><div class="img-protect"></div></div></div>
+                    <div class="brand-item" title="MAN"><div class="img-box"><img src="https://img.logo.dev/man.eu?token=pk_BEqkFaEaTFSEkishNqUVlQ" alt="MAN" loading="lazy"><div class="img-protect"></div></div></div>
+                    <div class="brand-item" title="MCV"><div class="img-box"><img src="https://img.logo.dev/mcv-eg.com?token=pk_BEqkFaEaTFSEkishNqUVlQ" alt="MCV" loading="lazy"><div class="img-protect"></div></div></div>
+                    <div class="brand-item" title="CAT"><div class="img-box"><img src="https://img.logo.dev/cat.com?token=pk_BEqkFaEaTFSEkishNqUVlQ" alt="CAT" loading="lazy"><div class="img-protect"></div></div></div>
+                    <!-- Passenger -->
+                    <div class="brand-item" title="Toyota"><div class="img-box"><img src="https://img.logo.dev/toyota.com?token=pk_BEqkFaEaTFSEkishNqUVlQ" alt="Toyota" loading="lazy"><div class="img-protect"></div></div></div>
+                    <div class="brand-item" title="Chevrolet"><div class="img-box"><img src="https://img.logo.dev/chevrolet.com?token=pk_BEqkFaEaTFSEkishNqUVlQ" alt="Chevrolet" loading="lazy"><div class="img-protect"></div></div></div>
+                    <div class="brand-item" title="Kia"><div class="img-box"><img src="https://img.logo.dev/kia.com?token=pk_BEqkFaEaTFSEkishNqUVlQ" alt="Kia" loading="lazy"><div class="img-protect"></div></div></div>
+                    <div class="brand-item" title="Nissan"><div class="img-box"><img src="assets/LOGO/Nissan Next Shadow.jpg" alt="Nissan" loading="lazy"><div class="img-protect"></div></div></div>
+                    <div class="brand-item" title="Hyundai"><div class="img-box"><img src="https://img.logo.dev/hyundai.com?token=pk_BEqkFaEaTFSEkishNqUVlQ" alt="Hyundai" loading="lazy"><div class="img-protect"></div></div></div>
+                    <div class="brand-item" title="Mitsubishi"><div class="img-box"><img src="https://img.logo.dev/mitsubishi-motors.com?token=pk_BEqkFaEaTFSEkishNqUVlQ" alt="Mitsubishi" loading="lazy"><div class="img-protect"></div></div></div>
+                    <div class="brand-item" title="BYD"><div class="img-box"><img src="https://img.logo.dev/byd.com?token=pk_BEqkFaEaTFSEkishNqUVlQ" alt="BYD" loading="lazy"><div class="img-protect"></div></div></div>
+                </div>
+            </div>
+
+            <hr class="footer-divider">
+
+            <!-- Row 2: Suppliers -->
+            <div class="footer-row suppliers-row">
+                <h3 class="row-heading"><i class="fa-solid fa-handshake"></i> الموردون المعتمدون</h3>
+                <div class="suppliers-horizontal-list">
+                    <div class="supplier-item">
+                        <div class="img-box"><img src="https://img.logo.dev/sampiyonfilter.com.tr?token=pk_BEqkFaEaTFSEkishNqUVlQ" alt="Sampiyon" class="supplier-logo" loading="lazy"><div class="img-protect"></div></div>
+                        <span>Sampiyon</span>
+                    </div>
+                    <div class="supplier-item">
+                        <div class="img-box"><img src="assets/LOGO/EUROSTAR GERMANY.jpeg" alt="EUROSTAR GERMANY" class="supplier-logo" loading="lazy"><div class="img-protect"></div></div>
+                        <span>EUROSTAR GERMANY</span>
+                    </div>
+                </div>
+            </div>
+
+            <hr class="footer-divider">
+
+            <!-- Row 3: Contact & Copyright -->
+            <div id="contact-section" class="footer-row contact-footer-row">
+                <h3 class="row-heading"><i class="fa-solid fa-address-book"></i> تواصل معنا</h3>
+                <div class="social-icons-centered">
+                    <a href="https://wa.me/201107292913" target="_blank" title="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+                    <a href="https://facebook.com" target="_blank" title="Facebook"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://instagram.com" target="_blank" title="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                </div>
+                <div class="copyright-centered">
+                    <p dir="ltr">
+                        © 2025-2026 <a href="https://mohamedabuelanin.github.io/Portfolio/" target="_blank" class="portfolio-link">Mohamed Osman Abu Al-Anin</a> — All Rights Reserved.
+                    </p>
+                </div>
+            </div>
+
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
