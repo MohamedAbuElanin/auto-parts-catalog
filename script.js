@@ -228,8 +228,6 @@ function renderProducts(products) {
     if (noResults) noResults.style.display = 'none';
 
     products.forEach(product => {
-        const badgeClass = product.available ? 'badge available' : 'badge out-of-stock';
-        const badgeText = product.available ? 'متوفر' : 'غير متوفر';
         const svgFallback = encodeURIComponent('<svg xmlns="http://www.w3.org/2000/svg" width="100" height="100"><rect fill="#0f172a" width="100" height="100"/><text x="50" y="50" fill="#cbd5e1" font-size="12" font-family="Arial" text-anchor="middle" dominant-baseline="middle">NO IMAGE</text></svg>');
 
         const card = document.createElement('div');
@@ -237,7 +235,6 @@ function renderProducts(products) {
         const brandDisplay = product.brand ? product.brand.replace('_', ' ') : '';
         card.innerHTML = `
             <div class="product-image-container">
-                <span class="${badgeClass}">${badgeText}</span>
                 <div class="img-box">
                     <img src="${product.image}" alt="${product.name}" loading="lazy" onerror="this.onerror=null; this.src='data:image/svg+xml;utf8,${svgFallback}';">
                     <div class="img-protect"></div>
@@ -460,17 +457,6 @@ function renderProductDetails(product) {
         if (appSearch) appSearch.addEventListener('input', (e) => renderApps(e.target.value));
     } else if (appSection) {
         appSection.style.display = 'none';
-    }
-
-    const badge = document.getElementById('detail-badge');
-    if (badge) {
-        if (product.available) {
-            badge.className = 'detail-status-badge available';
-            badge.textContent = 'متوفر';
-        } else {
-            badge.className = 'detail-status-badge out-of-stock';
-            badge.textContent = 'غير متوفر';
-        }
     }
 
     const whatsappBtn = document.getElementById('whatsapp-btn');
