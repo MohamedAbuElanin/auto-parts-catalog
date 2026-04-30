@@ -19,8 +19,16 @@
       "H": "281 mm"
     },
     "oem_numbers": {
-      "RENAULT TRUCK (RVI)": ["74 24 993 648"],
-      "SCANIA": ["174 2032", "174 2037", "202 2275", "203 7556", "2625884"]
+      "RENAULT TRUCK (RVI)": [
+        "74 24 993 648"
+      ],
+      "SCANIA": [
+        "174 2032",
+        "174 2037",
+        "202 2275",
+        "203 7556",
+        "2625884"
+      ]
     },
     "features": [
       "كفاءة ترشيح عالية جدًا",
@@ -34,36 +42,97 @@
         "category": "DENNIS BUS / ALEXANDER DENNIS",
         "sub_category": "Enviro / Enviro Dart",
         "models": [
-          { "name": "300 Dart", "engine": "Scania DC9.30", "power": "169 kW / 230 HP", "year": "2017/02 →" },
-          { "name": "400 CNG Dart", "engine": "Scania OC09.101", "power": "206 kW / 280 HP", "year": "2017/02 →" }
+          {
+            "name": "300 Dart",
+            "engine": "Scania DC9.30",
+            "power": "169 kW / 230 HP",
+            "year": "2017/02 →"
+          },
+          {
+            "name": "400 CNG Dart",
+            "engine": "Scania OC09.101",
+            "power": "206 kW / 280 HP",
+            "year": "2017/02 →"
+          }
         ]
       },
       {
         "category": "SCANIA G Series",
         "models": [
-          { "name": "G230", "engine": "DC9.30 / DC9.39", "power": "169 kW / 230 HP", "year": "2007 →" },
-          { "name": "G270", "engine": "DC9.12 / DC9.17", "power": "198 kW / 270 HP", "year": "2007 →" },
-          { "name": "G320", "engine": "DC9.32 / DC9.37", "power": "235 kW / 320 HP", "year": "2007 →" },
-          { "name": "G490", "engine": "DC13.125", "power": "360 kW / 490 HP", "year": "2013 →" }
+          {
+            "name": "G230",
+            "engine": "DC9.30 / DC9.39",
+            "power": "169 kW / 230 HP",
+            "year": "2007 →"
+          },
+          {
+            "name": "G270",
+            "engine": "DC9.12 / DC9.17",
+            "power": "198 kW / 270 HP",
+            "year": "2007 →"
+          },
+          {
+            "name": "G320",
+            "engine": "DC9.32 / DC9.37",
+            "power": "235 kW / 320 HP",
+            "year": "2007 →"
+          },
+          {
+            "name": "G490",
+            "engine": "DC13.125",
+            "power": "360 kW / 490 HP",
+            "year": "2013 →"
+          }
         ]
       },
       {
         "category": "SCANIA P Series",
         "models": [
-          { "name": "P230", "engine": "DC9.13 / DC9.16 / DC9.30 / DC9.39", "power": "169 kW / 230 HP", "year": "2004 →" },
-          { "name": "P490", "engine": "DC13.125", "power": "360 kW / 490 HP", "year": "2013 →" }
+          {
+            "name": "P230",
+            "engine": "DC9.13 / DC9.16 / DC9.30 / DC9.39",
+            "power": "169 kW / 230 HP",
+            "year": "2004 →"
+          },
+          {
+            "name": "P490",
+            "engine": "DC13.125",
+            "power": "360 kW / 490 HP",
+            "year": "2013 →"
+          }
         ]
       },
       {
         "category": "SCANIA BUS / SCANIA-IRIZAR",
         "models": [
-          { "name": "Citywide", "engine": "DC9 / DC13", "power": "Variable", "year": "2011 →" },
-          { "name": "Interlink", "engine": "DC9 / DC13", "power": "Variable", "year": "2016 →" },
-          { "name": "Irizar i4 / i6", "engine": "DC9 / DC13", "power": "Variable", "year": "2007 →" },
-          { "name": "OmniExpress", "engine": "DC9 / DC13", "power": "Variable", "year": "2007 →" }
+          {
+            "name": "Citywide",
+            "engine": "DC9 / DC13",
+            "power": "Variable",
+            "year": "2011 →"
+          },
+          {
+            "name": "Interlink",
+            "engine": "DC9 / DC13",
+            "power": "Variable",
+            "year": "2016 →"
+          },
+          {
+            "name": "Irizar i4 / i6",
+            "engine": "DC9 / DC13",
+            "power": "Variable",
+            "year": "2007 →"
+          },
+          {
+            "name": "OmniExpress",
+            "engine": "DC9 / DC13",
+            "power": "Variable",
+            "year": "2007 →"
+          }
         ]
       }
-    ]
+    ],
+    "related_products": []
   },
   {
     "id": 2,
@@ -85,10 +154,25 @@
       "H": "205.50 mm"
     },
     "oem_numbers": {
-      "DEUTZ-FAHR": ["0293 1522", "0490 0249", "293 1522", "293 1708", "293 1709", "490 3559"],
-      "RENAULT TRUCK (RVI)": ["74 20 796 782", "74 20 998 809"],
-      "VOLVO": ["21040164"],
-      "VOLVO (TRUCKS/VCE/VME/PENTA)": ["20796785", "20998807"]
+      "DEUTZ-FAHR": [
+        "0293 1522",
+        "0490 0249",
+        "293 1522",
+        "293 1708",
+        "293 1709",
+        "490 3559"
+      ],
+      "RENAULT TRUCK (RVI)": [
+        "74 20 796 782",
+        "74 20 998 809"
+      ],
+      "VOLVO": [
+        "21040164"
+      ],
+      "VOLVO (TRUCKS/VCE/VME/PENTA)": [
+        "20796785",
+        "20998807"
+      ]
     },
     "features": [
       "كفاءة ترشيح عالية جدًا",
@@ -101,160 +185,641 @@
       {
         "category": "BREDAMENARINIBUS",
         "models": [
-          { "name": "Avancity+ (L, N)", "engine": "Deutz TCD 1013 L6 4V", "power": "213 kW / 290 HP", "year": "2008/10 →" },
-          { "name": "Vivacity / Vivacity+ (C, M)", "engine": "Deutz TCD 1013 L4 4V", "power": "161 kW / 219 HP", "year": "2008/09 →" }
+          {
+            "name": "Avancity+ (L, N)",
+            "engine": "Deutz TCD 1013 L6 4V",
+            "power": "213 kW / 290 HP",
+            "year": "2008/10 →"
+          },
+          {
+            "name": "Vivacity / Vivacity+ (C, M)",
+            "engine": "Deutz TCD 1013 L4 4V",
+            "power": "161 kW / 219 HP",
+            "year": "2008/09 →"
+          }
         ]
       },
       {
         "category": "DENNIS (ALEXANDER DENNIS)",
         "models": [
-          { "name": "Elite 2 (240)", "engine": "Volvo D7E240", "power": "177 kW / 241 HP", "year": "2006/05 →" },
-          { "name": "Elite 2 (260)", "engine": "Volvo D7F260", "power": "191 kW / 260 HP", "year": "2009/11 →" },
-          { "name": "Elite 2 (290)", "engine": "Volvo D7E290", "power": "213 kW / 290 HP", "year": "2006/05 →" },
-          { "name": "Elite 2 (300)", "engine": "Volvo D7F300", "power": "221 kW / 300 HP", "year": "2009/05 →" },
-          { "name": "Elite 2 (320)", "engine": "Volvo D7E320", "power": "235 kW / 320 HP", "year": "2006/05 →" },
-          { "name": "Elite 2 (340)", "engine": "Volvo D7F340", "power": "250 kW / 340 HP", "year": "2009/11 →" },
-          { "name": "Olympus (10N, 13W, 14N, 16N/W, 19N/W)", "engine": "Volvo D7F260", "power": "191 kW / 260 HP", "year": "2009/12 →" },
-          { "name": "Olympus (21W, 23W, 27W)", "engine": "Volvo D7F260", "power": "191 kW / 260 HP", "year": "2009/12 →" },
-          { "name": "Phoenix (HCTP - 290)", "engine": "Volvo D7E290", "power": "213 kW / 290 HP", "year": "2005/11 →" },
-          { "name": "Phoenix (P2 - 290)", "engine": "Volvo D7E290", "power": "213 kW / 290 HP", "year": "2006/03 →" }
+          {
+            "name": "Elite 2 (240)",
+            "engine": "Volvo D7E240",
+            "power": "177 kW / 241 HP",
+            "year": "2006/05 →"
+          },
+          {
+            "name": "Elite 2 (260)",
+            "engine": "Volvo D7F260",
+            "power": "191 kW / 260 HP",
+            "year": "2009/11 →"
+          },
+          {
+            "name": "Elite 2 (290)",
+            "engine": "Volvo D7E290",
+            "power": "213 kW / 290 HP",
+            "year": "2006/05 →"
+          },
+          {
+            "name": "Elite 2 (300)",
+            "engine": "Volvo D7F300",
+            "power": "221 kW / 300 HP",
+            "year": "2009/05 →"
+          },
+          {
+            "name": "Elite 2 (320)",
+            "engine": "Volvo D7E320",
+            "power": "235 kW / 320 HP",
+            "year": "2006/05 →"
+          },
+          {
+            "name": "Elite 2 (340)",
+            "engine": "Volvo D7F340",
+            "power": "250 kW / 340 HP",
+            "year": "2009/11 →"
+          },
+          {
+            "name": "Olympus (10N, 13W, 14N, 16N/W, 19N/W)",
+            "engine": "Volvo D7F260",
+            "power": "191 kW / 260 HP",
+            "year": "2009/12 →"
+          },
+          {
+            "name": "Olympus (21W, 23W, 27W)",
+            "engine": "Volvo D7F260",
+            "power": "191 kW / 260 HP",
+            "year": "2009/12 →"
+          },
+          {
+            "name": "Phoenix (HCTP - 290)",
+            "engine": "Volvo D7E290",
+            "power": "213 kW / 290 HP",
+            "year": "2005/11 →"
+          },
+          {
+            "name": "Phoenix (P2 - 290)",
+            "engine": "Volvo D7E290",
+            "power": "213 kW / 290 HP",
+            "year": "2006/03 →"
+          }
         ]
       },
       {
         "category": "DEUTZ AG (ENGINES)",
         "models": [
-          { "name": "2013-Serie (TCD2013 L04 4V)", "engine": "TCD2013 L04 4V", "power": "-", "year": "-" },
-          { "name": "2013-Serie (TCD2013 L06 4V)", "engine": "TCD2013 L06 4V", "power": "253 kW / 339 HP", "year": "-" }
+          {
+            "name": "2013-Serie (TCD2013 L04 4V)",
+            "engine": "TCD2013 L04 4V",
+            "power": "-",
+            "year": "-"
+          },
+          {
+            "name": "2013-Serie (TCD2013 L06 4V)",
+            "engine": "TCD2013 L06 4V",
+            "power": "253 kW / 339 HP",
+            "year": "-"
+          }
         ]
       },
       {
         "category": "DEUTZ FAHR (SAME DEUTZ-FAHR)",
         "models": [
-          { "name": "5000-Serie (5665 HTS COM 3)", "engine": "-", "power": "-", "year": "-" },
-          { "name": "5000-Serie (5690 H COM 3)", "engine": "-", "power": "-", "year": "-" },
-          { "name": "5000-Serie (5690 HTS COM 3)", "engine": "-", "power": "-", "year": "-" },
-          { "name": "5000-Serie (5695 HTS COM 3)", "engine": "-", "power": "-", "year": "-" },
-          { "name": "6000-Serie (6065 HTS)", "engine": "Deutz TDC L6 7.8", "power": "226 kW / 307 HP", "year": "-" },
-          { "name": "6000-Serie (6065 HTS COM 3 B)", "engine": "-", "power": "-", "year": "-" },
-          { "name": "6000-Serie (6090)", "engine": "Deutz TDC L6 7.8", "power": "226 kW / 307 HP", "year": "-" },
-          { "name": "6000-Serie (6090 COM 3 B)", "engine": "-", "power": "-", "year": "-" },
-          { "name": "6000-Serie (6090 HTS)", "engine": "Deutz TDC L6 7.8", "power": "226 kW / 307 HP", "year": "-" },
-          { "name": "6000-Serie (6090 HTS COM 3 B)", "engine": "-", "power": "-", "year": "-" },
-          { "name": "6095 HTS", "engine": "Deutz TDC L6 7.8", "power": "267 kW / 363 HP", "year": "-" },
-          { "name": "6095 HTS (6095 HTS COM 3 B)", "engine": "-", "power": "-", "year": "-" }
+          {
+            "name": "5000-Serie (5665 HTS COM 3)",
+            "engine": "-",
+            "power": "-",
+            "year": "-"
+          },
+          {
+            "name": "5000-Serie (5690 H COM 3)",
+            "engine": "-",
+            "power": "-",
+            "year": "-"
+          },
+          {
+            "name": "5000-Serie (5690 HTS COM 3)",
+            "engine": "-",
+            "power": "-",
+            "year": "-"
+          },
+          {
+            "name": "5000-Serie (5695 HTS COM 3)",
+            "engine": "-",
+            "power": "-",
+            "year": "-"
+          },
+          {
+            "name": "6000-Serie (6065 HTS)",
+            "engine": "Deutz TDC L6 7.8",
+            "power": "226 kW / 307 HP",
+            "year": "-"
+          },
+          {
+            "name": "6000-Serie (6065 HTS COM 3 B)",
+            "engine": "-",
+            "power": "-",
+            "year": "-"
+          },
+          {
+            "name": "6000-Serie (6090)",
+            "engine": "Deutz TDC L6 7.8",
+            "power": "226 kW / 307 HP",
+            "year": "-"
+          },
+          {
+            "name": "6000-Serie (6090 COM 3 B)",
+            "engine": "-",
+            "power": "-",
+            "year": "-"
+          },
+          {
+            "name": "6000-Serie (6090 HTS)",
+            "engine": "Deutz TDC L6 7.8",
+            "power": "226 kW / 307 HP",
+            "year": "-"
+          },
+          {
+            "name": "6000-Serie (6090 HTS COM 3 B)",
+            "engine": "-",
+            "power": "-",
+            "year": "-"
+          },
+          {
+            "name": "6095 HTS",
+            "engine": "Deutz TDC L6 7.8",
+            "power": "267 kW / 363 HP",
+            "year": "-"
+          },
+          {
+            "name": "6095 HTS (6095 HTS COM 3 B)",
+            "engine": "-",
+            "power": "-",
+            "year": "-"
+          }
         ]
       },
       {
         "category": "FAST CONCEPT CAR",
         "models": [
-          { "name": "Fast Scoler (Fast Scoler 4)", "engine": "Renault DXi7 E5", "power": "195 kW / 265 HP", "year": "-" },
-          { "name": "Fast Scoler (Fast Scoler 5)", "engine": "Renault DXi7 E5", "power": "194 kW / 270 HP", "year": "2013/01 →" }
+          {
+            "name": "Fast Scoler (Fast Scoler 4)",
+            "engine": "Renault DXi7 E5",
+            "power": "195 kW / 265 HP",
+            "year": "-"
+          },
+          {
+            "name": "Fast Scoler (Fast Scoler 5)",
+            "engine": "Renault DXi7 E5",
+            "power": "194 kW / 270 HP",
+            "year": "2013/01 →"
+          }
         ]
       },
       {
         "category": "KALMAR LMV",
         "models": [
-          { "name": "DCE-Serie (250-12 LB)", "engine": "Volvo TAD 761 VE", "power": "-", "year": "2014/01 →" }
+          {
+            "name": "DCE-Serie (250-12 LB)",
+            "engine": "Volvo TAD 761 VE",
+            "power": "-",
+            "year": "2014/01 →"
+          }
         ]
       },
       {
         "category": "LAZ",
         "models": [
-          { "name": "Lemberg (320)", "engine": "Deutz TCD 2013 L06 4V", "power": "235 kW / 320 HP", "year": "2012/01 →" }
+          {
+            "name": "Lemberg (320)",
+            "engine": "Deutz TCD 2013 L06 4V",
+            "power": "235 kW / 320 HP",
+            "year": "2012/01 →"
+          }
         ]
       },
       {
         "category": "OTOKAR",
         "models": [
-          { "name": "KENT (290 H, LF)", "engine": "Deutz TCD2013 L6 4V", "power": "213 kW / 290 HP", "year": "2009/09 →" },
-          { "name": "TERRITO (Territo U)", "engine": "Deutz TCD2013 L6 4V", "power": "213 kW / 290 HP", "year": "2009/09 →" },
-          { "name": "VECTIO (190 H, S)", "engine": "Deutz TCD2013 L4 4V", "power": "140 kW / 190 HP", "year": "2007/04 →" },
-          { "name": "VECTIO (215 LE, T)", "engine": "Deutz TCD2013 L4 4V", "power": "158 kW / 215 HP", "year": "2007/04 →" }
+          {
+            "name": "KENT (290 H, LF)",
+            "engine": "Deutz TCD2013 L6 4V",
+            "power": "213 kW / 290 HP",
+            "year": "2009/09 →"
+          },
+          {
+            "name": "TERRITO (Territo U)",
+            "engine": "Deutz TCD2013 L6 4V",
+            "power": "213 kW / 290 HP",
+            "year": "2009/09 →"
+          },
+          {
+            "name": "VECTIO (190 H, S)",
+            "engine": "Deutz TCD2013 L4 4V",
+            "power": "140 kW / 190 HP",
+            "year": "2007/04 →"
+          },
+          {
+            "name": "VECTIO (215 LE, T)",
+            "engine": "Deutz TCD2013 L4 4V",
+            "power": "158 kW / 215 HP",
+            "year": "2007/04 →"
+          }
         ]
       },
       {
         "category": "RENAULT TRUCKS (RVI)",
         "models": [
-          { "name": "Access (270 DXi)", "engine": "DXi7", "power": "199 kW / 270 HP", "year": "2011/01 →" },
-          { "name": "Access (310 DXi)", "engine": "DXi7", "power": "228 kW / 310 HP", "year": "2011/01 →" },
-          { "name": "Midlum II (160.08 DXi)", "engine": "DXi5", "power": "118 kW / 160 HP", "year": "2006/05 →" },
-          { "name": "Midlum II (160.10 DXi)", "engine": "DXi5", "power": "118 kW / 160 HP", "year": "2006/05 →" },
-          { "name": "Midlum II (160.12 DXi)", "engine": "DXi5", "power": "118 kW / 160 HP", "year": "2006/05 →" },
-          { "name": "Midlum II (180.08 DXi)", "engine": "DXi5", "power": "136 kW / 180 HP", "year": "2009/07 →" },
-          { "name": "Midlum II (180.10 DXi)", "engine": "DXi5", "power": "136 kW / 180 HP", "year": "2009/07 →" },
-          { "name": "Midlum II (180.12 DXi)", "engine": "DXi5", "power": "136 kW / 180 HP", "year": "2009/07 →" },
-          { "name": "Midlum II (190.08 DXi)", "engine": "DXi5", "power": "140 kW / 190 HP", "year": "2006/05 →" },
-          { "name": "Midlum II (190.10 DXi)", "engine": "DXi5", "power": "140 kW / 190 HP", "year": "2006/05 →" },
-          { "name": "Midlum II (190.12 DXi)", "engine": "DXi5", "power": "140 kW / 190 HP", "year": "2006/05 →" },
-          { "name": "Midlum II (190.13 DXi)", "engine": "DXi5", "power": "140 kW / 190 HP", "year": "2006/05 →" },
-          { "name": "Midlum II (190.14 DXi)", "engine": "DXi5", "power": "140 kW / 190 HP", "year": "2006/05 →" },
-          { "name": "Midlum II (220.08 DXi)", "engine": "DXi5", "power": "162 kW / 220 HP", "year": "2006/05 →" },
-          { "name": "Midlum II (220.10 DXi)", "engine": "DXi5", "power": "162 kW / 220 HP", "year": "2006/05 →" },
-          { "name": "Midlum II (220.12 DXi)", "engine": "DXi5", "power": "162 kW / 220 HP", "year": "2006/05 →" },
-          { "name": "Midlum II (220.13 DXi)", "engine": "DXi5", "power": "162 kW / 220 HP", "year": "2006/05 →" },
-          { "name": "Midlum II (220.14 DXi)", "engine": "DXi5", "power": "162 kW / 220 HP", "year": "2006/05 →" },
-          { "name": "Midlum II (240.12 DXi)", "engine": "DXi7", "power": "177 kW / 240 HP", "year": "2006/05 →" },
-          { "name": "Midlum II (240.13 DXi)", "engine": "DXi7", "power": "177 kW / 240 HP", "year": "2006/05 →" },
-          { "name": "Midlum II (240.14 DXi)", "engine": "DXi7", "power": "177 kW / 240 HP", "year": "2006/05 →" },
-          { "name": "Midlum II (240.15 DXi)", "engine": "DXi7", "power": "177 kW / 240 HP", "year": "2006/05 →" },
-          { "name": "Midlum II (240.16 DXi)", "engine": "DXi7", "power": "177 kW / 240 HP", "year": "2006/05 →" },
-          { "name": "Midlum II (270.12 DXi)", "engine": "DXi7", "power": "195 kW / 270 HP", "year": "2009/07 →" },
-          { "name": "Midlum II (270.13 DXi)", "engine": "DXi7", "power": "195 kW / 270 HP", "year": "2009/07 →" },
-          { "name": "Midlum II (270.14 DXi)", "engine": "DXi7", "power": "195 kW / 270 HP", "year": "2009/07 →" },
-          { "name": "Midlum II (270.16 DXi)", "engine": "DXi7", "power": "195 kW / 270 HP", "year": "2009/07 →" },
-          { "name": "Midlum II (270.18 DXi)", "engine": "DXi7", "power": "195 kW / 270 HP", "year": "2009/07 →" },
-          { "name": "Midlum II (280.12 DXi)", "engine": "DXi7", "power": "206 kW / 280 HP", "year": "2006/05 →" },
-          { "name": "Midlum II (280.13 DXi)", "engine": "DXi7", "power": "206 kW / 280 HP", "year": "2006/05 →" },
-          { "name": "Midlum II (280.14 DXi)", "engine": "DXi7", "power": "206 kW / 280 HP", "year": "2006/05 →" },
-          { "name": "Midlum II (280.16 DXi)", "engine": "DXi7", "power": "206 kW / 280 HP", "year": "2006/05 →" },
-          { "name": "Midlum II (280.18 DXi)", "engine": "DXi7", "power": "206 kW / 280 HP", "year": "2006/05 →" },
-          { "name": "Midlum II (300.12 DXi)", "engine": "DXi7", "power": "217 kW / 300 HP", "year": "2009/07 →" },
-          { "name": "Midlum II (300.13 DXi)", "engine": "DXi7", "power": "217 kW / 300 HP", "year": "2009/07 →" },
-          { "name": "Midlum II (300.14 DXi)", "engine": "DXi7", "power": "217 kW / 300 HP", "year": "2009/07 →" },
-          { "name": "Midlum II (300.16 DXi)", "engine": "DXi7", "power": "217 kW / 300 HP", "year": "2009/07 →" },
-          { "name": "Midlum II (300.18 DXi)", "engine": "DXi7", "power": "217 kW / 300 HP", "year": "2009/07 →" },
-          { "name": "Premium Distribution/Route (HD 240 DXi)", "engine": "DXi7", "power": "177 kW / 241 HP", "year": "2006/05 →" },
-          { "name": "Premium Distribution/Route (HD 270 DXi)", "engine": "DXi7", "power": "194 kW / 264 HP", "year": "2006/05 →" },
-          { "name": "Premium Distribution/Route (HD 310 DXi)", "engine": "DXi7", "power": "224 kW / 305 HP", "year": "2006/05 →" },
-          { "name": "Premium Distribution/Route (HD 340 DXi)", "engine": "DXi7", "power": "247 kW / 336 HP", "year": "2006/05 →" },
-          { "name": "Premium Lander (HL 270 DXi)", "engine": "DXi7", "power": "194 kW / 264 HP", "year": "2006/05 →" },
-          { "name": "Premium Lander (HL 310 DXi)", "engine": "DXi7", "power": "224 kW / 305 HP", "year": "2006/05 →" },
-          { "name": "Premium Lander (HL 340 DXi)", "engine": "DXi7", "power": "247 kW / 336 HP", "year": "2006/05 →" }
+          {
+            "name": "Access (270 DXi)",
+            "engine": "DXi7",
+            "power": "199 kW / 270 HP",
+            "year": "2011/01 →"
+          },
+          {
+            "name": "Access (310 DXi)",
+            "engine": "DXi7",
+            "power": "228 kW / 310 HP",
+            "year": "2011/01 →"
+          },
+          {
+            "name": "Midlum II (160.08 DXi)",
+            "engine": "DXi5",
+            "power": "118 kW / 160 HP",
+            "year": "2006/05 →"
+          },
+          {
+            "name": "Midlum II (160.10 DXi)",
+            "engine": "DXi5",
+            "power": "118 kW / 160 HP",
+            "year": "2006/05 →"
+          },
+          {
+            "name": "Midlum II (160.12 DXi)",
+            "engine": "DXi5",
+            "power": "118 kW / 160 HP",
+            "year": "2006/05 →"
+          },
+          {
+            "name": "Midlum II (180.08 DXi)",
+            "engine": "DXi5",
+            "power": "136 kW / 180 HP",
+            "year": "2009/07 →"
+          },
+          {
+            "name": "Midlum II (180.10 DXi)",
+            "engine": "DXi5",
+            "power": "136 kW / 180 HP",
+            "year": "2009/07 →"
+          },
+          {
+            "name": "Midlum II (180.12 DXi)",
+            "engine": "DXi5",
+            "power": "136 kW / 180 HP",
+            "year": "2009/07 →"
+          },
+          {
+            "name": "Midlum II (190.08 DXi)",
+            "engine": "DXi5",
+            "power": "140 kW / 190 HP",
+            "year": "2006/05 →"
+          },
+          {
+            "name": "Midlum II (190.10 DXi)",
+            "engine": "DXi5",
+            "power": "140 kW / 190 HP",
+            "year": "2006/05 →"
+          },
+          {
+            "name": "Midlum II (190.12 DXi)",
+            "engine": "DXi5",
+            "power": "140 kW / 190 HP",
+            "year": "2006/05 →"
+          },
+          {
+            "name": "Midlum II (190.13 DXi)",
+            "engine": "DXi5",
+            "power": "140 kW / 190 HP",
+            "year": "2006/05 →"
+          },
+          {
+            "name": "Midlum II (190.14 DXi)",
+            "engine": "DXi5",
+            "power": "140 kW / 190 HP",
+            "year": "2006/05 →"
+          },
+          {
+            "name": "Midlum II (220.08 DXi)",
+            "engine": "DXi5",
+            "power": "162 kW / 220 HP",
+            "year": "2006/05 →"
+          },
+          {
+            "name": "Midlum II (220.10 DXi)",
+            "engine": "DXi5",
+            "power": "162 kW / 220 HP",
+            "year": "2006/05 →"
+          },
+          {
+            "name": "Midlum II (220.12 DXi)",
+            "engine": "DXi5",
+            "power": "162 kW / 220 HP",
+            "year": "2006/05 →"
+          },
+          {
+            "name": "Midlum II (220.13 DXi)",
+            "engine": "DXi5",
+            "power": "162 kW / 220 HP",
+            "year": "2006/05 →"
+          },
+          {
+            "name": "Midlum II (220.14 DXi)",
+            "engine": "DXi5",
+            "power": "162 kW / 220 HP",
+            "year": "2006/05 →"
+          },
+          {
+            "name": "Midlum II (240.12 DXi)",
+            "engine": "DXi7",
+            "power": "177 kW / 240 HP",
+            "year": "2006/05 →"
+          },
+          {
+            "name": "Midlum II (240.13 DXi)",
+            "engine": "DXi7",
+            "power": "177 kW / 240 HP",
+            "year": "2006/05 →"
+          },
+          {
+            "name": "Midlum II (240.14 DXi)",
+            "engine": "DXi7",
+            "power": "177 kW / 240 HP",
+            "year": "2006/05 →"
+          },
+          {
+            "name": "Midlum II (240.15 DXi)",
+            "engine": "DXi7",
+            "power": "177 kW / 240 HP",
+            "year": "2006/05 →"
+          },
+          {
+            "name": "Midlum II (240.16 DXi)",
+            "engine": "DXi7",
+            "power": "177 kW / 240 HP",
+            "year": "2006/05 →"
+          },
+          {
+            "name": "Midlum II (270.12 DXi)",
+            "engine": "DXi7",
+            "power": "195 kW / 270 HP",
+            "year": "2009/07 →"
+          },
+          {
+            "name": "Midlum II (270.13 DXi)",
+            "engine": "DXi7",
+            "power": "195 kW / 270 HP",
+            "year": "2009/07 →"
+          },
+          {
+            "name": "Midlum II (270.14 DXi)",
+            "engine": "DXi7",
+            "power": "195 kW / 270 HP",
+            "year": "2009/07 →"
+          },
+          {
+            "name": "Midlum II (270.16 DXi)",
+            "engine": "DXi7",
+            "power": "195 kW / 270 HP",
+            "year": "2009/07 →"
+          },
+          {
+            "name": "Midlum II (270.18 DXi)",
+            "engine": "DXi7",
+            "power": "195 kW / 270 HP",
+            "year": "2009/07 →"
+          },
+          {
+            "name": "Midlum II (280.12 DXi)",
+            "engine": "DXi7",
+            "power": "206 kW / 280 HP",
+            "year": "2006/05 →"
+          },
+          {
+            "name": "Midlum II (280.13 DXi)",
+            "engine": "DXi7",
+            "power": "206 kW / 280 HP",
+            "year": "2006/05 →"
+          },
+          {
+            "name": "Midlum II (280.14 DXi)",
+            "engine": "DXi7",
+            "power": "206 kW / 280 HP",
+            "year": "2006/05 →"
+          },
+          {
+            "name": "Midlum II (280.16 DXi)",
+            "engine": "DXi7",
+            "power": "206 kW / 280 HP",
+            "year": "2006/05 →"
+          },
+          {
+            "name": "Midlum II (280.18 DXi)",
+            "engine": "DXi7",
+            "power": "206 kW / 280 HP",
+            "year": "2006/05 →"
+          },
+          {
+            "name": "Midlum II (300.12 DXi)",
+            "engine": "DXi7",
+            "power": "217 kW / 300 HP",
+            "year": "2009/07 →"
+          },
+          {
+            "name": "Midlum II (300.13 DXi)",
+            "engine": "DXi7",
+            "power": "217 kW / 300 HP",
+            "year": "2009/07 →"
+          },
+          {
+            "name": "Midlum II (300.14 DXi)",
+            "engine": "DXi7",
+            "power": "217 kW / 300 HP",
+            "year": "2009/07 →"
+          },
+          {
+            "name": "Midlum II (300.16 DXi)",
+            "engine": "DXi7",
+            "power": "217 kW / 300 HP",
+            "year": "2009/07 →"
+          },
+          {
+            "name": "Midlum II (300.18 DXi)",
+            "engine": "DXi7",
+            "power": "217 kW / 300 HP",
+            "year": "2009/07 →"
+          },
+          {
+            "name": "Premium Distribution/Route (HD 240 DXi)",
+            "engine": "DXi7",
+            "power": "177 kW / 241 HP",
+            "year": "2006/05 →"
+          },
+          {
+            "name": "Premium Distribution/Route (HD 270 DXi)",
+            "engine": "DXi7",
+            "power": "194 kW / 264 HP",
+            "year": "2006/05 →"
+          },
+          {
+            "name": "Premium Distribution/Route (HD 310 DXi)",
+            "engine": "DXi7",
+            "power": "224 kW / 305 HP",
+            "year": "2006/05 →"
+          },
+          {
+            "name": "Premium Distribution/Route (HD 340 DXi)",
+            "engine": "DXi7",
+            "power": "247 kW / 336 HP",
+            "year": "2006/05 →"
+          },
+          {
+            "name": "Premium Lander (HL 270 DXi)",
+            "engine": "DXi7",
+            "power": "194 kW / 264 HP",
+            "year": "2006/05 →"
+          },
+          {
+            "name": "Premium Lander (HL 310 DXi)",
+            "engine": "DXi7",
+            "power": "224 kW / 305 HP",
+            "year": "2006/05 →"
+          },
+          {
+            "name": "Premium Lander (HL 340 DXi)",
+            "engine": "DXi7",
+            "power": "247 kW / 336 HP",
+            "year": "2006/05 →"
+          }
         ]
       },
       {
         "category": "VOLVO BUS",
         "models": [
-          { "name": "7000 (7700 Hybrid)", "engine": "D5E E5/EEV", "power": "154 kW / 210 HP", "year": "2009/10 →" },
-          { "name": "7000 (7900 Hybrid)", "engine": "D5E/F215 E5/E6/EEV", "power": "161 kW / 215 HP", "year": "2011/10 →" },
-          { "name": "8000 (8700)", "engine": "D7E-340 Euro 4/5", "power": "250 kW / 340 HP", "year": "2006/09 →" },
-          { "name": "8000 (8900)", "engine": "D7E-290 E5", "power": "213 kW / 290 HP", "year": "2010/10 →" },
-          { "name": "B5 (B5 LH)", "engine": "D5E/F215 E5/EEV", "power": "161 kW / 215 HP", "year": "2008/10 →" },
-          { "name": "B7 (B7R, B7RLE)", "engine": "D7E-290 Euro 4/5", "power": "213 kW / 290 HP", "year": "2006/09 →" }
+          {
+            "name": "7000 (7700 Hybrid)",
+            "engine": "D5E E5/EEV",
+            "power": "154 kW / 210 HP",
+            "year": "2009/10 →"
+          },
+          {
+            "name": "7000 (7900 Hybrid)",
+            "engine": "D5E/F215 E5/E6/EEV",
+            "power": "161 kW / 215 HP",
+            "year": "2011/10 →"
+          },
+          {
+            "name": "8000 (8700)",
+            "engine": "D7E-340 Euro 4/5",
+            "power": "250 kW / 340 HP",
+            "year": "2006/09 →"
+          },
+          {
+            "name": "8000 (8900)",
+            "engine": "D7E-290 E5",
+            "power": "213 kW / 290 HP",
+            "year": "2010/10 →"
+          },
+          {
+            "name": "B5 (B5 LH)",
+            "engine": "D5E/F215 E5/EEV",
+            "power": "161 kW / 215 HP",
+            "year": "2008/10 →"
+          },
+          {
+            "name": "B7 (B7R, B7RLE)",
+            "engine": "D7E-290 Euro 4/5",
+            "power": "213 kW / 290 HP",
+            "year": "2006/09 →"
+          }
         ]
       },
       {
         "category": "VOLVO PENTA",
         "models": [
-          { "name": "TAD-Serie (734 GE)", "engine": "-", "power": "-", "year": "-" }
+          {
+            "name": "TAD-Serie (734 GE)",
+            "engine": "-",
+            "power": "-",
+            "year": "-"
+          }
         ]
       },
       {
         "category": "VOLVO TRUCKS",
         "models": [
-          { "name": "FE II (06-) (FE 240)", "engine": "D7E/F-240", "power": "177 kW / 240 HP", "year": "2006/07 →" },
-          { "name": "FE II (06-) (FE 260)", "engine": "D7F-260", "power": "191 kW / 260 HP", "year": "2009/04 →" },
-          { "name": "FE II (06-) (FE 280)", "engine": "D7E-280", "power": "206 kW / 280 HP", "year": "2006/07 →" },
-          { "name": "FE II (06-) (FE 300)", "engine": "D7F-300", "power": "221 kW / 300 HP", "year": "2009/04 →" },
-          { "name": "FE II (06-) (FE 320)", "engine": "D7E-320", "power": "235 kW / 320 HP", "year": "2006/07 →" },
-          { "name": "FE II (06-) (FE 340)", "engine": "D7F-340", "power": "250 kW / 340 HP", "year": "2009/04 →" },
-          { "name": "FL II (06-) (FL 240)", "engine": "D7E/F-240", "power": "177 kW / 240 HP", "year": "2006/07 →" },
-          { "name": "FL II (06-) (FL 260)", "engine": "D7F-260", "power": "191 kW / 260 HP", "year": "2009/04 →" },
-          { "name": "FL II (06-) (FL 280)", "engine": "D7E/F-280", "power": "206 kW / 280 HP", "year": "2006/07 →" },
-          { "name": "FL II (06-) (FL 290)", "engine": "D7F-290", "power": "213 kW / 290 HP", "year": "2009/04 →" }
+          {
+            "name": "FE II (06-) (FE 240)",
+            "engine": "D7E/F-240",
+            "power": "177 kW / 240 HP",
+            "year": "2006/07 →"
+          },
+          {
+            "name": "FE II (06-) (FE 260)",
+            "engine": "D7F-260",
+            "power": "191 kW / 260 HP",
+            "year": "2009/04 →"
+          },
+          {
+            "name": "FE II (06-) (FE 280)",
+            "engine": "D7E-280",
+            "power": "206 kW / 280 HP",
+            "year": "2006/07 →"
+          },
+          {
+            "name": "FE II (06-) (FE 300)",
+            "engine": "D7F-300",
+            "power": "221 kW / 300 HP",
+            "year": "2009/04 →"
+          },
+          {
+            "name": "FE II (06-) (FE 320)",
+            "engine": "D7E-320",
+            "power": "235 kW / 320 HP",
+            "year": "2006/07 →"
+          },
+          {
+            "name": "FE II (06-) (FE 340)",
+            "engine": "D7F-340",
+            "power": "250 kW / 340 HP",
+            "year": "2009/04 →"
+          },
+          {
+            "name": "FL II (06-) (FL 240)",
+            "engine": "D7E/F-240",
+            "power": "177 kW / 240 HP",
+            "year": "2006/07 →"
+          },
+          {
+            "name": "FL II (06-) (FL 260)",
+            "engine": "D7F-260",
+            "power": "191 kW / 260 HP",
+            "year": "2009/04 →"
+          },
+          {
+            "name": "FL II (06-) (FL 280)",
+            "engine": "D7E/F-280",
+            "power": "206 kW / 280 HP",
+            "year": "2006/07 →"
+          },
+          {
+            "name": "FL II (06-) (FL 290)",
+            "engine": "D7F-290",
+            "power": "213 kW / 290 HP",
+            "year": "2009/04 →"
+          }
         ]
       }
-    ]
+    ],
+    "related_products": []
   },
   {
     "id": 3,
@@ -276,17 +841,46 @@
       "H": "170.00 mm"
     },
     "oem_numbers": {
-      "AMC": ["DO-709"],
-      "COMLINE FILTER": ["EOF018"],
-      "FENDT": ["F 926 202 510 010"],
-      "MAN": ["51.05500-6073", "51.05504-0105", "51055040105"],
-      "MERCEDES-BENZ (DAIMLER AG)": [
-        "602 180 00 09", "606 180 00 09", "606 180 01 09", "606 184 00 25", "606 184 01 25", "606 184 02 25",
-        "A 602 180 00 09", "A 606 180 00 09", "A 606 180 01 09", "A 606 184 00 25", "A 606 184 01 25", "A 606 184 02 25"
+      "AMC": [
+        "DO-709"
       ],
-      "MOTAQUIP": ["VFL 368"],
-      "RENAULT TRUCKS (OKELIA)": ["50 21 188 254"],
-      "SSANGYONG": ["661 180 32 09", "66118 43325", "66118-03309", "66118-03409"]
+      "COMLINE FILTER": [
+        "EOF018"
+      ],
+      "FENDT": [
+        "F 926 202 510 010"
+      ],
+      "MAN": [
+        "51.05500-6073",
+        "51.05504-0105",
+        "51055040105"
+      ],
+      "MERCEDES-BENZ (DAIMLER AG)": [
+        "602 180 00 09",
+        "606 180 00 09",
+        "606 180 01 09",
+        "606 184 00 25",
+        "606 184 01 25",
+        "606 184 02 25",
+        "A 602 180 00 09",
+        "A 606 180 00 09",
+        "A 606 180 01 09",
+        "A 606 184 00 25",
+        "A 606 184 01 25",
+        "A 606 184 02 25"
+      ],
+      "MOTAQUIP": [
+        "VFL 368"
+      ],
+      "RENAULT TRUCKS (OKELIA)": [
+        "50 21 188 254"
+      ],
+      "SSANGYONG": [
+        "661 180 32 09",
+        "66118 43325",
+        "66118-03309",
+        "66118-03409"
+      ]
     },
     "features": [
       "كفاءة ترشيح عالية",
@@ -299,217 +893,983 @@
       {
         "category": "DAEWOO / CHEVROLET (GM)",
         "models": [
-          { "name": "Musso (2.9 TD)", "engine": "MB OM 602TD29", "power": "88 kW / 120 HP", "year": "1999/01 →" }
+          {
+            "name": "Musso (2.9 TD)",
+            "engine": "MB OM 602TD29",
+            "power": "88 kW / 120 HP",
+            "year": "1999/01 →"
+          }
         ]
       },
       {
         "category": "EVOBUS (MERCEDES-BENZ/SETRA)",
         "models": [
-          { "name": "O 810 - 818 (Vario) (O 812 D)", "engine": "OM 602.980DE LA", "power": "90 kW / 122 HP", "year": "1996/10 →" }
+          {
+            "name": "O 810 - 818 (Vario) (O 812 D)",
+            "engine": "OM 602.980DE LA",
+            "power": "90 kW / 122 HP",
+            "year": "1996/10 →"
+          }
         ]
       },
       {
         "category": "FENDT (AGCO)",
         "models": [
-          { "name": "Favorit 900 / 900 Vario (916 Vario)", "engine": "D 0826LE/0836LE", "power": "146 kW / 198 HP", "year": "1998/01 →" },
-          { "name": "Favorit 900 / 900 Vario (920 Vario)", "engine": "D 0826LE/0836LE", "power": "162 kW / 220 HP", "year": "1998/01 →" },
-          { "name": "Favorit 900 / 900 Vario (924 Vario)", "engine": "D 0826LE/0836LE", "power": "186 kW / 253 HP", "year": "1998/01 →" },
-          { "name": "Favorit 900 / 900 Vario (926 Vario)", "engine": "D 0826LE/0836LE", "power": "210 kW / 286 HP", "year": "1998/01 →" },
-          { "name": "Favorit 900 / 900 Vario (926 Vario TMS)", "engine": "-", "power": "-", "year": "-" },
-          { "name": "Favorit 900 / 900 Vario (930 Vario)", "engine": "D 0836LE", "power": "228 kW / 310 HP", "year": "2003/03 →" }
+          {
+            "name": "Favorit 900 / 900 Vario (916 Vario)",
+            "engine": "D 0826LE/0836LE",
+            "power": "146 kW / 198 HP",
+            "year": "1998/01 →"
+          },
+          {
+            "name": "Favorit 900 / 900 Vario (920 Vario)",
+            "engine": "D 0826LE/0836LE",
+            "power": "162 kW / 220 HP",
+            "year": "1998/01 →"
+          },
+          {
+            "name": "Favorit 900 / 900 Vario (924 Vario)",
+            "engine": "D 0826LE/0836LE",
+            "power": "186 kW / 253 HP",
+            "year": "1998/01 →"
+          },
+          {
+            "name": "Favorit 900 / 900 Vario (926 Vario)",
+            "engine": "D 0826LE/0836LE",
+            "power": "210 kW / 286 HP",
+            "year": "1998/01 →"
+          },
+          {
+            "name": "Favorit 900 / 900 Vario (926 Vario TMS)",
+            "engine": "-",
+            "power": "-",
+            "year": "-"
+          },
+          {
+            "name": "Favorit 900 / 900 Vario (930 Vario)",
+            "engine": "D 0836LE",
+            "power": "228 kW / 310 HP",
+            "year": "2003/03 →"
+          }
         ]
       },
       {
         "category": "LIEBHERR-MOBILKRANE",
         "models": [
-          { "name": "MK - Serie (MK 63)", "engine": "D 936 A7; Deutz Kranmotor", "power": "240 kW / 326 HP", "year": "2008/01 →" }
+          {
+            "name": "MK - Serie (MK 63)",
+            "engine": "D 936 A7; Deutz Kranmotor",
+            "power": "240 kW / 326 HP",
+            "year": "2008/01 →"
+          }
         ]
       },
       {
         "category": "MAN",
         "models": [
-          { "name": "TGA (2000-2007) (26.280, 26.283)", "engine": "D 0836", "power": "206 kW / 280 HP", "year": "2002/11 → 2007/12" },
-          { "name": "TGA (2000-2007) (26.330, 26.333)", "engine": "D 0836", "power": "240 kW / 326 HP", "year": "2002/11 → 2007/12" },
-          { "name": "TGA (2000-2007) (TG 330 A)", "engine": "D 0836", "power": "240 kW / 326 HP", "year": "2002/11 → 2007/12" },
-          { "name": "TGL (05-) (10.180)", "engine": "D 0834 LFL41/51/61/64", "power": "132 kW / 180 HP", "year": "2005/06 →" },
-          { "name": "TGL (05-) (10.190)", "engine": "D 0834 LFL", "power": "140 kW / 190 HP", "year": "2017/09 →" },
-          { "name": "TGL (05-) (10.210)", "engine": "D 0834 LFL42/52", "power": "151 kW / 206 HP", "year": "2005/06 →" },
-          { "name": "TGL (05-) (10.220)", "engine": "D 0834 LFL62/65", "power": "162 kW / 220 HP", "year": "2008/09 →" },
-          { "name": "TGL (05-) (10.240)", "engine": "D 0836 LFL40/50", "power": "176 kW / 240 HP", "year": "2005/06 →" },
-          { "name": "TGL (05-) (10.250)", "engine": "D 0836 LFL60/63", "power": "184 kW / 250 HP", "year": "2009/05 →" },
-          { "name": "TGL (05-) (10.290)", "engine": "D 0836 LFL61/64", "power": "213 kW / 290 HP", "year": "2008/09 →" },
-          { "name": "TGL (05-) (12.180)", "engine": "D 0834 LFL41/51/61/64", "power": "132 kW / 180 HP", "year": "2005/06 →" },
-          { "name": "TGL (05-) (12.190)", "engine": "D 0834 LFL", "power": "140 kW / 190 HP", "year": "2017/09 →" },
-          { "name": "TGL (05-) (12.210)", "engine": "D 0834 LFL42/52", "power": "151 kW / 206 HP", "year": "2005/06 →" },
-          { "name": "TGL (05-) (12.220)", "engine": "D 0834 LFL62/65", "power": "162 kW / 220 HP", "year": "2008/09 →" },
-          { "name": "TGL (05-) (12.240)", "engine": "D 0836 LFL40/50", "power": "176 kW / 240 HP", "year": "2005/06 →" },
-          { "name": "TGL (05-) (12.250)", "engine": "D 0836 LFL60/63", "power": "184 kW / 250 HP", "year": "2009/05 →" },
-          { "name": "TGL (05-) (12.290)", "engine": "D 0836 LFL61/64", "power": "213 kW / 290 HP", "year": "2008/09 →" },
-          { "name": "TGL (05-) (14.220)", "engine": "D 0834 LFL62/65", "power": "162 kW / 220 HP", "year": "2005/04 →" },
-          { "name": "TGL (05-) (7.150)", "engine": "D 0834 LFL40/50/60/63", "power": "110 kW / 150 HP", "year": "2005/04 →" },
-          { "name": "TGL (05-) (7.160)", "engine": "D 0834 LFL", "power": "118 kW / 160 HP", "year": "2017/09 →" },
-          { "name": "TGL (05-) (7.180)", "engine": "D 0834 LFL41/51/61/64", "power": "132 kW / 180 HP", "year": "2005/06 →" },
-          { "name": "TGL (05-) (7.190)", "engine": "D 0834 LFL", "power": "140 kW / 190 HP", "year": "2017/09 →" },
-          { "name": "TGL (05-) (7.220)", "engine": "D 0834 LFL62/65", "power": "162 kW / 220 HP", "year": "2008/09 →" },
-          { "name": "TGL (05-) (7.250)", "engine": "D 0836 LFL60/63", "power": "184 kW / 250 HP", "year": "2009/05 →" },
-          { "name": "TGL (05-) (8.150)", "engine": "D 0834 LFL40/50/60/63", "power": "110 kW / 150 HP", "year": "2006/10 →" },
-          { "name": "TGL (05-) (8.160)", "engine": "D 0834 LFL", "power": "118 kW / 160 HP", "year": "2017/09 →" },
-          { "name": "TGL (05-) (8.180)", "engine": "D 0834 LFL41/51/61/64", "power": "132 kW / 180 HP", "year": "2005/04 →" },
-          { "name": "TGL (05-) (8.190)", "engine": "D 0834 LFL", "power": "140 kW / 190 HP", "year": "2017/09 →" },
-          { "name": "TGL (05-) (8.210)", "engine": "D 0834 LFL42/52", "power": "151 kW / 206 HP", "year": "2005/06 →" },
-          { "name": "TGL (05-) (8.220)", "engine": "D 0834 LFL62/65", "power": "162 kW / 220 HP", "year": "2008/09 →" },
-          { "name": "TGL (05-) (8.240)", "engine": "D 0836 LFL40/50", "power": "176 kW / 240 HP", "year": "2005/06 →" },
-          { "name": "TGL (05-) (8.250)", "engine": "D 0836 LFL60/63", "power": "184 kW / 250 HP", "year": "2009/05 →" },
-          { "name": "TGL (05-) (8.290)", "engine": "D 0836 LFL61/64", "power": "213 kW / 290 HP", "year": "2008/09 →" },
-          { "name": "TGM (05-) (12.240, 12.244)", "engine": "D 0836 LFL50", "power": "176 kW / 240 HP", "year": "2006/09 →" },
-          { "name": "TGM (05-) (12.250)", "engine": "D 0836 LFL60/63", "power": "184 kW / 250 HP", "year": "2009/02 →" },
-          { "name": "TGM (05-) (12.280, 12.284)", "engine": "D 0836 LFL51", "power": "206 kW / 280 HP", "year": "2006/09 →" },
-          { "name": "TGM (05-) (12.290)", "engine": "D 0836 LFL61/64", "power": "213 kW / 290 HP", "year": "2008/09 →" },
-          { "name": "TGM (05-) (13.240)", "engine": "D 0836 LFL50", "power": "176 kW / 240 HP", "year": "2006/09 →" },
-          { "name": "TGM (05-) (13.250)", "engine": "D 0836 LFL60/63", "power": "184 kW / 250 HP", "year": "2009/02 →" },
-          { "name": "TGM (05-) (13.280)", "engine": "D 0836 LFL51", "power": "206 kW / 280 HP", "year": "2006/09 →" },
-          { "name": "TGM (05-) (13.290)", "engine": "D 0836 LFL61/64", "power": "213 kW / 290 HP", "year": "2008/09 →" },
-          { "name": "TGM (05-) (15.240, 15.244)", "engine": "D 0836 LFL50", "power": "176 kW / 240 HP", "year": "2006/09 →" },
-          { "name": "TGM (05-) (15.250)", "engine": "D 0836 LFL60/63", "power": "184 kW / 250 HP", "year": "2009/02 →" },
-          { "name": "TGM (05-) (15.280, 15.284)", "engine": "D 0836 LFL51", "power": "206 kW / 280 HP", "year": "2006/09 →" },
-          { "name": "TGM (05-) (15.290)", "engine": "D 0836 LFL61/64", "power": "213 kW / 290 HP", "year": "2008/09 →" },
-          { "name": "TGM (05-) (15.320)", "engine": "D 0836 LFL", "power": "235 kW / 320 HP", "year": "2017/09 →" },
-          { "name": "TGM (05-) (15.330, 15.334)", "engine": "D 0836 LFL44/52", "power": "240 kW / 326 HP", "year": "2005/11 →" },
-          { "name": "TGM (05-) (15.340)", "engine": "D 0836 LFL62/65", "power": "250 kW / 340 HP", "year": "2008/09 →" },
-          { "name": "TGM (05-) (16.290)", "engine": "D 0836 LFL61/64", "power": "213 kW / 290 HP", "year": "2008/09 →" },
-          { "name": "TGM (05-) (18.240, 18.244)", "engine": "D 0836 LFL40/50", "power": "176 kW / 240 HP", "year": "2005/11 →" },
-          { "name": "TGM (05-) (18.250)", "engine": "D 0836 LFL60/63", "power": "184 kW / 250 HP", "year": "2009/02 →" },
-          { "name": "TGM (05-) (18.280, 18.284)", "engine": "D 0836 LFL41/51", "power": "206 kW / 280 HP", "year": "2005/11 →" },
-          { "name": "TGM (05-) (18.290)", "engine": "D 0836 LFL61/64", "power": "213 kW / 290 HP", "year": "2009/06 →" },
-          { "name": "TGM (05-) (18.320)", "engine": "D 0836 LFL", "power": "235 kW / 320 HP", "year": "2017/09 →" },
-          { "name": "TGM (05-) (18.330, 18.334)", "engine": "D 0836 LFL44/52", "power": "240 kW / 326 HP", "year": "2005/11 →" },
-          { "name": "TGM (05-) (18.340)", "engine": "D 0836 LFL62/65", "power": "250 kW / 340 HP", "year": "2008/09 →" },
-          { "name": "TGM (05-) (22.240)", "engine": "D 0836 LFL40/50", "power": "176 kW / 240 HP", "year": "2005/11 →" },
-          { "name": "TGM (05-) (22.250)", "engine": "D 0836 LFL60/63", "power": "184 kW / 250 HP", "year": "2009/02 →" },
-          { "name": "TGM (05-) (22.280)", "engine": "D 0836 LFL51", "power": "206 kW / 280 HP", "year": "2006/09 →" },
-          { "name": "TGM (05-) (22.290)", "engine": "D 0836 LFL61/64", "power": "213 kW / 290 HP", "year": "2009/06 →" },
-          { "name": "TGM (05-) (22.320)", "engine": "D 0836 LFL", "power": "235 kW / 320 HP", "year": "2017/09 →" },
-          { "name": "TGM (05-) (26.280)", "engine": "D 0836 LFL51", "power": "206 kW / 280 HP", "year": "2006/09 →" },
-          { "name": "TGM (05-) (26.290)", "engine": "D 0836 LFL61/64", "power": "213 kW / 290 HP", "year": "2009/06 →" },
-          { "name": "TGM (05-) (26.320)", "engine": "D 0836 LFL", "power": "235 kW / 320 HP", "year": "2017/09 →" },
-          { "name": "TGM (05-) (26.330)", "engine": "D 0836 LFL52", "power": "240 kW / 326 HP", "year": "2006/09 →" },
-          { "name": "TGM (05-) (26.340)", "engine": "D 0836 LFL62/65", "power": "250 kW / 340 HP", "year": "2008/09 →" }
+          {
+            "name": "TGA (2000-2007) (26.280, 26.283)",
+            "engine": "D 0836",
+            "power": "206 kW / 280 HP",
+            "year": "2002/11 → 2007/12"
+          },
+          {
+            "name": "TGA (2000-2007) (26.330, 26.333)",
+            "engine": "D 0836",
+            "power": "240 kW / 326 HP",
+            "year": "2002/11 → 2007/12"
+          },
+          {
+            "name": "TGA (2000-2007) (TG 330 A)",
+            "engine": "D 0836",
+            "power": "240 kW / 326 HP",
+            "year": "2002/11 → 2007/12"
+          },
+          {
+            "name": "TGL (05-) (10.180)",
+            "engine": "D 0834 LFL41/51/61/64",
+            "power": "132 kW / 180 HP",
+            "year": "2005/06 →"
+          },
+          {
+            "name": "TGL (05-) (10.190)",
+            "engine": "D 0834 LFL",
+            "power": "140 kW / 190 HP",
+            "year": "2017/09 →"
+          },
+          {
+            "name": "TGL (05-) (10.210)",
+            "engine": "D 0834 LFL42/52",
+            "power": "151 kW / 206 HP",
+            "year": "2005/06 →"
+          },
+          {
+            "name": "TGL (05-) (10.220)",
+            "engine": "D 0834 LFL62/65",
+            "power": "162 kW / 220 HP",
+            "year": "2008/09 →"
+          },
+          {
+            "name": "TGL (05-) (10.240)",
+            "engine": "D 0836 LFL40/50",
+            "power": "176 kW / 240 HP",
+            "year": "2005/06 →"
+          },
+          {
+            "name": "TGL (05-) (10.250)",
+            "engine": "D 0836 LFL60/63",
+            "power": "184 kW / 250 HP",
+            "year": "2009/05 →"
+          },
+          {
+            "name": "TGL (05-) (10.290)",
+            "engine": "D 0836 LFL61/64",
+            "power": "213 kW / 290 HP",
+            "year": "2008/09 →"
+          },
+          {
+            "name": "TGL (05-) (12.180)",
+            "engine": "D 0834 LFL41/51/61/64",
+            "power": "132 kW / 180 HP",
+            "year": "2005/06 →"
+          },
+          {
+            "name": "TGL (05-) (12.190)",
+            "engine": "D 0834 LFL",
+            "power": "140 kW / 190 HP",
+            "year": "2017/09 →"
+          },
+          {
+            "name": "TGL (05-) (12.210)",
+            "engine": "D 0834 LFL42/52",
+            "power": "151 kW / 206 HP",
+            "year": "2005/06 →"
+          },
+          {
+            "name": "TGL (05-) (12.220)",
+            "engine": "D 0834 LFL62/65",
+            "power": "162 kW / 220 HP",
+            "year": "2008/09 →"
+          },
+          {
+            "name": "TGL (05-) (12.240)",
+            "engine": "D 0836 LFL40/50",
+            "power": "176 kW / 240 HP",
+            "year": "2005/06 →"
+          },
+          {
+            "name": "TGL (05-) (12.250)",
+            "engine": "D 0836 LFL60/63",
+            "power": "184 kW / 250 HP",
+            "year": "2009/05 →"
+          },
+          {
+            "name": "TGL (05-) (12.290)",
+            "engine": "D 0836 LFL61/64",
+            "power": "213 kW / 290 HP",
+            "year": "2008/09 →"
+          },
+          {
+            "name": "TGL (05-) (14.220)",
+            "engine": "D 0834 LFL62/65",
+            "power": "162 kW / 220 HP",
+            "year": "2005/04 →"
+          },
+          {
+            "name": "TGL (05-) (7.150)",
+            "engine": "D 0834 LFL40/50/60/63",
+            "power": "110 kW / 150 HP",
+            "year": "2005/04 →"
+          },
+          {
+            "name": "TGL (05-) (7.160)",
+            "engine": "D 0834 LFL",
+            "power": "118 kW / 160 HP",
+            "year": "2017/09 →"
+          },
+          {
+            "name": "TGL (05-) (7.180)",
+            "engine": "D 0834 LFL41/51/61/64",
+            "power": "132 kW / 180 HP",
+            "year": "2005/06 →"
+          },
+          {
+            "name": "TGL (05-) (7.190)",
+            "engine": "D 0834 LFL",
+            "power": "140 kW / 190 HP",
+            "year": "2017/09 →"
+          },
+          {
+            "name": "TGL (05-) (7.220)",
+            "engine": "D 0834 LFL62/65",
+            "power": "162 kW / 220 HP",
+            "year": "2008/09 →"
+          },
+          {
+            "name": "TGL (05-) (7.250)",
+            "engine": "D 0836 LFL60/63",
+            "power": "184 kW / 250 HP",
+            "year": "2009/05 →"
+          },
+          {
+            "name": "TGL (05-) (8.150)",
+            "engine": "D 0834 LFL40/50/60/63",
+            "power": "110 kW / 150 HP",
+            "year": "2006/10 →"
+          },
+          {
+            "name": "TGL (05-) (8.160)",
+            "engine": "D 0834 LFL",
+            "power": "118 kW / 160 HP",
+            "year": "2017/09 →"
+          },
+          {
+            "name": "TGL (05-) (8.180)",
+            "engine": "D 0834 LFL41/51/61/64",
+            "power": "132 kW / 180 HP",
+            "year": "2005/04 →"
+          },
+          {
+            "name": "TGL (05-) (8.190)",
+            "engine": "D 0834 LFL",
+            "power": "140 kW / 190 HP",
+            "year": "2017/09 →"
+          },
+          {
+            "name": "TGL (05-) (8.210)",
+            "engine": "D 0834 LFL42/52",
+            "power": "151 kW / 206 HP",
+            "year": "2005/06 →"
+          },
+          {
+            "name": "TGL (05-) (8.220)",
+            "engine": "D 0834 LFL62/65",
+            "power": "162 kW / 220 HP",
+            "year": "2008/09 →"
+          },
+          {
+            "name": "TGL (05-) (8.240)",
+            "engine": "D 0836 LFL40/50",
+            "power": "176 kW / 240 HP",
+            "year": "2005/06 →"
+          },
+          {
+            "name": "TGL (05-) (8.250)",
+            "engine": "D 0836 LFL60/63",
+            "power": "184 kW / 250 HP",
+            "year": "2009/05 →"
+          },
+          {
+            "name": "TGL (05-) (8.290)",
+            "engine": "D 0836 LFL61/64",
+            "power": "213 kW / 290 HP",
+            "year": "2008/09 →"
+          },
+          {
+            "name": "TGM (05-) (12.240, 12.244)",
+            "engine": "D 0836 LFL50",
+            "power": "176 kW / 240 HP",
+            "year": "2006/09 →"
+          },
+          {
+            "name": "TGM (05-) (12.250)",
+            "engine": "D 0836 LFL60/63",
+            "power": "184 kW / 250 HP",
+            "year": "2009/02 →"
+          },
+          {
+            "name": "TGM (05-) (12.280, 12.284)",
+            "engine": "D 0836 LFL51",
+            "power": "206 kW / 280 HP",
+            "year": "2006/09 →"
+          },
+          {
+            "name": "TGM (05-) (12.290)",
+            "engine": "D 0836 LFL61/64",
+            "power": "213 kW / 290 HP",
+            "year": "2008/09 →"
+          },
+          {
+            "name": "TGM (05-) (13.240)",
+            "engine": "D 0836 LFL50",
+            "power": "176 kW / 240 HP",
+            "year": "2006/09 →"
+          },
+          {
+            "name": "TGM (05-) (13.250)",
+            "engine": "D 0836 LFL60/63",
+            "power": "184 kW / 250 HP",
+            "year": "2009/02 →"
+          },
+          {
+            "name": "TGM (05-) (13.280)",
+            "engine": "D 0836 LFL51",
+            "power": "206 kW / 280 HP",
+            "year": "2006/09 →"
+          },
+          {
+            "name": "TGM (05-) (13.290)",
+            "engine": "D 0836 LFL61/64",
+            "power": "213 kW / 290 HP",
+            "year": "2008/09 →"
+          },
+          {
+            "name": "TGM (05-) (15.240, 15.244)",
+            "engine": "D 0836 LFL50",
+            "power": "176 kW / 240 HP",
+            "year": "2006/09 →"
+          },
+          {
+            "name": "TGM (05-) (15.250)",
+            "engine": "D 0836 LFL60/63",
+            "power": "184 kW / 250 HP",
+            "year": "2009/02 →"
+          },
+          {
+            "name": "TGM (05-) (15.280, 15.284)",
+            "engine": "D 0836 LFL51",
+            "power": "206 kW / 280 HP",
+            "year": "2006/09 →"
+          },
+          {
+            "name": "TGM (05-) (15.290)",
+            "engine": "D 0836 LFL61/64",
+            "power": "213 kW / 290 HP",
+            "year": "2008/09 →"
+          },
+          {
+            "name": "TGM (05-) (15.320)",
+            "engine": "D 0836 LFL",
+            "power": "235 kW / 320 HP",
+            "year": "2017/09 →"
+          },
+          {
+            "name": "TGM (05-) (15.330, 15.334)",
+            "engine": "D 0836 LFL44/52",
+            "power": "240 kW / 326 HP",
+            "year": "2005/11 →"
+          },
+          {
+            "name": "TGM (05-) (15.340)",
+            "engine": "D 0836 LFL62/65",
+            "power": "250 kW / 340 HP",
+            "year": "2008/09 →"
+          },
+          {
+            "name": "TGM (05-) (16.290)",
+            "engine": "D 0836 LFL61/64",
+            "power": "213 kW / 290 HP",
+            "year": "2008/09 →"
+          },
+          {
+            "name": "TGM (05-) (18.240, 18.244)",
+            "engine": "D 0836 LFL40/50",
+            "power": "176 kW / 240 HP",
+            "year": "2005/11 →"
+          },
+          {
+            "name": "TGM (05-) (18.250)",
+            "engine": "D 0836 LFL60/63",
+            "power": "184 kW / 250 HP",
+            "year": "2009/02 →"
+          },
+          {
+            "name": "TGM (05-) (18.280, 18.284)",
+            "engine": "D 0836 LFL41/51",
+            "power": "206 kW / 280 HP",
+            "year": "2005/11 →"
+          },
+          {
+            "name": "TGM (05-) (18.290)",
+            "engine": "D 0836 LFL61/64",
+            "power": "213 kW / 290 HP",
+            "year": "2009/06 →"
+          },
+          {
+            "name": "TGM (05-) (18.320)",
+            "engine": "D 0836 LFL",
+            "power": "235 kW / 320 HP",
+            "year": "2017/09 →"
+          },
+          {
+            "name": "TGM (05-) (18.330, 18.334)",
+            "engine": "D 0836 LFL44/52",
+            "power": "240 kW / 326 HP",
+            "year": "2005/11 →"
+          },
+          {
+            "name": "TGM (05-) (18.340)",
+            "engine": "D 0836 LFL62/65",
+            "power": "250 kW / 340 HP",
+            "year": "2008/09 →"
+          },
+          {
+            "name": "TGM (05-) (22.240)",
+            "engine": "D 0836 LFL40/50",
+            "power": "176 kW / 240 HP",
+            "year": "2005/11 →"
+          },
+          {
+            "name": "TGM (05-) (22.250)",
+            "engine": "D 0836 LFL60/63",
+            "power": "184 kW / 250 HP",
+            "year": "2009/02 →"
+          },
+          {
+            "name": "TGM (05-) (22.280)",
+            "engine": "D 0836 LFL51",
+            "power": "206 kW / 280 HP",
+            "year": "2006/09 →"
+          },
+          {
+            "name": "TGM (05-) (22.290)",
+            "engine": "D 0836 LFL61/64",
+            "power": "213 kW / 290 HP",
+            "year": "2009/06 →"
+          },
+          {
+            "name": "TGM (05-) (22.320)",
+            "engine": "D 0836 LFL",
+            "power": "235 kW / 320 HP",
+            "year": "2017/09 →"
+          },
+          {
+            "name": "TGM (05-) (26.280)",
+            "engine": "D 0836 LFL51",
+            "power": "206 kW / 280 HP",
+            "year": "2006/09 →"
+          },
+          {
+            "name": "TGM (05-) (26.290)",
+            "engine": "D 0836 LFL61/64",
+            "power": "213 kW / 290 HP",
+            "year": "2009/06 →"
+          },
+          {
+            "name": "TGM (05-) (26.320)",
+            "engine": "D 0836 LFL",
+            "power": "235 kW / 320 HP",
+            "year": "2017/09 →"
+          },
+          {
+            "name": "TGM (05-) (26.330)",
+            "engine": "D 0836 LFL52",
+            "power": "240 kW / 326 HP",
+            "year": "2006/09 →"
+          },
+          {
+            "name": "TGM (05-) (26.340)",
+            "engine": "D 0836 LFL62/65",
+            "power": "250 kW / 340 HP",
+            "year": "2008/09 →"
+          }
         ]
       },
       {
         "category": "MAN BUSSE (NEOMAN)",
         "models": [
-          { "name": "Lion's City (NL 283)", "engine": "D 0836 LUH40", "power": "206 kW / 280 HP", "year": "2002/09 →" },
-          { "name": "Lion's City / City M (NM 253)", "engine": "D 0836 LOH61 EEV/Euro 6", "power": "184 kW / 250 HP", "year": "2009/10 →" },
-          { "name": "Lion's City / City M (NM 263)", "engine": "D 0836 LOH 62/63 EEV", "power": "191 kW / 260 HP", "year": "2006/10 →" },
-          { "name": "Lion's City / City M (NM 293)", "engine": "D 0836 LOH60 EEV/Euro 6", "power": "213 kW / 290 HP", "year": "2009/10 →" },
-          { "name": "Lion's City UE / Lions City UELL (NUE 283)", "engine": "D 0836 LUH01", "power": "206 kW / 280 HP", "year": "2001/02 →" }
+          {
+            "name": "Lion's City (NL 283)",
+            "engine": "D 0836 LUH40",
+            "power": "206 kW / 280 HP",
+            "year": "2002/09 →"
+          },
+          {
+            "name": "Lion's City / City M (NM 253)",
+            "engine": "D 0836 LOH61 EEV/Euro 6",
+            "power": "184 kW / 250 HP",
+            "year": "2009/10 →"
+          },
+          {
+            "name": "Lion's City / City M (NM 263)",
+            "engine": "D 0836 LOH 62/63 EEV",
+            "power": "191 kW / 260 HP",
+            "year": "2006/10 →"
+          },
+          {
+            "name": "Lion's City / City M (NM 293)",
+            "engine": "D 0836 LOH60 EEV/Euro 6",
+            "power": "213 kW / 290 HP",
+            "year": "2009/10 →"
+          },
+          {
+            "name": "Lion's City UE / Lions City UELL (NUE 283)",
+            "engine": "D 0836 LUH01",
+            "power": "206 kW / 280 HP",
+            "year": "2001/02 →"
+          }
         ]
       },
       {
         "category": "MAN ENGINES",
         "models": [
-          { "name": "D08-Serie (D0826)", "engine": "-", "power": "-", "year": "-" },
-          { "name": "D08-Serie (D0836)", "engine": "-", "power": "-", "year": "-" }
+          {
+            "name": "D08-Serie (D0826)",
+            "engine": "-",
+            "power": "-",
+            "year": "-"
+          },
+          {
+            "name": "D08-Serie (D0836)",
+            "engine": "-",
+            "power": "-",
+            "year": "-"
+          }
         ]
       },
       {
         "category": "MERCEDES-BENZ (DC)",
         "models": [
-          { "name": "C-Klasse (C 200 D)", "engine": "OM 601.913", "power": "55 kW / 75 HP", "year": "1993/03 → 1998/07" },
-          { "name": "C-Klasse (C 220 D)", "engine": "OM 604.910", "power": "70 kW / 95 HP", "year": "1993/08 → 1998/04" },
-          { "name": "C-Klasse (C 250 D)", "engine": "OM 605.910", "power": "83 kW / 113 HP", "year": "1993/05 → 1997/05" },
-          { "name": "C-Klasse (C 250 TD)", "engine": "OM 605.960", "power": "110 kW / 150 HP", "year": "1995/10 → 2001/04" },
-          { "name": "E-Klasse (124) (E 250 D)", "engine": "OM 605.911", "power": "83 kW / 113 HP", "year": "1993/06 → 1996/07" },
-          { "name": "E-Klasse (124) (E 250 TD)", "engine": "OM 602.962", "power": "93 kW / 126 HP", "year": "1993/06 → 1995/06" },
-          { "name": "E-Klasse (W/S210) (E 200 D)", "engine": "OM 604.917", "power": "65 kW / 88 HP", "year": "1996/01 → 2002/04" },
-          { "name": "E-Klasse (W/S210) (E 220 D)", "engine": "OM 604.912", "power": "55 kW / 75 HP", "year": "1996/05 → 2002/04" },
-          { "name": "E-Klasse (W/S210) (E 250 D)", "engine": "OM 605.912", "power": "83 kW / 113 HP", "year": "1995/06 → 1998/09" },
-          { "name": "E-Klasse (W/S210) (E 250 TD)", "engine": "OM 605", "power": "110 kW / 150 HP", "year": "1997/06 → 1998/09" },
-          { "name": "E-Klasse (W/S210) (E 290 TD)", "engine": "OM 602.982", "power": "95 kW / 129 HP", "year": "1996/03 → 1999/07" },
-          { "name": "E-Klasse (W/S210) (E 300 D)", "engine": "OM 606.912", "power": "100 kW / 136 HP", "year": "1995/06 → 1999/07" },
-          { "name": "E-Klasse (W/S210) (E 300 TD)", "engine": "OM 606.962", "power": "130 kW / 177 HP", "year": "1996/12 → 1999/07" },
-          { "name": "G-Klasse (290 GD Turbodiesel)", "engine": "OM 602.983", "power": "88 kW / 120 HP", "year": "1997/07 → 1998/12" },
-          { "name": "G-Klasse (G 300 TD)", "engine": "OM 606.964", "power": "130 kW / 177 HP", "year": "1996/09 → 2000/12" },
-          { "name": "S-Klasse (S 300 TD)", "engine": "OM 606.961", "power": "130 kW / 177 HP", "year": "1996/05 → 1998/09" },
-          { "name": "Sprinter I (1000)", "engine": "OM 366", "power": "74 kW / 101 HP", "year": "1987/04 →" },
-          { "name": "Sprinter I (1100)", "engine": "OM 353", "power": "81 kW / 110 HP", "year": "1976/03 → 1987/03" },
-          { "name": "Sprinter I (1300 Turbo)", "engine": "OM 366 A", "power": "92 kW / 125 HP", "year": "1987/04 →" },
-          { "name": "Sprinter I (208 D)", "engine": "OM 601.943", "power": "59 kW / 80 HP", "year": "1995/02 → 2000/06" },
-          { "name": "Sprinter I (210 D)", "engine": "OM 602.986", "power": "75 kW / 102 HP", "year": "1997/01 → 2000/06" },
-          { "name": "Sprinter I (212 D)", "engine": "OM 602.980DE LA", "power": "90 kW / 120 HP", "year": "1995/02 → 2000/06" },
-          { "name": "Sprinter I (308 D)", "engine": "OM 601.943", "power": "58 kW / 79 HP", "year": "1995/02 → 2000/06" },
-          { "name": "Sprinter I (310 D)", "engine": "OM 602.986", "power": "75 kW / 102 HP", "year": "1995/02 → 2000/06" },
-          { "name": "Sprinter I (312 D)", "engine": "OM 602.980DE LA", "power": "90 kW / 122 HP", "year": "1995/02 → 2000/06" },
-          { "name": "Sprinter I (408 D)", "engine": "OM 601.943", "power": "58 kW / 79 HP", "year": "1996/02 → 2000/06" },
-          { "name": "Sprinter I (410 D)", "engine": "OM 602.980 LA", "power": "75 kW / 102 HP", "year": "1995/02 → 2000/06" },
-          { "name": "Sprinter I (412 D)", "engine": "OM 602.980DE LA", "power": "90 kW / 120 HP", "year": "1995/02 → 2000/06" },
-          { "name": "Sprinter I (800)", "engine": "OM 314", "power": "55 kW / 75 HP", "year": "1975/08 → 1987/03" },
-          { "name": "Sprinter I (900 Turbo)", "engine": "OM 364 A", "power": "66 kW / 90 HP", "year": "1987/04 →" },
-          { "name": "Vito I (108 D 2.3)", "engine": "OM 601.942", "power": "60 kW / 82 HP", "year": "1995/11 → 2003/10" },
-          { "name": "Vito I (110 D 2.3)", "engine": "OM 601.970", "power": "72 kW / 98 HP", "year": "1996/02 → 2003/10" },
-          { "name": "V-Klasse (V 230 TD)", "engine": "OM 601.970", "power": "72 kW / 98 HP", "year": "1996/04 → 2003/10" },
-          { "name": "Vario (512 D)", "engine": "OM 602.984 LA", "power": "85 kW / 115 HP", "year": "1996/10 →" },
-          { "name": "Vario (612 D)", "engine": "OM 602.984/985 LA", "power": "85 kW / 115 HP", "year": "1996/10 →" },
-          { "name": "Vario (812 D)", "engine": "OM 602.984/985 LA", "power": "85 kW / 115 HP", "year": "1996/10 →" },
-          { "name": "Unimog (C 250 CGI Blue EFFICIENCY)", "engine": "M 271.860", "power": "150 kW / 204 HP", "year": "2009/09 → 2014/12" },
-          { "name": "Unimog (C 300)", "engine": "M 272.947", "power": "170 kW / 231 HP", "year": "2009/07 → 2014/08" },
-          { "name": "Unimog (U 90 turbo)", "engine": "OM 602D29LA", "power": "85 kW / 116 HP", "year": "1997/01 →" },
-          { "name": "Unimog (U 100 L turbo)", "engine": "OM 602D29LA", "power": "85 kW / 116 HP", "year": "1997/01 →" },
-          { "name": "UX-Serie (100)", "engine": "OM 602.989 DE29LA", "power": "80 kW / 109 HP", "year": "1996/09 →" },
-          { "name": "S-Klasse (S 280)", "engine": "M 112", "power": "150 kW / 204 HP", "year": "1998/10 → 2002/11" },
-          { "name": "S-Klasse (S 320)", "engine": "M 112", "power": "165 kW / 224 HP", "year": "1998/10 → 2002/11" }
+          {
+            "name": "C-Klasse (C 200 D)",
+            "engine": "OM 601.913",
+            "power": "55 kW / 75 HP",
+            "year": "1993/03 → 1998/07"
+          },
+          {
+            "name": "C-Klasse (C 220 D)",
+            "engine": "OM 604.910",
+            "power": "70 kW / 95 HP",
+            "year": "1993/08 → 1998/04"
+          },
+          {
+            "name": "C-Klasse (C 250 D)",
+            "engine": "OM 605.910",
+            "power": "83 kW / 113 HP",
+            "year": "1993/05 → 1997/05"
+          },
+          {
+            "name": "C-Klasse (C 250 TD)",
+            "engine": "OM 605.960",
+            "power": "110 kW / 150 HP",
+            "year": "1995/10 → 2001/04"
+          },
+          {
+            "name": "E-Klasse (124) (E 250 D)",
+            "engine": "OM 605.911",
+            "power": "83 kW / 113 HP",
+            "year": "1993/06 → 1996/07"
+          },
+          {
+            "name": "E-Klasse (124) (E 250 TD)",
+            "engine": "OM 602.962",
+            "power": "93 kW / 126 HP",
+            "year": "1993/06 → 1995/06"
+          },
+          {
+            "name": "E-Klasse (W/S210) (E 200 D)",
+            "engine": "OM 604.917",
+            "power": "65 kW / 88 HP",
+            "year": "1996/01 → 2002/04"
+          },
+          {
+            "name": "E-Klasse (W/S210) (E 220 D)",
+            "engine": "OM 604.912",
+            "power": "55 kW / 75 HP",
+            "year": "1996/05 → 2002/04"
+          },
+          {
+            "name": "E-Klasse (W/S210) (E 250 D)",
+            "engine": "OM 605.912",
+            "power": "83 kW / 113 HP",
+            "year": "1995/06 → 1998/09"
+          },
+          {
+            "name": "E-Klasse (W/S210) (E 250 TD)",
+            "engine": "OM 605",
+            "power": "110 kW / 150 HP",
+            "year": "1997/06 → 1998/09"
+          },
+          {
+            "name": "E-Klasse (W/S210) (E 290 TD)",
+            "engine": "OM 602.982",
+            "power": "95 kW / 129 HP",
+            "year": "1996/03 → 1999/07"
+          },
+          {
+            "name": "E-Klasse (W/S210) (E 300 D)",
+            "engine": "OM 606.912",
+            "power": "100 kW / 136 HP",
+            "year": "1995/06 → 1999/07"
+          },
+          {
+            "name": "E-Klasse (W/S210) (E 300 TD)",
+            "engine": "OM 606.962",
+            "power": "130 kW / 177 HP",
+            "year": "1996/12 → 1999/07"
+          },
+          {
+            "name": "G-Klasse (290 GD Turbodiesel)",
+            "engine": "OM 602.983",
+            "power": "88 kW / 120 HP",
+            "year": "1997/07 → 1998/12"
+          },
+          {
+            "name": "G-Klasse (G 300 TD)",
+            "engine": "OM 606.964",
+            "power": "130 kW / 177 HP",
+            "year": "1996/09 → 2000/12"
+          },
+          {
+            "name": "S-Klasse (S 300 TD)",
+            "engine": "OM 606.961",
+            "power": "130 kW / 177 HP",
+            "year": "1996/05 → 1998/09"
+          },
+          {
+            "name": "Sprinter I (1000)",
+            "engine": "OM 366",
+            "power": "74 kW / 101 HP",
+            "year": "1987/04 →"
+          },
+          {
+            "name": "Sprinter I (1100)",
+            "engine": "OM 353",
+            "power": "81 kW / 110 HP",
+            "year": "1976/03 → 1987/03"
+          },
+          {
+            "name": "Sprinter I (1300 Turbo)",
+            "engine": "OM 366 A",
+            "power": "92 kW / 125 HP",
+            "year": "1987/04 →"
+          },
+          {
+            "name": "Sprinter I (208 D)",
+            "engine": "OM 601.943",
+            "power": "59 kW / 80 HP",
+            "year": "1995/02 → 2000/06"
+          },
+          {
+            "name": "Sprinter I (210 D)",
+            "engine": "OM 602.986",
+            "power": "75 kW / 102 HP",
+            "year": "1997/01 → 2000/06"
+          },
+          {
+            "name": "Sprinter I (212 D)",
+            "engine": "OM 602.980DE LA",
+            "power": "90 kW / 120 HP",
+            "year": "1995/02 → 2000/06"
+          },
+          {
+            "name": "Sprinter I (308 D)",
+            "engine": "OM 601.943",
+            "power": "58 kW / 79 HP",
+            "year": "1995/02 → 2000/06"
+          },
+          {
+            "name": "Sprinter I (310 D)",
+            "engine": "OM 602.986",
+            "power": "75 kW / 102 HP",
+            "year": "1995/02 → 2000/06"
+          },
+          {
+            "name": "Sprinter I (312 D)",
+            "engine": "OM 602.980DE LA",
+            "power": "90 kW / 122 HP",
+            "year": "1995/02 → 2000/06"
+          },
+          {
+            "name": "Sprinter I (408 D)",
+            "engine": "OM 601.943",
+            "power": "58 kW / 79 HP",
+            "year": "1996/02 → 2000/06"
+          },
+          {
+            "name": "Sprinter I (410 D)",
+            "engine": "OM 602.980 LA",
+            "power": "75 kW / 102 HP",
+            "year": "1995/02 → 2000/06"
+          },
+          {
+            "name": "Sprinter I (412 D)",
+            "engine": "OM 602.980DE LA",
+            "power": "90 kW / 120 HP",
+            "year": "1995/02 → 2000/06"
+          },
+          {
+            "name": "Sprinter I (800)",
+            "engine": "OM 314",
+            "power": "55 kW / 75 HP",
+            "year": "1975/08 → 1987/03"
+          },
+          {
+            "name": "Sprinter I (900 Turbo)",
+            "engine": "OM 364 A",
+            "power": "66 kW / 90 HP",
+            "year": "1987/04 →"
+          },
+          {
+            "name": "Vito I (108 D 2.3)",
+            "engine": "OM 601.942",
+            "power": "60 kW / 82 HP",
+            "year": "1995/11 → 2003/10"
+          },
+          {
+            "name": "Vito I (110 D 2.3)",
+            "engine": "OM 601.970",
+            "power": "72 kW / 98 HP",
+            "year": "1996/02 → 2003/10"
+          },
+          {
+            "name": "V-Klasse (V 230 TD)",
+            "engine": "OM 601.970",
+            "power": "72 kW / 98 HP",
+            "year": "1996/04 → 2003/10"
+          },
+          {
+            "name": "Vario (512 D)",
+            "engine": "OM 602.984 LA",
+            "power": "85 kW / 115 HP",
+            "year": "1996/10 →"
+          },
+          {
+            "name": "Vario (612 D)",
+            "engine": "OM 602.984/985 LA",
+            "power": "85 kW / 115 HP",
+            "year": "1996/10 →"
+          },
+          {
+            "name": "Vario (812 D)",
+            "engine": "OM 602.984/985 LA",
+            "power": "85 kW / 115 HP",
+            "year": "1996/10 →"
+          },
+          {
+            "name": "Unimog (C 250 CGI Blue EFFICIENCY)",
+            "engine": "M 271.860",
+            "power": "150 kW / 204 HP",
+            "year": "2009/09 → 2014/12"
+          },
+          {
+            "name": "Unimog (C 300)",
+            "engine": "M 272.947",
+            "power": "170 kW / 231 HP",
+            "year": "2009/07 → 2014/08"
+          },
+          {
+            "name": "Unimog (U 90 turbo)",
+            "engine": "OM 602D29LA",
+            "power": "85 kW / 116 HP",
+            "year": "1997/01 →"
+          },
+          {
+            "name": "Unimog (U 100 L turbo)",
+            "engine": "OM 602D29LA",
+            "power": "85 kW / 116 HP",
+            "year": "1997/01 →"
+          },
+          {
+            "name": "UX-Serie (100)",
+            "engine": "OM 602.989 DE29LA",
+            "power": "80 kW / 109 HP",
+            "year": "1996/09 →"
+          },
+          {
+            "name": "S-Klasse (S 280)",
+            "engine": "M 112",
+            "power": "150 kW / 204 HP",
+            "year": "1998/10 → 2002/11"
+          },
+          {
+            "name": "S-Klasse (S 320)",
+            "engine": "M 112",
+            "power": "165 kW / 224 HP",
+            "year": "1998/10 → 2002/11"
+          }
         ]
       },
       {
         "category": "MULTICAR (HAKO)",
         "models": [
-          { "name": "TREMO (601)", "engine": "MB OM 601.900", "power": "62 kW / 85 HP", "year": "1995/01 → 2005/05" },
-          { "name": "UX (100)", "engine": "MB OM 602 DELA", "power": "85 kW / 115 HP", "year": "1999/01 →" }
+          {
+            "name": "TREMO (601)",
+            "engine": "MB OM 601.900",
+            "power": "62 kW / 85 HP",
+            "year": "1995/01 → 2005/05"
+          },
+          {
+            "name": "UX (100)",
+            "engine": "MB OM 602 DELA",
+            "power": "85 kW / 115 HP",
+            "year": "1999/01 →"
+          }
         ]
       },
       {
         "category": "OPTARE",
         "models": [
-          { "name": "Solo / Solo SE / Solo SR (M1020)", "engine": "MAN D0834 Euro4", "power": "132 kW / 177 HP", "year": "2006/09 →" },
-          { "name": "Solo / Solo SE / Solo SR (M710)", "engine": "MAN D0834 Euro4", "power": "132 kW / 177 HP", "year": "2006/09 →" },
-          { "name": "Solo / Solo SE / Solo SR (M780)", "engine": "MAN D0834 Euro4", "power": "132 kW / 177 HP", "year": "2006/09 →" },
-          { "name": "Solo / Solo SE / Solo SR (M810)", "engine": "MAN D0834 Euro4", "power": "132 kW / 177 HP", "year": "2006/09 →" },
-          { "name": "Solo / Solo SE / Solo SR (M880)", "engine": "MAN D0834 Euro4", "power": "132 kW / 177 HP", "year": "2006/09 →" },
-          { "name": "Solo / Solo SE / Solo SR (M890)", "engine": "MAN D0834 LOH50 Euro4", "power": "132 kW / 177 HP", "year": "2007/10 →" },
-          { "name": "Solo / Solo SE / Solo SR (M950)", "engine": "MAN D0834 Euro4", "power": "132 kW / 177 HP", "year": "2006/09 →" },
-          { "name": "Solo / Solo SE / Solo SR (M960)", "engine": "MAN D0834 LOH50 Euro4", "power": "132 kW / 177 HP", "year": "2007/10 →" },
-          { "name": "Tempo (X1060)", "engine": "MAN D0836 LOH51 Euro4", "power": "206 kW / 280 HP", "year": "2006/09 →" },
-          { "name": "Tempo (X1130)", "engine": "MAN D0836 LOH51 Euro4", "power": "206 kW / 280 HP", "year": "2006/09 →" },
-          { "name": "Tempo (X1200)", "engine": "MAN D0836 LOH51 Euro4", "power": "206 kW / 280 HP", "year": "2006/09 →" },
-          { "name": "Tempo (X1260)", "engine": "MAN D0836 LOH51 Euro4", "power": "206 kW / 280 HP", "year": "2006/09 →" },
-          { "name": "Versa (V 1040)", "engine": "MAN D0834 Euro4", "power": "132 kW / 177 HP", "year": "2006/09 →" },
-          { "name": "Versa (V 1110)", "engine": "MAN D0834 Euro4", "power": "132 kW / 177 HP", "year": "2006/09 →" }
+          {
+            "name": "Solo / Solo SE / Solo SR (M1020)",
+            "engine": "MAN D0834 Euro4",
+            "power": "132 kW / 177 HP",
+            "year": "2006/09 →"
+          },
+          {
+            "name": "Solo / Solo SE / Solo SR (M710)",
+            "engine": "MAN D0834 Euro4",
+            "power": "132 kW / 177 HP",
+            "year": "2006/09 →"
+          },
+          {
+            "name": "Solo / Solo SE / Solo SR (M780)",
+            "engine": "MAN D0834 Euro4",
+            "power": "132 kW / 177 HP",
+            "year": "2006/09 →"
+          },
+          {
+            "name": "Solo / Solo SE / Solo SR (M810)",
+            "engine": "MAN D0834 Euro4",
+            "power": "132 kW / 177 HP",
+            "year": "2006/09 →"
+          },
+          {
+            "name": "Solo / Solo SE / Solo SR (M880)",
+            "engine": "MAN D0834 Euro4",
+            "power": "132 kW / 177 HP",
+            "year": "2006/09 →"
+          },
+          {
+            "name": "Solo / Solo SE / Solo SR (M890)",
+            "engine": "MAN D0834 LOH50 Euro4",
+            "power": "132 kW / 177 HP",
+            "year": "2007/10 →"
+          },
+          {
+            "name": "Solo / Solo SE / Solo SR (M950)",
+            "engine": "MAN D0834 Euro4",
+            "power": "132 kW / 177 HP",
+            "year": "2006/09 →"
+          },
+          {
+            "name": "Solo / Solo SE / Solo SR (M960)",
+            "engine": "MAN D0834 LOH50 Euro4",
+            "power": "132 kW / 177 HP",
+            "year": "2007/10 →"
+          },
+          {
+            "name": "Tempo (X1060)",
+            "engine": "MAN D0836 LOH51 Euro4",
+            "power": "206 kW / 280 HP",
+            "year": "2006/09 →"
+          },
+          {
+            "name": "Tempo (X1130)",
+            "engine": "MAN D0836 LOH51 Euro4",
+            "power": "206 kW / 280 HP",
+            "year": "2006/09 →"
+          },
+          {
+            "name": "Tempo (X1200)",
+            "engine": "MAN D0836 LOH51 Euro4",
+            "power": "206 kW / 280 HP",
+            "year": "2006/09 →"
+          },
+          {
+            "name": "Tempo (X1260)",
+            "engine": "MAN D0836 LOH51 Euro4",
+            "power": "206 kW / 280 HP",
+            "year": "2006/09 →"
+          },
+          {
+            "name": "Versa (V 1040)",
+            "engine": "MAN D0834 Euro4",
+            "power": "132 kW / 177 HP",
+            "year": "2006/09 →"
+          },
+          {
+            "name": "Versa (V 1110)",
+            "engine": "MAN D0834 Euro4",
+            "power": "132 kW / 177 HP",
+            "year": "2006/09 →"
+          }
         ]
       },
       {
         "category": "SSANGYONG",
         "models": [
-          { "name": "Istana (2.9 D)", "engine": "MB OM662", "power": "72 kW / 98 HP", "year": "1992/10 → 2003/12" },
-          { "name": "Musso / Musso Sports Pickup (2.9 TD)", "engine": "MB-OM 662", "power": "88 kW / 120 HP", "year": "1998/04 →" },
-          { "name": "Rexton (2.3 TD)", "engine": "MB OM 601", "power": "74 kW / 101 HP", "year": "2001/09 →" },
-          { "name": "Rexton (2.9 TD)", "engine": "MB OM602", "power": "88 kW / 120 HP", "year": "2001/08 →" },
-          { "name": "Rexton (2.9 TDS)", "engine": "MB OM602", "power": "107 kW / 145 HP", "year": "2004/02 →" }
+          {
+            "name": "Istana (2.9 D)",
+            "engine": "MB OM662",
+            "power": "72 kW / 98 HP",
+            "year": "1992/10 → 2003/12"
+          },
+          {
+            "name": "Musso / Musso Sports Pickup (2.9 TD)",
+            "engine": "MB-OM 662",
+            "power": "88 kW / 120 HP",
+            "year": "1998/04 →"
+          },
+          {
+            "name": "Rexton (2.3 TD)",
+            "engine": "MB OM 601",
+            "power": "74 kW / 101 HP",
+            "year": "2001/09 →"
+          },
+          {
+            "name": "Rexton (2.9 TD)",
+            "engine": "MB OM602",
+            "power": "88 kW / 120 HP",
+            "year": "2001/08 →"
+          },
+          {
+            "name": "Rexton (2.9 TDS)",
+            "engine": "MB OM602",
+            "power": "107 kW / 145 HP",
+            "year": "2004/02 →"
+          }
         ]
       },
       {
         "category": "STEYR (MAN-STEYR AG)",
         "models": [
-          { "name": "18 S (TGA) (18 S 28)", "engine": "MAN D 0836 LF41", "power": "206 kW / 280 HP", "year": "2003/08 →" },
-          { "name": "18 S (TGA) (18 S 33)", "engine": "MAN D 0836 LF44", "power": "240 kW / 326 HP", "year": "2003/08 →" },
-          { "name": "26 S (TGA) (26 S 28)", "engine": "MAN D 0836 LF41", "power": "206 kW / 280 HP", "year": "2003/08 →" },
-          { "name": "26 S (TGA) (26 S 33)", "engine": "MAN D 0836 LF44", "power": "240 kW / 326 HP", "year": "2003/08 →" },
-          { "name": "28 S (TGA) (28 S 28)", "engine": "MAN D 0836 LF41", "power": "206 kW / 280 HP", "year": "2003/08 →" },
-          { "name": "28 S (TGA) (28 S 33)", "engine": "MAN D 0836 LF44", "power": "240 kW / 326 HP", "year": "2003/08 →" },
-          { "name": "32 S (TGA) (32 S 33)", "engine": "MAN D 0836 LF44", "power": "240 kW / 326 HP", "year": "2003/08 →" }
+          {
+            "name": "18 S (TGA) (18 S 28)",
+            "engine": "MAN D 0836 LF41",
+            "power": "206 kW / 280 HP",
+            "year": "2003/08 →"
+          },
+          {
+            "name": "18 S (TGA) (18 S 33)",
+            "engine": "MAN D 0836 LF44",
+            "power": "240 kW / 326 HP",
+            "year": "2003/08 →"
+          },
+          {
+            "name": "26 S (TGA) (26 S 28)",
+            "engine": "MAN D 0836 LF41",
+            "power": "206 kW / 280 HP",
+            "year": "2003/08 →"
+          },
+          {
+            "name": "26 S (TGA) (26 S 33)",
+            "engine": "MAN D 0836 LF44",
+            "power": "240 kW / 326 HP",
+            "year": "2003/08 →"
+          },
+          {
+            "name": "28 S (TGA) (28 S 28)",
+            "engine": "MAN D 0836 LF41",
+            "power": "206 kW / 280 HP",
+            "year": "2003/08 →"
+          },
+          {
+            "name": "28 S (TGA) (28 S 33)",
+            "engine": "MAN D 0836 LF44",
+            "power": "240 kW / 326 HP",
+            "year": "2003/08 →"
+          },
+          {
+            "name": "32 S (TGA) (32 S 33)",
+            "engine": "MAN D 0836 LF44",
+            "power": "240 kW / 326 HP",
+            "year": "2003/08 →"
+          }
         ]
       }
-    ]
+    ],
+    "related_products": []
   },
   {
     "id": 4,
@@ -532,44 +1892,168 @@
       "H": "115.00 mm"
     },
     "oem_numbers": {
-      "DEMAG": ["474 910", "474 910 00"],
-      "DEUTZ-FAHR": ["7-6331-411-01", "1-1116-019-531.00", "126 7900", "8751-13-821.78"],
-      "E.R.F.": ["37843"],
-      "EVOBUS / KAESSBOHRER": ["7.633.141.101", "8.225.007.022"],
-      "EVOBUS / SETRA": ["8.225.007.022", "7.633.141.101"],
-      "FAUN": ["1190-514"],
-      "FENDT": ["F 284 950 030 020"],
-      "FIAT-ALLIS": ["79912650"],
-      "FIAT": ["9912650"],
-      "FIAT GROUP (ALFA/FIAT/LANCIA)": ["9912650"],
-      "FODEN": ["Y025.499.01", "YO25.499.01"],
-      "FORD": ["98CT 3K520 BA", "N T126507"],
-      "FUCHS": ["1267900"],
-      "GMC": ["25012824", "25012828"],
-      "HANOMAG-HENSCHEL": ["773906234", "921 488"],
-      "HOLDER": ["019 467 022 80 51"],
-      "IVECO": ["126 7900", "299 2056", "912650", "991 2650"],
-      "KAELBLE": ["763 31 4110", "751 74"],
-      "KASSBOHRER": ["822-500-70-02", "822-500-70-220"],
-      "KRAMER": ["1267900"],
-      "KRUPP": ["7554031901", "7594031961", "7.5940.319.01"],
-      "LEYLAND": ["100CP0906"],
-      "MAN": ["51.05504.0007", "76.33141.101", "81.05504.0007", "81.05504.0051", "81.05504.6001", "81.47307.0001", "90.80720.0756"],
-      "MASSEY FERGUSON": ["77 390 6234 2", "941 292 M 1", "3 144 305 M 1"],
-      "MERCEDES (DAIMLER CHRYSLER)": ["000 094 00 04", "000 466 00 04", "4660004", "627 466 00 04", "940004"],
-      "ORENSTEIN + KOPPEL (O+K)": ["002 991 145 0989"],
-      "POCLAIN": ["3505-71 G", "03505-71"],
-      "RENAULT": ["4 033 162 440", "3 563 604", "5000255463", "5000255643"],
-      "RENAULT AGRICULTURE": ["6005019558"],
-      "RENAULT TRUCK (RVI)": ["50 00 255 463", "50 00 255 643", "40 33 162 440", "3563604", "00 03 563 604"],
-      "SAAB": ["168 185"],
-      "SCANIA": ["168 185", "132 7488"],
-      "STEYR-DAIMLER-PUCH": ["295.47.0705"],
-      "TATRA": ["9921008600"],
-      "VOLVO": ["323139", "323139-6", "40151102", "6234582", "807200755"],
-      "VOLVO (TRUCKS/VCE/VME/PENTA)": ["807200755", "323139-6", "323139"],
-      "ZETTELMEYER": ["00 10 72430", "00 107 24303", "00 K 7243", "K7243"],
-      "ZF": ["7633 141 101", "7633 141 107"]
+      "DEMAG": [
+        "474 910",
+        "474 910 00"
+      ],
+      "DEUTZ-FAHR": [
+        "7-6331-411-01",
+        "1-1116-019-531.00",
+        "126 7900",
+        "8751-13-821.78"
+      ],
+      "E.R.F.": [
+        "37843"
+      ],
+      "EVOBUS / KAESSBOHRER": [
+        "7.633.141.101",
+        "8.225.007.022"
+      ],
+      "EVOBUS / SETRA": [
+        "8.225.007.022",
+        "7.633.141.101"
+      ],
+      "FAUN": [
+        "1190-514"
+      ],
+      "FENDT": [
+        "F 284 950 030 020"
+      ],
+      "FIAT-ALLIS": [
+        "79912650"
+      ],
+      "FIAT": [
+        "9912650"
+      ],
+      "FIAT GROUP (ALFA/FIAT/LANCIA)": [
+        "9912650"
+      ],
+      "FODEN": [
+        "Y025.499.01",
+        "YO25.499.01"
+      ],
+      "FORD": [
+        "98CT 3K520 BA",
+        "N T126507"
+      ],
+      "FUCHS": [
+        "1267900"
+      ],
+      "GMC": [
+        "25012824",
+        "25012828"
+      ],
+      "HANOMAG-HENSCHEL": [
+        "773906234",
+        "921 488"
+      ],
+      "HOLDER": [
+        "019 467 022 80 51"
+      ],
+      "IVECO": [
+        "126 7900",
+        "299 2056",
+        "912650",
+        "991 2650"
+      ],
+      "KAELBLE": [
+        "763 31 4110",
+        "751 74"
+      ],
+      "KASSBOHRER": [
+        "822-500-70-02",
+        "822-500-70-220"
+      ],
+      "KRAMER": [
+        "1267900"
+      ],
+      "KRUPP": [
+        "7554031901",
+        "7594031961",
+        "7.5940.319.01"
+      ],
+      "LEYLAND": [
+        "100CP0906"
+      ],
+      "MAN": [
+        "51.05504.0007",
+        "76.33141.101",
+        "81.05504.0007",
+        "81.05504.0051",
+        "81.05504.6001",
+        "81.47307.0001",
+        "90.80720.0756"
+      ],
+      "MASSEY FERGUSON": [
+        "77 390 6234 2",
+        "941 292 M 1",
+        "3 144 305 M 1"
+      ],
+      "MERCEDES (DAIMLER CHRYSLER)": [
+        "000 094 00 04",
+        "000 466 00 04",
+        "4660004",
+        "627 466 00 04",
+        "940004"
+      ],
+      "ORENSTEIN + KOPPEL (O+K)": [
+        "002 991 145 0989"
+      ],
+      "POCLAIN": [
+        "3505-71 G",
+        "03505-71"
+      ],
+      "RENAULT": [
+        "4 033 162 440",
+        "3 563 604",
+        "5000255463",
+        "5000255643"
+      ],
+      "RENAULT AGRICULTURE": [
+        "6005019558"
+      ],
+      "RENAULT TRUCK (RVI)": [
+        "50 00 255 463",
+        "50 00 255 643",
+        "40 33 162 440",
+        "3563604",
+        "00 03 563 604"
+      ],
+      "SAAB": [
+        "168 185"
+      ],
+      "SCANIA": [
+        "168 185",
+        "132 7488"
+      ],
+      "STEYR-DAIMLER-PUCH": [
+        "295.47.0705"
+      ],
+      "TATRA": [
+        "9921008600"
+      ],
+      "VOLVO": [
+        "323139",
+        "323139-6",
+        "40151102",
+        "6234582",
+        "807200755"
+      ],
+      "VOLVO (TRUCKS/VCE/VME/PENTA)": [
+        "807200755",
+        "323139-6",
+        "323139"
+      ],
+      "ZETTELMEYER": [
+        "00 10 72430",
+        "00 107 24303",
+        "00 K 7243",
+        "K7243"
+      ],
+      "ZF": [
+        "7633 141 101",
+        "7633 141 107"
+      ]
     },
     "features": [
       "كفاءة تنقية زيت استثنائية",
@@ -581,382 +2065,1173 @@
       {
         "category": "AHLMANN (A-Serie)",
         "models": [
-          { "name": "110", "engine": "Deutz F6L 514", "power": "-", "year": "-" },
-          { "name": "111 Z", "engine": "Deutz F3L 514", "power": "-", "year": "-" },
-          { "name": "45, 45 L", "engine": "Deutz F3L 514", "power": "-", "year": "-" },
-          { "name": "50", "engine": "Deutz", "power": "-", "year": "-" },
-          { "name": "60", "engine": "Deutz", "power": "-", "year": "-" },
-          { "name": "68", "engine": "DB OM 314", "power": "-", "year": "-" },
-          { "name": "69", "engine": "Deutz F4L 912", "power": "-", "year": "-" }
+          {
+            "name": "110",
+            "engine": "Deutz F6L 514",
+            "power": "-",
+            "year": "-"
+          },
+          {
+            "name": "111 Z",
+            "engine": "Deutz F3L 514",
+            "power": "-",
+            "year": "-"
+          },
+          {
+            "name": "45, 45 L",
+            "engine": "Deutz F3L 514",
+            "power": "-",
+            "year": "-"
+          },
+          {
+            "name": "50",
+            "engine": "Deutz",
+            "power": "-",
+            "year": "-"
+          },
+          {
+            "name": "60",
+            "engine": "Deutz",
+            "power": "-",
+            "year": "-"
+          },
+          {
+            "name": "68",
+            "engine": "DB OM 314",
+            "power": "-",
+            "year": "-"
+          },
+          {
+            "name": "69",
+            "engine": "Deutz F4L 912",
+            "power": "-",
+            "year": "-"
+          }
         ]
       },
       {
         "category": "BARREIROS 42/-Serie",
         "models": [
-          { "name": "42/20", "engine": "B 26", "power": "124 kW / 170 HP", "year": "1969/12 ← 1978/05" },
-          { "name": "42/20 GR", "engine": "B 36", "power": "158 kW / 216 HP", "year": "1971/01 ← 1978/05" }
+          {
+            "name": "42/20",
+            "engine": "B 26",
+            "power": "124 kW / 170 HP",
+            "year": "1969/12 ← 1978/05"
+          },
+          {
+            "name": "42/20 GR",
+            "engine": "B 36",
+            "power": "158 kW / 216 HP",
+            "year": "1971/01 ← 1978/05"
+          }
         ]
       },
       {
         "category": "BARREIROS 5000-Serie",
         "models": [
-          { "name": "5300", "engine": "BH 26", "power": "124 kW / 170 HP", "year": "1969/01 ← 1976/09" }
+          {
+            "name": "5300",
+            "engine": "BH 26",
+            "power": "124 kW / 170 HP",
+            "year": "1969/01 ← 1976/09"
+          }
         ]
       },
       {
         "category": "BARREIROS 6000-Serie",
         "models": [
-          { "name": "6000", "engine": "BH 26", "power": "124 kW / 170 HP", "year": "1969/01 ← 1976/09" }
+          {
+            "name": "6000",
+            "engine": "BH 26",
+            "power": "124 kW / 170 HP",
+            "year": "1969/01 ← 1976/09"
+          }
         ]
       },
       {
         "category": "BUESSING AK 14-150",
         "models": [
-          { "name": "AK 14-150", "engine": "S 7 D", "power": "110 kW / 150 HP", "year": "1967/01 ← 1971/12" }
+          {
+            "name": "AK 14-150",
+            "engine": "S 7 D",
+            "power": "110 kW / 150 HP",
+            "year": "1967/01 ← 1971/12"
+          }
         ]
       },
       {
         "category": "BUESSING BSE-Serie",
         "models": [
-          { "name": "BSE 110 GT, T", "engine": "U 11 D", "power": "154 kW / 210 HP", "year": "1969/09 ← 1971/12" },
-          { "name": "BSE 110 N", "engine": "U 11 D", "power": "154 kW / 210 HP", "year": "1969/09 ← 1971/12" },
-          { "name": "BSE 120 GT, T", "engine": "U 11 D", "power": "154 kW / 210 HP", "year": "1969/09 ← 1971/12" },
-          { "name": "BSE 120 N", "engine": "U 11 D", "power": "154 kW / 210 HP", "year": "1969/09 ← 1971/12" }
+          {
+            "name": "BSE 110 GT, T",
+            "engine": "U 11 D",
+            "power": "154 kW / 210 HP",
+            "year": "1969/09 ← 1971/12"
+          },
+          {
+            "name": "BSE 110 N",
+            "engine": "U 11 D",
+            "power": "154 kW / 210 HP",
+            "year": "1969/09 ← 1971/12"
+          },
+          {
+            "name": "BSE 120 GT, T",
+            "engine": "U 11 D",
+            "power": "154 kW / 210 HP",
+            "year": "1969/09 ← 1971/12"
+          },
+          {
+            "name": "BSE 120 N",
+            "engine": "U 11 D",
+            "power": "154 kW / 210 HP",
+            "year": "1969/09 ← 1971/12"
+          }
         ]
       },
       {
         "category": "BUESSING (BS-Serie)",
         "models": [
-          { "name": "BS 11 FSA, BS 12 FSA, 13 FSA", "engine": "U 7 D", "power": "115 kW / 156 HP", "year": "1968/09 ← 1971/12" },
-          { "name": "BS 13 L, BS 12 L, BS 14 L, BS", "engine": "U 7 D", "power": "115 kW / 156 HP", "year": "1969/01 ← 1971/12" },
-          { "name": "BS 14 AK", "engine": "S 7 D", "power": "110 kW / 150 HP", "year": "1967/01 ← 1971/12" },
-          { "name": "BS 14 K", "engine": "U 11 D/185", "power": "136 kW / 185 HP", "year": "1967/09 ← 1971/12" },
-          { "name": "BS 15 AK", "engine": "S 7 D", "power": "110 kW / 150 HP", "year": "1967/01 ← 1971/12" },
-          { "name": "BS 15 L", "engine": "U 11 D", "power": "141 kW / 192 HP", "year": "1968/11 ← 1971/12" },
-          { "name": "BS 16 L", "engine": "U 12 D", "power": "176 kW / 240 HP", "year": "1967/09 ← 1971/12" },
-          { "name": "BS 16 L, BS 22 L", "engine": "U 12 DA", "power": "228 kW / 310 HP", "year": "1969/09 ← 1971/12" },
-          { "name": "BS 16 S, BS 19 S, BS 20 S 2", "engine": "S 12 D", "power": "228 kW / 310 HP", "year": "1968/09 ← 1971/12" },
-          { "name": "BS 19 L", "engine": "S 11 D", "power": "176 kW / 240 HP", "year": "1966/12 ← 1969/12" },
-          { "name": "BS 19 L, BS 22, BS 26, BS 32", "engine": "S 12 DA", "power": "228 kW / 310 HP", "year": "1970/06 ← 1971/12" },
-          { "name": "BS 19 L", "engine": "S 12 D", "power": "176 kW / 240 HP", "year": "1968/09 ← 1971/12" },
-          { "name": "BS 22 AK, BS 26 AK", "engine": "S 12 DA", "power": "228 kW / 310 HP", "year": "1970/06 ← 1971/12" },
-          { "name": "BS 22 L, BS 16 L", "engine": "U 12 D", "power": "176 kW / 240 HP", "year": "1967/09 ← 1971/12" },
-          { "name": "BS 100 GT, T", "engine": "U 11 D", "power": "154 kW / 210 HP", "year": "1969/09 ← 1971/12" },
-          { "name": "BS 100 N", "engine": "U 11 D", "power": "154 kW / 210 HP", "year": "1969/09 ← 1971/12" },
-          { "name": "BS 110 GT, T", "engine": "U 11 D", "power": "154 kW / 210 HP", "year": "1969/09 ← 1971/12" },
-          { "name": "BS 110 N", "engine": "U 7 D", "power": "154 kW / 210 HP", "year": "1969/09 ← 1971/12" },
-          { "name": "BS 120 GT, T", "engine": "U 11 D", "power": "154 kW / 210 HP", "year": "1969/09 ← 1971/12" },
-          { "name": "BS 120 N", "engine": "U 7 D", "power": "154 kW / 210 HP", "year": "1969/09 ← 1971/12" },
-          { "name": "BS 120 V", "engine": "U 7 D", "power": "154 kW / 210 HP", "year": "1969/09 ← 1971/12" }
+          {
+            "name": "BS 11 FSA, BS 12 FSA, 13 FSA",
+            "engine": "U 7 D",
+            "power": "115 kW / 156 HP",
+            "year": "1968/09 ← 1971/12"
+          },
+          {
+            "name": "BS 13 L, BS 12 L, BS 14 L, BS",
+            "engine": "U 7 D",
+            "power": "115 kW / 156 HP",
+            "year": "1969/01 ← 1971/12"
+          },
+          {
+            "name": "BS 14 AK",
+            "engine": "S 7 D",
+            "power": "110 kW / 150 HP",
+            "year": "1967/01 ← 1971/12"
+          },
+          {
+            "name": "BS 14 K",
+            "engine": "U 11 D/185",
+            "power": "136 kW / 185 HP",
+            "year": "1967/09 ← 1971/12"
+          },
+          {
+            "name": "BS 15 AK",
+            "engine": "S 7 D",
+            "power": "110 kW / 150 HP",
+            "year": "1967/01 ← 1971/12"
+          },
+          {
+            "name": "BS 15 L",
+            "engine": "U 11 D",
+            "power": "141 kW / 192 HP",
+            "year": "1968/11 ← 1971/12"
+          },
+          {
+            "name": "BS 16 L",
+            "engine": "U 12 D",
+            "power": "176 kW / 240 HP",
+            "year": "1967/09 ← 1971/12"
+          },
+          {
+            "name": "BS 16 L, BS 22 L",
+            "engine": "U 12 DA",
+            "power": "228 kW / 310 HP",
+            "year": "1969/09 ← 1971/12"
+          },
+          {
+            "name": "BS 16 S, BS 19 S, BS 20 S 2",
+            "engine": "S 12 D",
+            "power": "228 kW / 310 HP",
+            "year": "1968/09 ← 1971/12"
+          },
+          {
+            "name": "BS 19 L",
+            "engine": "S 11 D",
+            "power": "176 kW / 240 HP",
+            "year": "1966/12 ← 1969/12"
+          },
+          {
+            "name": "BS 19 L, BS 22, BS 26, BS 32",
+            "engine": "S 12 DA",
+            "power": "228 kW / 310 HP",
+            "year": "1970/06 ← 1971/12"
+          },
+          {
+            "name": "BS 19 L",
+            "engine": "S 12 D",
+            "power": "176 kW / 240 HP",
+            "year": "1968/09 ← 1971/12"
+          },
+          {
+            "name": "BS 22 AK, BS 26 AK",
+            "engine": "S 12 DA",
+            "power": "228 kW / 310 HP",
+            "year": "1970/06 ← 1971/12"
+          },
+          {
+            "name": "BS 22 L, BS 16 L",
+            "engine": "U 12 D",
+            "power": "176 kW / 240 HP",
+            "year": "1967/09 ← 1971/12"
+          },
+          {
+            "name": "BS 100 GT, T",
+            "engine": "U 11 D",
+            "power": "154 kW / 210 HP",
+            "year": "1969/09 ← 1971/12"
+          },
+          {
+            "name": "BS 100 N",
+            "engine": "U 11 D",
+            "power": "154 kW / 210 HP",
+            "year": "1969/09 ← 1971/12"
+          },
+          {
+            "name": "BS 110 GT, T",
+            "engine": "U 11 D",
+            "power": "154 kW / 210 HP",
+            "year": "1969/09 ← 1971/12"
+          },
+          {
+            "name": "BS 110 N",
+            "engine": "U 7 D",
+            "power": "154 kW / 210 HP",
+            "year": "1969/09 ← 1971/12"
+          },
+          {
+            "name": "BS 120 GT, T",
+            "engine": "U 11 D",
+            "power": "154 kW / 210 HP",
+            "year": "1969/09 ← 1971/12"
+          },
+          {
+            "name": "BS 120 N",
+            "engine": "U 7 D",
+            "power": "154 kW / 210 HP",
+            "year": "1969/09 ← 1971/12"
+          },
+          {
+            "name": "BS 120 V",
+            "engine": "U 7 D",
+            "power": "154 kW / 210 HP",
+            "year": "1969/09 ← 1971/12"
+          }
         ]
       },
       {
         "category": "Burglöwe",
         "models": [
-          { "name": "Burglöwe SAK", "engine": "S 7", "power": "104 kW / 141 HP", "year": "1963/09 ← 1968/12" },
-          { "name": "Burglöwe U, BS 11 L", "engine": "U 5/125", "power": "93 kW / 126 HP", "year": "1962/01 ← 1969/12" }
+          {
+            "name": "Burglöwe SAK",
+            "engine": "S 7",
+            "power": "104 kW / 141 HP",
+            "year": "1963/09 ← 1968/12"
+          },
+          {
+            "name": "Burglöwe U, BS 11 L",
+            "engine": "U 5/125",
+            "power": "93 kW / 126 HP",
+            "year": "1962/01 ← 1969/12"
+          }
         ]
       },
       {
         "category": "Europa-Bus",
         "models": [
-          { "name": "Europa-Bus", "engine": "U 11 D", "power": "154 kW / 210 HP", "year": "1971/02 ← 1971/12" }
+          {
+            "name": "Europa-Bus",
+            "engine": "U 11 D",
+            "power": "154 kW / 210 HP",
+            "year": "1971/02 ← 1971/12"
+          }
         ]
       },
       {
         "category": "Konsul",
         "models": [
-          { "name": "Konsul 11", "engine": "U 7 D", "power": "114 kW / 155 HP", "year": "1968/01 ← 1968/12" }
+          {
+            "name": "Konsul 11",
+            "engine": "U 7 D",
+            "power": "114 kW / 155 HP",
+            "year": "1968/01 ← 1968/12"
+          }
         ]
       },
       {
         "category": "Präfekt",
         "models": [
-          { "name": "Präfekt 11, 12, D, 13, D, 15", "engine": "U 7 D", "power": "114 kW / 155 HP", "year": "1967/01 ← 1969/12" },
-          { "name": "Präfekt 11, 12, D, 13, D, 15", "engine": "U 7/150", "power": "110 kW / 150 HP", "year": "1965/01 ← 1968/12" },
-          { "name": "Präfekt 15", "engine": "U 11 D/185", "power": "136 kW / 185 HP", "year": "1966/01 ← 1968/12" }
+          {
+            "name": "Präfekt 11, 12, D, 13, D, 15",
+            "engine": "U 7 D",
+            "power": "114 kW / 155 HP",
+            "year": "1967/01 ← 1969/12"
+          },
+          {
+            "name": "Präfekt 11, 12, D, 13, D, 15",
+            "engine": "U 7/150",
+            "power": "110 kW / 150 HP",
+            "year": "1965/01 ← 1968/12"
+          },
+          {
+            "name": "Präfekt 15",
+            "engine": "U 11 D/185",
+            "power": "136 kW / 185 HP",
+            "year": "1966/01 ← 1968/12"
+          }
         ]
       },
       {
         "category": "Präsident",
         "models": [
-          { "name": "Präsident", "engine": "U 11 D/185", "power": "154 kW / 210 HP", "year": "1966/01 ← 1969/12" },
-          { "name": "Präsident 14", "engine": "U 10", "power": "110 kW / 150 HP", "year": "1967/01 ← 1969/12" },
-          { "name": "Präsident 14, 17, 18,", "engine": "U 10", "power": "110 kW / 150 HP", "year": "1965/12 ← 1966/12" },
-          { "name": "Präsident 14, D", "engine": "U 11 D/185", "power": "154 kW / 210 HP", "year": "1966/01 ← 1968/12" },
-          { "name": "Präsident 17, 18, 19", "engine": "U 11", "power": "125 kW / 170 HP", "year": "1967/01 ← 1968/12" },
-          { "name": "Präsident TU 10, 13 R-U 10, 14", "engine": "U 10", "power": "110 kW / 150 HP", "year": "1959/01 ← 1965/11" },
-          { "name": "Präsident 14", "engine": "U 10", "power": "110 kW / 150 HP", "year": "1967/01 ← 1968/12" },
-          { "name": "Präsident 14, D", "engine": "U 11 D/185", "power": "136 kW / 185 HP", "year": "1966/01 ← 1969/12" }
+          {
+            "name": "Präsident",
+            "engine": "U 11 D/185",
+            "power": "154 kW / 210 HP",
+            "year": "1966/01 ← 1969/12"
+          },
+          {
+            "name": "Präsident 14",
+            "engine": "U 10",
+            "power": "110 kW / 150 HP",
+            "year": "1967/01 ← 1969/12"
+          },
+          {
+            "name": "Präsident 14, 17, 18,",
+            "engine": "U 10",
+            "power": "110 kW / 150 HP",
+            "year": "1965/12 ← 1966/12"
+          },
+          {
+            "name": "Präsident 14, D",
+            "engine": "U 11 D/185",
+            "power": "154 kW / 210 HP",
+            "year": "1966/01 ← 1968/12"
+          },
+          {
+            "name": "Präsident 17, 18, 19",
+            "engine": "U 11",
+            "power": "125 kW / 170 HP",
+            "year": "1967/01 ← 1968/12"
+          },
+          {
+            "name": "Präsident TU 10, 13 R-U 10, 14",
+            "engine": "U 10",
+            "power": "110 kW / 150 HP",
+            "year": "1959/01 ← 1965/11"
+          },
+          {
+            "name": "Präsident 14",
+            "engine": "U 10",
+            "power": "110 kW / 150 HP",
+            "year": "1967/01 ← 1968/12"
+          },
+          {
+            "name": "Präsident 14, D",
+            "engine": "U 11 D/185",
+            "power": "136 kW / 185 HP",
+            "year": "1966/01 ← 1969/12"
+          }
         ]
       },
       {
         "category": "Standard",
         "models": [
-          { "name": "Standard VÖV", "engine": "U 7 D", "power": "114 kW / 155 HP", "year": "1969/01 ← 1971/12" },
-          { "name": "Standard VÖV", "engine": "U 11 D", "power": "114 kW / 155 HP", "year": "1969/02 ← 1971/12" }
+          {
+            "name": "Standard VÖV",
+            "engine": "U 7 D",
+            "power": "114 kW / 155 HP",
+            "year": "1969/01 ← 1971/12"
+          },
+          {
+            "name": "Standard VÖV",
+            "engine": "U 11 D",
+            "power": "114 kW / 155 HP",
+            "year": "1969/02 ← 1971/12"
+          }
         ]
       },
       {
         "category": "Supercargo",
         "models": [
-          { "name": "Supercargo LS 77, F, 7/13, 7/1", "engine": "S 7", "power": "109 kW / 148 HP", "year": "1959/01 ← 1964/12" },
-          { "name": "Supercargo U", "engine": "U 7", "power": "109 kW / 148 HP", "year": "1959/06 ← 1965/12" }
+          {
+            "name": "Supercargo LS 77, F, 7/13, 7/1",
+            "engine": "S 7",
+            "power": "109 kW / 148 HP",
+            "year": "1959/01 ← 1964/12"
+          },
+          {
+            "name": "Supercargo U",
+            "engine": "U 7",
+            "power": "109 kW / 148 HP",
+            "year": "1959/06 ← 1965/12"
+          }
         ]
       },
       {
         "category": "CASE-STEYR (CNH GLOBAL) 700-Serie",
         "models": [
-          { "name": "760, 768", "engine": "WD 408.43", "power": "-", "year": "-" }
+          {
+            "name": "760, 768",
+            "engine": "WD 408.43",
+            "power": "-",
+            "year": "-"
+          }
         ]
       },
       {
         "category": "CASE-STEYR (CNH GLOBAL) 8000-Serie",
         "models": [
-          { "name": "8060 T, 8060 TA", "engine": "WD 311.87", "power": "41 kW / 56 HP", "year": "1987/01 ←" },
-          { "name": "8060, 8060 A", "engine": "WD 311.40/41", "power": "35 kW / 48 HP", "year": "1980/01 ←" },
-          { "name": "8070, 8070 A", "engine": "WD 411", "power": "-", "year": "1980/01 ←" },
-          { "name": "8080, 8080A", "engine": "WD 411", "power": "-", "year": "1984/05 ←" }
+          {
+            "name": "8060 T, 8060 TA",
+            "engine": "WD 311.87",
+            "power": "41 kW / 56 HP",
+            "year": "1987/01 ←"
+          },
+          {
+            "name": "8060, 8060 A",
+            "engine": "WD 311.40/41",
+            "power": "35 kW / 48 HP",
+            "year": "1980/01 ←"
+          },
+          {
+            "name": "8070, 8070 A",
+            "engine": "WD 411",
+            "power": "-",
+            "year": "1980/01 ←"
+          },
+          {
+            "name": "8080, 8080A",
+            "engine": "WD 411",
+            "power": "-",
+            "year": "1984/05 ←"
+          }
         ]
       },
       {
         "category": "CASE-STEYR (CNH GLOBAL) 8100-Serie",
         "models": [
-          { "name": "8110, 8110 A", "engine": "WD 611.42/43", "power": "66 kW / 90 HP", "year": "1984/06 ←" },
-          { "name": "8130, 8130 A", "engine": "WD 611.87/88", "power": "81 kW / 110 HP", "year": "1984/06 ←" },
-          { "name": "8150, 8150 A", "engine": "WD 612.87", "power": "99 kW / 135 HP", "year": "1982/10 ←" },
-          { "name": "8165, 8165 A", "engine": "WD 612.86", "power": "110 kW / 150 HP", "year": "1986/05 ←" },
-          { "name": "8170, 8170 A", "engine": "WD 612.89", "power": "100 kW / 136 HP", "year": "1981/04 ←" },
-          { "name": "8180, 8180 A", "engine": "WD 612.89", "power": "-", "year": "1980/01 ←" }
+          {
+            "name": "8110, 8110 A",
+            "engine": "WD 611.42/43",
+            "power": "66 kW / 90 HP",
+            "year": "1984/06 ←"
+          },
+          {
+            "name": "8130, 8130 A",
+            "engine": "WD 611.87/88",
+            "power": "81 kW / 110 HP",
+            "year": "1984/06 ←"
+          },
+          {
+            "name": "8150, 8150 A",
+            "engine": "WD 612.87",
+            "power": "99 kW / 135 HP",
+            "year": "1982/10 ←"
+          },
+          {
+            "name": "8165, 8165 A",
+            "engine": "WD 612.86",
+            "power": "110 kW / 150 HP",
+            "year": "1986/05 ←"
+          },
+          {
+            "name": "8170, 8170 A",
+            "engine": "WD 612.89",
+            "power": "100 kW / 136 HP",
+            "year": "1981/04 ←"
+          },
+          {
+            "name": "8180, 8180 A",
+            "engine": "WD 612.89",
+            "power": "-",
+            "year": "1980/01 ←"
+          }
         ]
       },
       {
         "category": "DAF BUS (VDL BUS GROUP) MB",
         "models": [
-          { "name": "MB 200 DKDL", "engine": "DKDL 1160", "power": "121 kW / 164 HP", "year": "1970/01 ← 1990/07" },
-          { "name": "MB 200 DKL", "engine": "DKL 1160", "power": "109 kW / 148 HP", "year": "1974/06 ← 1989/12" },
-          { "name": "MB 200 DKTL", "engine": "DKTL 1160", "power": "165 kW / 252 HP", "year": "1979/07 ← 1989/12" }
+          {
+            "name": "MB 200 DKDL",
+            "engine": "DKDL 1160",
+            "power": "121 kW / 164 HP",
+            "year": "1970/01 ← 1990/07"
+          },
+          {
+            "name": "MB 200 DKL",
+            "engine": "DKL 1160",
+            "power": "109 kW / 148 HP",
+            "year": "1974/06 ← 1989/12"
+          },
+          {
+            "name": "MB 200 DKTL",
+            "engine": "DKTL 1160",
+            "power": "165 kW / 252 HP",
+            "year": "1979/07 ← 1989/12"
+          }
         ]
       },
       {
         "category": "DAF BUS (VDL BUS GROUP) SB",
         "models": [
-          { "name": "SB 201 DKDL", "engine": "DKD/DKDL 1160", "power": "121 kW / 165 HP", "year": "1974/01 ← 1990/07" }
+          {
+            "name": "SB 201 DKDL",
+            "engine": "DKD/DKDL 1160",
+            "power": "121 kW / 165 HP",
+            "year": "1974/01 ← 1990/07"
+          }
         ]
       },
       {
         "category": "DAF TRUCKS F 600 - 900",
         "models": [
-          { "name": "F/FA 900 BDD", "engine": "DD 575", "power": "77 kW / 105 HP", "year": "1975/01 ← 1981/12" }
+          {
+            "name": "F/FA 900 BDD",
+            "engine": "DD 575",
+            "power": "77 kW / 105 HP",
+            "year": "1975/01 ← 1981/12"
+          }
         ]
       },
       {
         "category": "DAF TRUCKS F 1000 - 1900",
         "models": [
-          { "name": "F.. 1100 DD", "engine": "DD 575", "power": "77 kW / 105 HP", "year": "1978/07 ← 1981/12" },
-          { "name": "F.. 1200 BA", "engine": "BA 475", "power": "115 kW / 157 HP", "year": "1972/02 ← 1974/06" },
-          { "name": "F.. 1200 DA", "engine": "DA 475", "power": "100 kW / 136 HP", "year": "1972/02 ← 1973/12" },
-          { "name": "F.. 1200 DD", "engine": "DD 575", "power": "110 kW / 150 HP", "year": "1969/01 ← 1981/12" },
-          { "name": "F.. 1400 DD", "engine": "DD 575", "power": "110 kW / 150 HP", "year": "1972/02 ← 1981/12" },
-          { "name": "F.. 1400 DF", "engine": "DF 615", "power": "126 kW / 172 HP", "year": "1970/01 ← 1981/11" },
-          { "name": "F.. 1400 DT", "engine": "DT 615", "power": "168 kW / 229 HP", "year": "1972/05 ← 1980/12" },
-          { "name": "F.. 1500 DF", "engine": "DF 615", "power": "85 kW / 113 HP", "year": "1978/07 ← 1991/08" },
-          { "name": "F.. 1500 DT", "engine": "DT 615", "power": "85 kW / 113 HP", "year": "1978/07 ← 1991/08" },
-          { "name": "F.. 1600 BB", "engine": "BB 475", "power": "134 kW / 183 HP", "year": "1970/01 ← 1974/06" },
-          { "name": "F.. 1600 DF", "engine": "DF 615", "power": "126 kW / 172 HP", "year": "1970/01 ← 1991/08" },
-          { "name": "F.. 1600 DT", "engine": "DT 615", "power": "153 kW / 209 HP", "year": "1973/01 ← 1991/08" },
-          { "name": "F.. 1600 DTD", "engine": "DTD 615", "power": "137 kW / 187 HP", "year": "1971/01 ← 1980/11" },
-          { "name": "F.. 1800 BB", "engine": "BB 475", "power": "99 kW / 134 HP", "year": "1970/01 ← 1974/06" },
-          { "name": "F.. 1800 DT", "engine": "DT 615", "power": "113 kW / 153 HP", "year": "1970/01 ← 1991/08" }
+          {
+            "name": "F.. 1100 DD",
+            "engine": "DD 575",
+            "power": "77 kW / 105 HP",
+            "year": "1978/07 ← 1981/12"
+          },
+          {
+            "name": "F.. 1200 BA",
+            "engine": "BA 475",
+            "power": "115 kW / 157 HP",
+            "year": "1972/02 ← 1974/06"
+          },
+          {
+            "name": "F.. 1200 DA",
+            "engine": "DA 475",
+            "power": "100 kW / 136 HP",
+            "year": "1972/02 ← 1973/12"
+          },
+          {
+            "name": "F.. 1200 DD",
+            "engine": "DD 575",
+            "power": "110 kW / 150 HP",
+            "year": "1969/01 ← 1981/12"
+          },
+          {
+            "name": "F.. 1400 DD",
+            "engine": "DD 575",
+            "power": "110 kW / 150 HP",
+            "year": "1972/02 ← 1981/12"
+          },
+          {
+            "name": "F.. 1400 DF",
+            "engine": "DF 615",
+            "power": "126 kW / 172 HP",
+            "year": "1970/01 ← 1981/11"
+          },
+          {
+            "name": "F.. 1400 DT",
+            "engine": "DT 615",
+            "power": "168 kW / 229 HP",
+            "year": "1972/05 ← 1980/12"
+          },
+          {
+            "name": "F.. 1500 DF",
+            "engine": "DF 615",
+            "power": "85 kW / 113 HP",
+            "year": "1978/07 ← 1991/08"
+          },
+          {
+            "name": "F.. 1500 DT",
+            "engine": "DT 615",
+            "power": "85 kW / 113 HP",
+            "year": "1978/07 ← 1991/08"
+          },
+          {
+            "name": "F.. 1600 BB",
+            "engine": "BB 475",
+            "power": "134 kW / 183 HP",
+            "year": "1970/01 ← 1974/06"
+          },
+          {
+            "name": "F.. 1600 DF",
+            "engine": "DF 615",
+            "power": "126 kW / 172 HP",
+            "year": "1970/01 ← 1991/08"
+          },
+          {
+            "name": "F.. 1600 DT",
+            "engine": "DT 615",
+            "power": "153 kW / 209 HP",
+            "year": "1973/01 ← 1991/08"
+          },
+          {
+            "name": "F.. 1600 DTD",
+            "engine": "DTD 615",
+            "power": "137 kW / 187 HP",
+            "year": "1971/01 ← 1980/11"
+          },
+          {
+            "name": "F.. 1800 BB",
+            "engine": "BB 475",
+            "power": "99 kW / 134 HP",
+            "year": "1970/01 ← 1974/06"
+          },
+          {
+            "name": "F.. 1800 DT",
+            "engine": "DT 615",
+            "power": "113 kW / 153 HP",
+            "year": "1970/01 ← 1991/08"
+          }
         ]
       },
       {
         "category": "DAF TRUCKS F 2000-Serie",
         "models": [
-          { "name": "F.. 2000 DH", "engine": "DH 825", "power": "115 kW / 156 HP", "year": "1968/01 ← 1969/12" },
-          { "name": "F.. 2000 DH, .. 2005 DH", "engine": "DH 825", "power": "121 kW / 165 HP", "year": "1974/10 ← 1978/01" },
-          { "name": "F.. 2005 DU", "engine": "DU 825", "power": "159 kW / 216 HP", "year": "1973/01 ← 1980/11" }
+          {
+            "name": "F.. 2000 DH",
+            "engine": "DH 825",
+            "power": "115 kW / 156 HP",
+            "year": "1968/01 ← 1969/12"
+          },
+          {
+            "name": "F.. 2000 DH, .. 2005 DH",
+            "engine": "DH 825",
+            "power": "121 kW / 165 HP",
+            "year": "1974/10 ← 1978/01"
+          },
+          {
+            "name": "F.. 2005 DU",
+            "engine": "DU 825",
+            "power": "159 kW / 216 HP",
+            "year": "1973/01 ← 1980/11"
+          }
         ]
       },
       {
         "category": "DAF TRUCKS F 2200-Serie",
         "models": [
-          { "name": "F.. 2200 DU, .. 2205 DU", "engine": "DU 825", "power": "159 kW / 216 HP", "year": "1971/01 ← 1980/11" },
-          { "name": "F.. 2205 DH", "engine": "DH 825", "power": "115 kW / 156 HP", "year": "1973/01 ← 1979/12" }
+          {
+            "name": "F.. 2200 DU, .. 2205 DU",
+            "engine": "DU 825",
+            "power": "159 kW / 216 HP",
+            "year": "1971/01 ← 1980/11"
+          },
+          {
+            "name": "F.. 2205 DH",
+            "engine": "DH 825",
+            "power": "115 kW / 156 HP",
+            "year": "1973/01 ← 1979/12"
+          }
         ]
       },
       {
         "category": "DAF TRUCKS F 2600-Serie",
         "models": [
-          { "name": "F.. 2600 DKA, .. 2605 DKA", "engine": "DKA 1160", "power": "169 kW / 230 HP", "year": "1967/08 ← 1969/12" }
+          {
+            "name": "F.. 2600 DKA, .. 2605 DKA",
+            "engine": "DKA 1160",
+            "power": "169 kW / 230 HP",
+            "year": "1967/08 ← 1969/12"
+          }
         ]
       },
       {
         "category": "DEUTZ FAHR (SAME DEUTZ-FAHR) D 06-Serie",
         "models": [
-          { "name": "D 100 06", "engine": "F6L 912", "power": "74 kW / 101 HP", "year": "1968/01 ← 1981/12" },
-          { "name": "D 130 06", "engine": "BF6L 912", "power": "88 kW / 120 HP", "year": "1968/01 ← 1981/12" }
+          {
+            "name": "D 100 06",
+            "engine": "F6L 912",
+            "power": "74 kW / 101 HP",
+            "year": "1968/01 ← 1981/12"
+          },
+          {
+            "name": "D 130 06",
+            "engine": "BF6L 912",
+            "power": "88 kW / 120 HP",
+            "year": "1968/01 ← 1981/12"
+          }
         ]
       },
       {
         "category": "DEUTZ FAHR (SAME DEUTZ-FAHR) M 1000-Serie",
         "models": [
-          { "name": "M 1000", "engine": "F6L 912", "power": "-", "year": "-" }
+          {
+            "name": "M 1000",
+            "engine": "F6L 912",
+            "power": "-",
+            "year": "-"
+          }
         ]
       },
       {
         "category": "DEUTZ FAHR (SAME DEUTZ-FAHR) M 1100-Serie",
         "models": [
-          { "name": "M 1102", "engine": "F6L 912", "power": "-", "year": "1980/01 ←" }
+          {
+            "name": "M 1102",
+            "engine": "F6L 912",
+            "power": "-",
+            "year": "1980/01 ←"
+          }
         ]
       },
       {
         "category": "DEUTZ FAHR (SAME DEUTZ-FAHR) M 1200-Serie",
         "models": [
-          { "name": "M 1200", "engine": "F6L 912", "power": "-", "year": "-" },
-          { "name": "M 1202", "engine": "F6L 912", "power": "81 kW / 110 HP", "year": "1980/01 ←" },
-          { "name": "M 1250", "engine": "F6L 912", "power": "-", "year": "-" }
+          {
+            "name": "M 1200",
+            "engine": "F6L 912",
+            "power": "-",
+            "year": "-"
+          },
+          {
+            "name": "M 1202",
+            "engine": "F6L 912",
+            "power": "81 kW / 110 HP",
+            "year": "1980/01 ←"
+          },
+          {
+            "name": "M 1250",
+            "engine": "F6L 912",
+            "power": "-",
+            "year": "-"
+          }
         ]
       },
       {
         "category": "EVOBUS (MERCEDES-BENZ/SETRA) O 302",
         "models": [
-          { "name": "O 302", "engine": "OM 352.980, 993", "power": "96 kW / 131 HP", "year": "1964/11 ← 1969/11" }
+          {
+            "name": "O 302",
+            "engine": "OM 352.980, 993",
+            "power": "96 kW / 131 HP",
+            "year": "1964/11 ← 1969/11"
+          }
         ]
       },
       {
         "category": "EVOBUS (MERCEDES-BENZ/SETRA) O 303",
         "models": [
-          { "name": "O 303", "engine": "OM 401.907/908/912", "power": "141 kW / 192 HP", "year": "1974/10 ← 1983/06" }
+          {
+            "name": "O 303",
+            "engine": "OM 401.907/908/912",
+            "power": "141 kW / 192 HP",
+            "year": "1974/10 ← 1983/06"
+          }
         ]
       },
       {
         "category": "EVOBUS (MERCEDES-BENZ/SETRA) O 305",
         "models": [
-          { "name": "O 305", "engine": "OM 360.911", "power": "177 kW / 240 HP", "year": "1969/01 ← 1973/05" }
+          {
+            "name": "O 305",
+            "engine": "OM 360.911",
+            "power": "177 kW / 240 HP",
+            "year": "1969/01 ← 1973/05"
+          }
         ]
       },
       {
         "category": "EVOBUS (MERCEDES-BENZ/SETRA) O 307",
         "models": [
-          { "name": "O 307", "engine": "OM 407", "power": "177 kW / 240 HP", "year": "1973/04 ← 1987/07" }
+          {
+            "name": "O 307",
+            "engine": "OM 407",
+            "power": "177 kW / 240 HP",
+            "year": "1973/04 ← 1987/07"
+          }
         ]
       },
       {
         "category": "EVOBUS (MERCEDES-BENZ/SETRA) O 317",
         "models": [
-          { "name": "O 317", "engine": "OM 346.911", "power": "154 kW / 210 HP", "year": "1964/01 ← 1965/12" },
-          { "name": "O 317 K", "engine": "OM 346.918", "power": "132 kW / 180 HP", "year": "1964/01 ← 1965/12" },
-          { "name": "O 317 St", "engine": "OM 326 h IV", "power": "147 kW / 200 HP", "year": "1958/01 ← 1963/12" },
-          { "name": "O 317..", "engine": "OM 346.911", "power": "154 kW / 210 HP", "year": "1966/01 ← 1978/01" }
+          {
+            "name": "O 317",
+            "engine": "OM 346.911",
+            "power": "154 kW / 210 HP",
+            "year": "1964/01 ← 1965/12"
+          },
+          {
+            "name": "O 317 K",
+            "engine": "OM 346.918",
+            "power": "132 kW / 180 HP",
+            "year": "1964/01 ← 1965/12"
+          },
+          {
+            "name": "O 317 St",
+            "engine": "OM 326 h IV",
+            "power": "147 kW / 200 HP",
+            "year": "1958/01 ← 1963/12"
+          },
+          {
+            "name": "O 317..",
+            "engine": "OM 346.911",
+            "power": "154 kW / 210 HP",
+            "year": "1966/01 ← 1978/01"
+          }
         ]
       },
       {
         "category": "EVOBUS (MERCEDES-BENZ/SETRA) O 321",
         "models": [
-          { "name": "O 321 H..", "engine": "OM 322", "power": "93 kW / 126 HP", "year": "1957/01 ← 1964/05" }
+          {
+            "name": "O 321 H..",
+            "engine": "OM 322",
+            "power": "93 kW / 126 HP",
+            "year": "1957/01 ← 1964/05"
+          }
         ]
       },
       {
         "category": "EVOBUS (MERCEDES-BENZ/SETRA) O 322",
         "models": [
-          { "name": "O 322", "engine": "OM 322", "power": "110 kW / 150 HP", "year": "1961/01 ← 1964/05" }
+          {
+            "name": "O 322",
+            "engine": "OM 322",
+            "power": "110 kW / 150 HP",
+            "year": "1961/01 ← 1964/05"
+          }
         ]
       },
       {
         "category": "Setra S 400",
         "models": [
-          { "name": "S 411 HD", "engine": "OM 501LA (541.950/959)", "power": "300 kW / 408 HP", "year": "2007/11 ←" },
-          { "name": "S 415 HD/HDH", "engine": "OM 457LA (457.944)", "power": "315 kW / 428 HP", "year": "2007/11 ←" },
-          { "name": "S 415 HDH", "engine": "OM 502LA (542.948/966)", "power": "370 kW / 503 HP", "year": "2007/11 ←" },
-          { "name": "S 416 GT-HD", "engine": "OM 457 LA Euro 5/EEV", "power": "335 kW / 455 HP", "year": "2010/04 ←" },
-          { "name": "S 416 HDH", "engine": "OM 502LA (542.948/966)", "power": "370 kW / 503 HP", "year": "2007/11 ←" },
-          { "name": "S 417 GT-HD", "engine": "OM 457 LA Euro 4/5/EEV", "power": "315 kW / 428 HP", "year": "2003/10 ←" },
-          { "name": "S 417 HDH", "engine": "OM 502LA (542.948/966)", "power": "370 kW / 503 HP", "year": "2007/11 ←" },
-          { "name": "S 431 DT", "engine": "OM 502 LA", "power": "350 kW / 475 HP", "year": "2002/06 ←" }
+          {
+            "name": "S 411 HD",
+            "engine": "OM 501LA (541.950/959)",
+            "power": "300 kW / 408 HP",
+            "year": "2007/11 ←"
+          },
+          {
+            "name": "S 415 HD/HDH",
+            "engine": "OM 457LA (457.944)",
+            "power": "315 kW / 428 HP",
+            "year": "2007/11 ←"
+          },
+          {
+            "name": "S 415 HDH",
+            "engine": "OM 502LA (542.948/966)",
+            "power": "370 kW / 503 HP",
+            "year": "2007/11 ←"
+          },
+          {
+            "name": "S 416 GT-HD",
+            "engine": "OM 457 LA Euro 5/EEV",
+            "power": "335 kW / 455 HP",
+            "year": "2010/04 ←"
+          },
+          {
+            "name": "S 416 HDH",
+            "engine": "OM 502LA (542.948/966)",
+            "power": "370 kW / 503 HP",
+            "year": "2007/11 ←"
+          },
+          {
+            "name": "S 417 GT-HD",
+            "engine": "OM 457 LA Euro 4/5/EEV",
+            "power": "315 kW / 428 HP",
+            "year": "2003/10 ←"
+          },
+          {
+            "name": "S 417 HDH",
+            "engine": "OM 502LA (542.948/966)",
+            "power": "370 kW / 503 HP",
+            "year": "2007/11 ←"
+          },
+          {
+            "name": "S 431 DT",
+            "engine": "OM 502 LA",
+            "power": "350 kW / 475 HP",
+            "year": "2002/06 ←"
+          }
         ]
       },
       {
         "category": "Setra S/SG 100",
         "models": [
-          { "name": "S 100, A", "engine": "Setra 6 R 1112-16 K", "power": "121 kW / 165 HP", "year": "1967/07 ← 1970/03" },
-          { "name": "S 110, A", "engine": "Setra 562-6R1112-18 K", "power": "132 kW / 180 HP", "year": "1970/04 ← 1973/12" },
-          { "name": "S 120, 130, 150", "engine": "Setra 6 R 1113-18 K", "power": "-", "year": "1967/10 ← 1969/05" },
-          { "name": "S 120, A", "engine": "Setra 524-6R1315-20 K", "power": "147 kW / 200 HP", "year": "1970/04 ← 1973/12" },
-          { "name": "S 130 S", "engine": "Setra MAN-D 2566 MUH", "power": "-", "year": "1977/09 ← 1980/12" },
-          { "name": "S 130, 150", "engine": "Setra 524-6R1315-20 K", "power": "176 kW / 240 HP", "year": "1970/04 ← 1973/12" },
-          { "name": "S 140 ES", "engine": "Setra MB-OM 407 H", "power": "177 kW / 240 HP", "year": "1977/03 ← 1984/12" },
-          { "name": "SG 175", "engine": "Setra Buessing U 11 D", "power": "-", "year": "1969/01 ← 1976/06" },
-          { "name": "SG 180", "engine": "Setra MB-OM 407 h", "power": "177 kW / 240 HP", "year": "1969/01 ← 1985/12" }
+          {
+            "name": "S 100, A",
+            "engine": "Setra 6 R 1112-16 K",
+            "power": "121 kW / 165 HP",
+            "year": "1967/07 ← 1970/03"
+          },
+          {
+            "name": "S 110, A",
+            "engine": "Setra 562-6R1112-18 K",
+            "power": "132 kW / 180 HP",
+            "year": "1970/04 ← 1973/12"
+          },
+          {
+            "name": "S 120, 130, 150",
+            "engine": "Setra 6 R 1113-18 K",
+            "power": "-",
+            "year": "1967/10 ← 1969/05"
+          },
+          {
+            "name": "S 120, A",
+            "engine": "Setra 524-6R1315-20 K",
+            "power": "147 kW / 200 HP",
+            "year": "1970/04 ← 1973/12"
+          },
+          {
+            "name": "S 130 S",
+            "engine": "Setra MAN-D 2566 MUH",
+            "power": "-",
+            "year": "1977/09 ← 1980/12"
+          },
+          {
+            "name": "S 130, 150",
+            "engine": "Setra 524-6R1315-20 K",
+            "power": "176 kW / 240 HP",
+            "year": "1970/04 ← 1973/12"
+          },
+          {
+            "name": "S 140 ES",
+            "engine": "Setra MB-OM 407 H",
+            "power": "177 kW / 240 HP",
+            "year": "1977/03 ← 1984/12"
+          },
+          {
+            "name": "SG 175",
+            "engine": "Setra Buessing U 11 D",
+            "power": "-",
+            "year": "1969/01 ← 1976/06"
+          },
+          {
+            "name": "SG 180",
+            "engine": "Setra MB-OM 407 h",
+            "power": "177 kW / 240 HP",
+            "year": "1969/01 ← 1985/12"
+          }
         ]
       },
       {
         "category": "Setra S/SG 200",
         "models": [
-          { "name": "S 200", "engine": "Setra MB-OM 403", "power": "235 kW / 320 HP", "year": "1973/01 ← 1981/12" }
+          {
+            "name": "S 200",
+            "engine": "Setra MB-OM 403",
+            "power": "235 kW / 320 HP",
+            "year": "1973/01 ← 1981/12"
+          }
         ]
       },
       {
         "category": "Setra S/SG 300",
         "models": [
-          { "name": "S 315 HD, HDH", "engine": "MB-OM 441 LA", "power": "250 kW / 340 HP", "year": "1991/09 ←" },
-          { "name": "S 315 HD, HDH", "engine": "MB-OM 442 A", "power": "280 kW / 381 HP", "year": "1991/09 ←" },
-          { "name": "S 317 GT-HD", "engine": "MB OM 442 LA", "power": "280 kW / 381 HP", "year": "1999/09 ←" },
-          { "name": "S 317 HDH", "engine": "MB OM 442 LA", "power": "320 kW / 436 HP", "year": "1991/09 ← 2002/02" },
-          { "name": "S 317 HD-H3", "engine": "MB OM 502 LA", "power": "349 kW / 476 HP", "year": "2000/07 ←" },
-          { "name": "S 317 UL", "engine": "MB OM 457 hLA", "power": "185 kW / 252 HP", "year": "2001/09 ←" },
-          { "name": "S 319 GT-HD", "engine": "MB OM 457 LA", "power": "310 kW / 422 HP", "year": "2000/09 ←" },
-          { "name": "S 319 GT-HD", "engine": "MB OM 442 A", "power": "280 kW / 382 HP", "year": "1998/09 ←" },
-          { "name": "S 319 NF", "engine": "MB OM 447 hLA", "power": "184 kW / 251 HP", "year": "1996/04 ←" },
-          { "name": "S 319 UL", "engine": "MB OM 447", "power": "184 kW / 251 HP", "year": "1995/04 ←" },
-          { "name": "S 328 DT", "engine": "MB OM 442 A/LA", "power": "280 kW / 382 HP", "year": "1990/01 ←" },
-          { "name": "SG 321 UL", "engine": "MB-OM 447 hLA", "power": "184 kW / 250 HP", "year": "1995/03 ← 2001/09" }
+          {
+            "name": "S 315 HD, HDH",
+            "engine": "MB-OM 441 LA",
+            "power": "250 kW / 340 HP",
+            "year": "1991/09 ←"
+          },
+          {
+            "name": "S 315 HD, HDH",
+            "engine": "MB-OM 442 A",
+            "power": "280 kW / 381 HP",
+            "year": "1991/09 ←"
+          },
+          {
+            "name": "S 317 GT-HD",
+            "engine": "MB OM 442 LA",
+            "power": "280 kW / 381 HP",
+            "year": "1999/09 ←"
+          },
+          {
+            "name": "S 317 HDH",
+            "engine": "MB OM 442 LA",
+            "power": "320 kW / 436 HP",
+            "year": "1991/09 ← 2002/02"
+          },
+          {
+            "name": "S 317 HD-H3",
+            "engine": "MB OM 502 LA",
+            "power": "349 kW / 476 HP",
+            "year": "2000/07 ←"
+          },
+          {
+            "name": "S 317 UL",
+            "engine": "MB OM 457 hLA",
+            "power": "185 kW / 252 HP",
+            "year": "2001/09 ←"
+          },
+          {
+            "name": "S 319 GT-HD",
+            "engine": "MB OM 457 LA",
+            "power": "310 kW / 422 HP",
+            "year": "2000/09 ←"
+          },
+          {
+            "name": "S 319 GT-HD",
+            "engine": "MB OM 442 A",
+            "power": "280 kW / 382 HP",
+            "year": "1998/09 ←"
+          },
+          {
+            "name": "S 319 NF",
+            "engine": "MB OM 447 hLA",
+            "power": "184 kW / 251 HP",
+            "year": "1996/04 ←"
+          },
+          {
+            "name": "S 319 UL",
+            "engine": "MB OM 447",
+            "power": "184 kW / 251 HP",
+            "year": "1995/04 ←"
+          },
+          {
+            "name": "S 328 DT",
+            "engine": "MB OM 442 A/LA",
+            "power": "280 kW / 382 HP",
+            "year": "1990/01 ←"
+          },
+          {
+            "name": "SG 321 UL",
+            "engine": "MB-OM 447 hLA",
+            "power": "184 kW / 250 HP",
+            "year": "1995/03 ← 2001/09"
+          }
         ]
       },
       {
         "category": "Tourismo II (632)",
         "models": [
-          { "name": "12.1", "engine": "OM 457 hLA Euro 4/5/EEV", "power": "260 kW / 354 HP", "year": "2006/09 ←" },
-          { "name": "M/2 13", "engine": "OM 457 hLA Euro 4/5/EEV", "power": "300 kW / 408 HP", "year": "2006/09 ←" },
-          { "name": "M13 / L14", "engine": "OM 457 LA Euro 4/5/EEV", "power": "315 kW / 428 HP", "year": "2006/09 ←" }
+          {
+            "name": "12.1",
+            "engine": "OM 457 hLA Euro 4/5/EEV",
+            "power": "260 kW / 354 HP",
+            "year": "2006/09 ←"
+          },
+          {
+            "name": "M/2 13",
+            "engine": "OM 457 hLA Euro 4/5/EEV",
+            "power": "300 kW / 408 HP",
+            "year": "2006/09 ←"
+          },
+          {
+            "name": "M13 / L14",
+            "engine": "OM 457 LA Euro 4/5/EEV",
+            "power": "315 kW / 428 HP",
+            "year": "2006/09 ←"
+          }
         ]
       },
       {
         "category": "FAUN K-Serie",
         "models": [
-          { "name": "K 10", "engine": "MB-OB 355", "power": "-", "year": "1972/01 ← 1974/12" },
-          { "name": "K 10/28 AP", "engine": "KHD-F 6 L 514", "power": "-", "year": "1969/01 ← 1972/12" },
-          { "name": "K 20/37 V.VA", "engine": "KHD-F 8 L 914", "power": "-", "year": "1969/01 ← 1971/12" },
-          { "name": "K 20/37 VA-WA", "engine": "MB-OB 355", "power": "-", "year": "1972/01 ← 1974/12" },
-          { "name": "K 20/W", "engine": "MB-OM 355", "power": "176 kW / 240 HP", "year": "1971/01 ← 1974/12" },
-          { "name": "K 30/36 W", "engine": "KHD-BF 12 L 413", "power": "-", "year": "1973/01 ← 1974/12" },
-          { "name": "K 35.3", "engine": "KHD-BF 12 L 413", "power": "-", "year": "1975/01 ← 1978/04" },
-          { "name": "K 35.4", "engine": "KHD-BF12L413 F", "power": "-", "year": "1978/05 ←" }
+          {
+            "name": "K 10",
+            "engine": "MB-OB 355",
+            "power": "-",
+            "year": "1972/01 ← 1974/12"
+          },
+          {
+            "name": "K 10/28 AP",
+            "engine": "KHD-F 6 L 514",
+            "power": "-",
+            "year": "1969/01 ← 1972/12"
+          },
+          {
+            "name": "K 20/37 V.VA",
+            "engine": "KHD-F 8 L 914",
+            "power": "-",
+            "year": "1969/01 ← 1971/12"
+          },
+          {
+            "name": "K 20/37 VA-WA",
+            "engine": "MB-OB 355",
+            "power": "-",
+            "year": "1972/01 ← 1974/12"
+          },
+          {
+            "name": "K 20/W",
+            "engine": "MB-OM 355",
+            "power": "176 kW / 240 HP",
+            "year": "1971/01 ← 1974/12"
+          },
+          {
+            "name": "K 30/36 W",
+            "engine": "KHD-BF 12 L 413",
+            "power": "-",
+            "year": "1973/01 ← 1974/12"
+          },
+          {
+            "name": "K 35.3",
+            "engine": "KHD-BF 12 L 413",
+            "power": "-",
+            "year": "1975/01 ← 1978/04"
+          },
+          {
+            "name": "K 35.4",
+            "engine": "KHD-BF12L413 F",
+            "power": "-",
+            "year": "1978/05 ←"
+          }
         ]
       },
       {
         "category": "FODEN Alpha (2000, 3000, 4000)",
         "models": [
-          { "name": "A3-4T", "engine": "Cummins N14", "power": "-", "year": "1998/01 ← 2002/12" },
-          { "name": "A3-6M, A3-6R, A3-6R.T", "engine": "Cummins N14", "power": "-", "year": "1998/01 ← 2002/12" },
-          { "name": "A3-8R, A3-8R.M, A3-8R.T", "engine": "Cummins N14", "power": "-", "year": "1998/01 ← 2002/12" }
+          {
+            "name": "A3-4T",
+            "engine": "Cummins N14",
+            "power": "-",
+            "year": "1998/01 ← 2002/12"
+          },
+          {
+            "name": "A3-6M, A3-6R, A3-6R.T",
+            "engine": "Cummins N14",
+            "power": "-",
+            "year": "1998/01 ← 2002/12"
+          },
+          {
+            "name": "A3-8R, A3-8R.M, A3-8R.T",
+            "engine": "Cummins N14",
+            "power": "-",
+            "year": "1998/01 ← 2002/12"
+          }
         ]
       },
       {
         "category": "FUCHS BAGGER 700 (K/M/R)-Serie",
         "models": [
-          { "name": "703", "engine": "Deutz F4L 912", "power": "-", "year": "-" }
+          {
+            "name": "703",
+            "engine": "Deutz F4L 912",
+            "power": "-",
+            "year": "-"
+          }
         ]
       },
       {
         "category": "HANOMAG (KOMATSU HANOMAG AG) GR (R)-Serie",
         "models": [
-          { "name": "R 11 A", "engine": "-", "power": "-", "year": "-" },
-          { "name": "R 12 T", "engine": "-", "power": "-", "year": "-" },
-          { "name": "R 8", "engine": "-", "power": "-", "year": "-" }
+          {
+            "name": "R 11 A",
+            "engine": "-",
+            "power": "-",
+            "year": "-"
+          },
+          {
+            "name": "R 12 T",
+            "engine": "-",
+            "power": "-",
+            "year": "-"
+          },
+          {
+            "name": "R 8",
+            "engine": "-",
+            "power": "-",
+            "year": "-"
+          }
         ]
       }
-    ]
+    ],
+    "related_products": []
   },
   {
     "id": 5,
@@ -977,13 +3252,33 @@
       "H": "54.00 mm"
     },
     "oem_numbers": {
-      "MAN": ["81.12501.0030", "81.12503.0086", "81.12501.0021"],
-      "RENAULT": ["5001864855"],
-      "DEUTZ": ["1319822", "01319822", "04297812"],
-      "VOLVO": ["14514238"],
-      "JOHN DEERE": ["N378886"],
-      "CASE / NEW HOLLAND": ["87408710", "87409379"],
-      "FENDT": ["F725200060020", "F731201060010"]
+      "MAN": [
+        "81.12501.0030",
+        "81.12503.0086",
+        "81.12501.0021"
+      ],
+      "RENAULT": [
+        "5001864855"
+      ],
+      "DEUTZ": [
+        "1319822",
+        "01319822",
+        "04297812"
+      ],
+      "VOLVO": [
+        "14514238"
+      ],
+      "JOHN DEERE": [
+        "N378886"
+      ],
+      "CASE / NEW HOLLAND": [
+        "87408710",
+        "87409379"
+      ],
+      "FENDT": [
+        "F725200060020",
+        "F731201060010"
+      ]
     },
     "features": [
       "Metal-Free Eco Filter",
@@ -996,59 +3291,100 @@
         "category": "MAN",
         "sub_category": "TGA / TGS / TGX",
         "models": [
-          { "name": "Series TGA / TGS / TGX", "engine": "Water/Fuel Separation Systems", "power": "-", "year": "-" }
+          {
+            "name": "Series TGA / TGS / TGX",
+            "engine": "Water/Fuel Separation Systems",
+            "power": "-",
+            "year": "-"
+          }
         ]
       },
       {
         "category": "ASTRA (Iveco Group)",
         "sub_category": "HD7-C",
         "models": [
-          { "name": "Series HD7-C", "engine": "Cursor 13", "power": "-", "year": "-" }
+          {
+            "name": "Series HD7-C",
+            "engine": "Cursor 13",
+            "power": "-",
+            "year": "-"
+          }
         ]
       },
       {
         "category": "ERF",
         "sub_category": "ECM / ECT",
         "models": [
-          { "name": "Series ECM / ECT", "engine": "MAN D2866 / D2066", "power": "-", "year": "-" }
+          {
+            "name": "Series ECM / ECT",
+            "engine": "MAN D2866 / D2066",
+            "power": "-",
+            "year": "-"
+          }
         ]
       },
       {
         "category": "RENAULT",
         "sub_category": "Magnum / Premium",
         "models": [
-          { "name": "Magnum / Premium", "engine": "-", "power": "-", "year": "-" }
+          {
+            "name": "Magnum / Premium",
+            "engine": "-",
+            "power": "-",
+            "year": "-"
+          }
         ]
       },
       {
         "category": "LIEBHERR",
         "sub_category": "Wheel Loaders",
         "models": [
-          { "name": "L 524 / L 528 / L 538 / L 550 / L 586", "engine": "-", "power": "-", "year": "-" }
+          {
+            "name": "L 524 / L 528 / L 538 / L 550 / L 586",
+            "engine": "-",
+            "power": "-",
+            "year": "-"
+          }
         ]
       },
       {
         "category": "VOLVO (Construction)",
         "sub_category": "Excavation Equipment",
         "models": [
-          { "name": "Excavation Equipment", "engine": "Compatible Engines", "power": "-", "year": "-" }
+          {
+            "name": "Excavation Equipment",
+            "engine": "Compatible Engines",
+            "power": "-",
+            "year": "-"
+          }
         ]
       },
       {
         "category": "FENDT",
         "sub_category": "700 Vario",
         "models": [
-          { "name": "714 Vario", "engine": "-", "power": "-", "year": "-" }
+          {
+            "name": "714 Vario",
+            "engine": "-",
+            "power": "-",
+            "year": "-"
+          }
         ]
       },
       {
         "category": "DEUTZ-FAHR",
         "sub_category": "Agricultural Tractors",
         "models": [
-          { "name": "Agricultural Tractors", "engine": "Deutz TCD", "power": "-", "year": "-" }
+          {
+            "name": "Agricultural Tractors",
+            "engine": "Deutz TCD",
+            "power": "-",
+            "year": "-"
+          }
         ]
       }
-    ]
+    ],
+    "related_products": []
   },
   {
     "id": 6,
@@ -1070,13 +3406,33 @@
       "H": "151.00 mm"
     },
     "oem_numbers": {
-      "MERCEDES-BENZ": ["0004771302", "A0004771302"],
-      "MAN": ["51.12501.0001"],
-      "VOLVO": ["20554138", "20972293", "20998367"],
-      "RENAULT": ["7420554138", "7420998367"],
-      "IVECO": ["504033400", "504239162"],
-      "DEUTZ": ["04130241", "4130241"],
-      "LIEBHERR": ["10044303"]
+      "MERCEDES-BENZ": [
+        "0004771302",
+        "A0004771302"
+      ],
+      "MAN": [
+        "51.12501.0001"
+      ],
+      "VOLVO": [
+        "20554138",
+        "20972293",
+        "20998367"
+      ],
+      "RENAULT": [
+        "7420554138",
+        "7420998367"
+      ],
+      "IVECO": [
+        "504033400",
+        "504239162"
+      ],
+      "DEUTZ": [
+        "04130241",
+        "4130241"
+      ],
+      "LIEBHERR": [
+        "10044303"
+      ]
     },
     "features": [
       "Pre-filter Water Separator",
@@ -1089,38 +3445,64 @@
         "category": "MERCEDES-BENZ",
         "sub_category": "Actros / Axor / Atego / Zetros",
         "models": [
-          { "name": "MP2 / MP3 / MP4", "engine": "-", "power": "-", "year": "-" }
+          {
+            "name": "MP2 / MP3 / MP4",
+            "engine": "-",
+            "power": "-",
+            "year": "-"
+          }
         ]
       },
       {
         "category": "MAN",
         "sub_category": "TGA / TGS / TGX",
         "models": [
-          { "name": "TGA / TGS / TGX", "engine": "-", "power": "-", "year": "-" }
+          {
+            "name": "TGA / TGS / TGX",
+            "engine": "-",
+            "power": "-",
+            "year": "-"
+          }
         ]
       },
       {
         "category": "VOLVO",
         "sub_category": "FH / FH12 / FH16 / FM / FM9 / FM12",
         "models": [
-          { "name": "FH / FH12 / FH16 / FM / FM9 / FM12", "engine": "-", "power": "-", "year": "-" }
+          {
+            "name": "FH / FH12 / FH16 / FM / FM9 / FM12",
+            "engine": "-",
+            "power": "-",
+            "year": "-"
+          }
         ]
       },
       {
         "category": "IVECO",
         "sub_category": "Stralis / Trakker",
         "models": [
-          { "name": "Stralis / Trakker", "engine": "Cursor", "power": "-", "year": "-" }
+          {
+            "name": "Stralis / Trakker",
+            "engine": "Cursor",
+            "power": "-",
+            "year": "-"
+          }
         ]
       },
       {
         "category": "LIEBHERR / DEUTZ",
         "sub_category": "Construction & Industrial",
         "models": [
-          { "name": "Heavy Equipment", "engine": "-", "power": "-", "year": "-" }
+          {
+            "name": "Heavy Equipment",
+            "engine": "-",
+            "power": "-",
+            "year": "-"
+          }
         ]
       }
-    ]
+    ],
+    "related_products": []
   },
   {
     "id": 7,
@@ -1141,12 +3523,28 @@
       "H": "160.00 mm"
     },
     "oem_numbers": {
-      "SCANIA": ["1518512", "1446566", "1420705"],
-      "VOLVO": ["20430751", "8159975"],
-      "IVECO": ["500314041", "1908547"],
-      "RENAULT": ["5010412932"],
-      "DAF": ["1399760"],
-      "DOOSAN": ["400403-00022"]
+      "SCANIA": [
+        "1518512",
+        "1446566",
+        "1420705"
+      ],
+      "VOLVO": [
+        "20430751",
+        "8159975"
+      ],
+      "IVECO": [
+        "500314041",
+        "1908547"
+      ],
+      "RENAULT": [
+        "5010412932"
+      ],
+      "DAF": [
+        "1399760"
+      ],
+      "DOOSAN": [
+        "400403-00022"
+      ]
     },
     "features": [
       "High Flow Capacity",
@@ -1159,31 +3557,52 @@
         "category": "SCANIA",
         "sub_category": "P / G / R / T",
         "models": [
-          { "name": "R420 / P380", "engine": "-", "power": "-", "year": "-" }
+          {
+            "name": "R420 / P380",
+            "engine": "-",
+            "power": "-",
+            "year": "-"
+          }
         ]
       },
       {
         "category": "VOLVO",
         "sub_category": "FH12 / FM12 / NH12",
         "models": [
-          { "name": "FH12 / FM12 / NH12", "engine": "-", "power": "-", "year": "-" }
+          {
+            "name": "FH12 / FM12 / NH12",
+            "engine": "-",
+            "power": "-",
+            "year": "-"
+          }
         ]
       },
       {
         "category": "IVECO",
         "sub_category": "EuroCargo / Stralis / EuroTrakker",
         "models": [
-          { "name": "EuroCargo / Stralis / EuroTrakker", "engine": "-", "power": "-", "year": "-" }
+          {
+            "name": "EuroCargo / Stralis / EuroTrakker",
+            "engine": "-",
+            "power": "-",
+            "year": "-"
+          }
         ]
       },
       {
         "category": "DOOSAN / VOLVO",
         "sub_category": "Construction Equipment",
         "models": [
-          { "name": "Construction Equipment", "engine": "-", "power": "-", "year": "-" }
+          {
+            "name": "Construction Equipment",
+            "engine": "-",
+            "power": "-",
+            "year": "-"
+          }
         ]
       }
-    ]
+    ],
+    "related_products": []
   },
   {
     "id": 8,
@@ -1204,10 +3623,22 @@
       "H": "212.00 mm"
     },
     "oem_numbers": {
-      "VOLVO": ["20514654", "20998346", "21017377"],
-      "RENAULT": ["7420998349", "7421017377", "7420514654"],
-      "MACK": ["21017377"],
-      "DEUTZ": ["04130245"]
+      "VOLVO": [
+        "20514654",
+        "20998346",
+        "21017377"
+      ],
+      "RENAULT": [
+        "7420998349",
+        "7421017377",
+        "7420514654"
+      ],
+      "MACK": [
+        "21017377"
+      ],
+      "DEUTZ": [
+        "04130245"
+      ]
     },
     "features": [
       "Long-Type Filter",
@@ -1220,24 +3651,40 @@
         "category": "VOLVO",
         "sub_category": "FH16 / FH / FM",
         "models": [
-          { "name": "FH16 / FH / FM", "engine": "D16C / D16E / D16G", "power": "-", "year": "-" }
+          {
+            "name": "FH16 / FH / FM",
+            "engine": "D16C / D16E / D16G",
+            "power": "-",
+            "year": "-"
+          }
         ]
       },
       {
         "category": "RENAULT",
         "sub_category": "Magnum / Kerax / Premium 2",
         "models": [
-          { "name": "Magnum / Kerax / Premium 2", "engine": "DXi 12 / DXi 13", "power": "-", "year": "-" }
+          {
+            "name": "Magnum / Kerax / Premium 2",
+            "engine": "DXi 12 / DXi 13",
+            "power": "-",
+            "year": "-"
+          }
         ]
       },
       {
         "category": "DEUTZ / INDUSTRIAL",
         "sub_category": "Construction & Industrial",
         "models": [
-          { "name": "Heavy Equipment", "engine": "-", "power": "-", "year": "-" }
+          {
+            "name": "Heavy Equipment",
+            "engine": "-",
+            "power": "-",
+            "year": "-"
+          }
         ]
       }
-    ]
+    ],
+    "related_products": []
   },
   {
     "id": 9,
@@ -1259,8 +3706,13 @@
       "H": "157.00 mm"
     },
     "oem_numbers": {
-      "DAF": ["1616361", "1643080"],
-      "SOLARIS": ["1303-112-200"]
+      "DAF": [
+        "1616361",
+        "1643080"
+      ],
+      "SOLARIS": [
+        "1303-112-200"
+      ]
     },
     "features": [
       "Eco Filter",
@@ -1273,10 +3725,16 @@
         "category": "DAF",
         "sub_category": "CF 75 / CF 85 / XF 105",
         "models": [
-          { "name": "CF 75 / CF 85 / XF 105", "engine": "PACCAR", "power": "-", "year": "-" }
+          {
+            "name": "CF 75 / CF 85 / XF 105",
+            "engine": "PACCAR",
+            "power": "-",
+            "year": "-"
+          }
         ]
       }
-    ]
+    ],
+    "related_products": []
   },
   {
     "id": 10,
@@ -1297,7 +3755,10 @@
       "H": "41.00 mm"
     },
     "oem_numbers": {
-      "MERCEDES-BENZ": ["0008301218", "A0008301218"]
+      "MERCEDES-BENZ": [
+        "0008301218",
+        "A0008301218"
+      ]
     },
     "features": [
       "High Efficiency Air Filtration",
@@ -1310,10 +3771,16 @@
         "category": "MERCEDES-BENZ",
         "sub_category": "Actros / Axor",
         "models": [
-          { "name": "MP1 / MP2 / MP3", "engine": "-", "power": "-", "year": "-" }
+          {
+            "name": "MP1 / MP2 / MP3",
+            "engine": "-",
+            "power": "-",
+            "year": "-"
+          }
         ]
       }
-    ]
+    ],
+    "related_products": []
   },
   {
     "id": 11,
@@ -1334,7 +3801,9 @@
       "H (Height)": "457.00 mm"
     },
     "oem_numbers": {
-      "MAN": ["81.08304.0084"]
+      "MAN": [
+        "81.08304.0084"
+      ]
     },
     "features": [
       "Inner Safety Element",
@@ -1347,10 +3816,16 @@
         "category": "MAN",
         "sub_category": "F-2000 Series",
         "models": [
-          { "name": "F-2000", "engine": "-", "power": "-", "year": "-" }
+          {
+            "name": "F-2000",
+            "engine": "-",
+            "power": "-",
+            "year": "-"
+          }
         ]
       }
-    ]
+    ],
+    "related_products": []
   },
   {
     "id": 12,
@@ -1371,9 +3846,15 @@
       "H (Height)": "459.00 mm"
     },
     "oem_numbers": {
-      "MANN-FILTER": ["CF1640"],
-      "HENGST": ["E428LS"],
-      "HIFI-FILTER": ["SA17283"]
+      "MANN-FILTER": [
+        "CF1640"
+      ],
+      "HENGST": [
+        "E428LS"
+      ],
+      "HIFI-FILTER": [
+        "SA17283"
+      ]
     },
     "features": [
       "Safety Air Element",
@@ -1386,16 +3867,27 @@
         "category": "ERF",
         "sub_category": "with MAN Engine",
         "models": [
-          { "name": "ERF Trucks", "engine": "MAN D2866 / D2066", "power": "-", "year": "-" }
+          {
+            "name": "ERF Trucks",
+            "engine": "MAN D2866 / D2066",
+            "power": "-",
+            "year": "-"
+          }
         ]
       },
       {
         "category": "IRISBUS / IVECO",
         "models": [
-          { "name": "Heavy Duty Buses", "engine": "-", "power": "-", "year": "-" }
+          {
+            "name": "Heavy Duty Buses",
+            "engine": "-",
+            "power": "-",
+            "year": "-"
+          }
         ]
       }
-    ]
+    ],
+    "related_products": []
   },
   {
     "id": 13,
@@ -1416,8 +3908,12 @@
       "H": "385.00 mm"
     },
     "oem_numbers": {
-      "RENAULT": ["7421832943"],
-      "VOLVO": ["21832943"]
+      "RENAULT": [
+        "7421832943"
+      ],
+      "VOLVO": [
+        "21832943"
+      ]
     },
     "features": [
       "Inner Secondary Element",
@@ -1430,10 +3926,16 @@
         "category": "RENAULT TRUCKS",
         "sub_category": "T Series",
         "models": [
-          { "name": "T380 / T430 / T460 / T480 / T520", "engine": "-", "power": "-", "year": "-" }
+          {
+            "name": "T380 / T430 / T460 / T480 / T520",
+            "engine": "-",
+            "power": "-",
+            "year": "-"
+          }
         ]
       }
-    ]
+    ],
+    "related_products": []
   },
   {
     "id": 14,
@@ -1454,9 +3956,18 @@
       "Thread": "M 16x1.5"
     },
     "oem_numbers": {
-      "IVECO": ["2992662", "500039731", "500040958"],
-      "CASE / NEW HOLLAND": ["84348882", "87435525"],
-      "SOLARIS": ["131506011"]
+      "IVECO": [
+        "2992662",
+        "500039731",
+        "500040958"
+      ],
+      "CASE / NEW HOLLAND": [
+        "84348882",
+        "87435525"
+      ],
+      "SOLARIS": [
+        "131506011"
+      ]
     },
     "features": [
       "Spin-on Type",
@@ -1469,22 +3980,38 @@
         "category": "IVECO",
         "sub_category": "Trakker / Stralis",
         "models": [
-          { "name": "Trakker", "engine": "Cursor", "power": "-", "year": "-" }
+          {
+            "name": "Trakker",
+            "engine": "Cursor",
+            "power": "-",
+            "year": "-"
+          }
         ]
       },
       {
         "category": "NEW HOLLAND",
         "models": [
-          { "name": "Construction Machinery", "engine": "-", "power": "-", "year": "-" }
+          {
+            "name": "Construction Machinery",
+            "engine": "-",
+            "power": "-",
+            "year": "-"
+          }
         ]
       },
       {
         "category": "SOLARIS BUS",
         "models": [
-          { "name": "City Buses", "engine": "-", "power": "-", "year": "-" }
+          {
+            "name": "City Buses",
+            "engine": "-",
+            "power": "-",
+            "year": "-"
+          }
         ]
       }
-    ]
+    ],
+    "related_products": []
   },
   {
     "id": 15,
@@ -1505,10 +4032,21 @@
       "Thread": "M 16x1.5"
     },
     "oem_numbers": {
-      "IVECO": ["2994048", "504082384", "5801445628"],
-      "NEW HOLLAND": ["84160468", "87422984"],
-      "CLAAS": ["11515170"],
-      "MANN": ["WK 1149"]
+      "IVECO": [
+        "2994048",
+        "504082384",
+        "5801445628"
+      ],
+      "NEW HOLLAND": [
+        "84160468",
+        "87422984"
+      ],
+      "CLAAS": [
+        "11515170"
+      ],
+      "MANN": [
+        "WK 1149"
+      ]
     },
     "features": [
       "Spin-on Design",
@@ -1521,16 +4059,27 @@
         "category": "IVECO",
         "sub_category": "Cursor Engine",
         "models": [
-          { "name": "Stralis / Trakker", "engine": "Cursor 8/10/13", "power": "-", "year": "-" }
+          {
+            "name": "Stralis / Trakker",
+            "engine": "Cursor 8/10/13",
+            "power": "-",
+            "year": "-"
+          }
         ]
       },
       {
         "category": "ASTRA",
         "models": [
-          { "name": "HD7 / HD8", "engine": "-", "power": "-", "year": "-" }
+          {
+            "name": "HD7 / HD8",
+            "engine": "-",
+            "power": "-",
+            "year": "-"
+          }
         ]
       }
-    ]
+    ],
+    "related_products": []
   },
   {
     "id": 16,
@@ -1551,8 +4100,13 @@
       "Thread": "M 30x2"
     },
     "oem_numbers": {
-      "IVECO": ["2992242", "504074043"],
-      "ASTRA": ["504074043"]
+      "IVECO": [
+        "2992242",
+        "504074043"
+      ],
+      "ASTRA": [
+        "504074043"
+      ]
     },
     "features": [
       "Spin-on Oil Filter",
@@ -1565,16 +4119,27 @@
         "category": "IVECO",
         "sub_category": "Trakker / Stralis",
         "models": [
-          { "name": "Trakker / Stralis", "engine": "Cursor 8/10/13", "power": "-", "year": "-" }
+          {
+            "name": "Trakker / Stralis",
+            "engine": "Cursor 8/10/13",
+            "power": "-",
+            "year": "-"
+          }
         ]
       },
       {
         "category": "ASTRA",
         "models": [
-          { "name": "HD7 / HD8", "engine": "Cursor", "power": "-", "year": "-" }
+          {
+            "name": "HD7 / HD8",
+            "engine": "Cursor",
+            "power": "-",
+            "year": "-"
+          }
         ]
       }
-    ]
+    ],
+    "related_products": []
   },
   {
     "id": 17,
@@ -1594,10 +4159,16 @@
         "category": "VOLVO",
         "sub_category": "FM Series",
         "models": [
-          { "name": "FM (Large)", "engine": "-", "power": "-", "year": "-" }
+          {
+            "name": "FM (Large)",
+            "engine": "-",
+            "power": "-",
+            "year": "-"
+          }
         ]
       }
-    ]
+    ],
+    "related_products": []
   },
   {
     "id": 18,
@@ -1617,10 +4188,16 @@
         "category": "VOLVO",
         "sub_category": "B9R / B7R / FM",
         "models": [
-          { "name": "B9R / B7R / FM", "engine": "-", "power": "-", "year": "-" }
+          {
+            "name": "B9R / B7R / FM",
+            "engine": "-",
+            "power": "-",
+            "year": "-"
+          }
         ]
       }
-    ]
+    ],
+    "related_products": []
   },
   {
     "id": 19,
@@ -1640,10 +4217,16 @@
         "category": "VOLVO",
         "sub_category": "B7R / R7B",
         "models": [
-          { "name": "B7R / R7B", "engine": "-", "power": "-", "year": "-" }
+          {
+            "name": "B7R / R7B",
+            "engine": "-",
+            "power": "-",
+            "year": "-"
+          }
         ]
       }
-    ]
+    ],
+    "related_products": []
   },
   {
     "id": 20,
@@ -1663,10 +4246,16 @@
         "category": "VOLVO",
         "sub_category": "B9R / B7R / FM",
         "models": [
-          { "name": "B9R / B7R / FM", "engine": "-", "power": "-", "year": "-" }
+          {
+            "name": "B9R / B7R / FM",
+            "engine": "-",
+            "power": "-",
+            "year": "-"
+          }
         ]
       }
-    ]
+    ],
+    "related_products": []
   },
   {
     "id": 21,
@@ -1678,7 +4267,8 @@
     "part_number": "ES5937",
     "image": "assets/images/FILTER/EUROSTAR GERMANY/ES5937.jpeg",
     "description": "High quality fuel filter.",
-    "available": true
+    "available": true,
+    "related_products": []
   },
   {
     "id": 22,
@@ -1690,7 +4280,8 @@
     "part_number": "ES6079",
     "image": "assets/images/FILTER/EUROSTAR GERMANY/ES6079.jpeg",
     "description": "High quality air filter.",
-    "available": true
+    "available": true,
+    "related_products": []
   },
   {
     "id": 23,
@@ -1702,7 +4293,8 @@
     "part_number": "ES6259",
     "image": "assets/images/FILTER/EUROSTAR GERMANY/ES6259.jpeg",
     "description": "High quality oil filter.",
-    "available": true
+    "available": true,
+    "related_products": []
   },
   {
     "id": 24,
@@ -1714,7 +4306,8 @@
     "part_number": "ES7556",
     "image": "assets/images/FILTER/EUROSTAR GERMANY/ES7556.jpeg",
     "description": "High quality fuel filter.",
-    "available": true
+    "available": true,
+    "related_products": []
   },
   {
     "id": 25,
@@ -1726,7 +4319,8 @@
     "part_number": "ES7557ES8756",
     "image": "assets/images/FILTER/EUROSTAR GERMANY/ES7557ES8756.jpeg",
     "description": "High quality air filter.",
-    "available": true
+    "available": true,
+    "related_products": []
   },
   {
     "id": 26,
@@ -1738,7 +4332,8 @@
     "part_number": "ES9961",
     "image": "assets/images/FILTER/EUROSTAR GERMANY/ES9961.jpeg",
     "description": "High quality oil filter.",
-    "available": true
+    "available": true,
+    "related_products": []
   },
   {
     "id": 27,
@@ -1764,7 +4359,8 @@
           }
         ]
       }
-    ]
+    ],
+    "related_products": []
   },
   {
     "id": 28,
@@ -1790,7 +4386,8 @@
           }
         ]
       }
-    ]
+    ],
+    "related_products": []
   },
   {
     "id": 29,
@@ -1816,7 +4413,8 @@
           }
         ]
       }
-    ]
+    ],
+    "related_products": []
   },
   {
     "id": 30,
@@ -1848,7 +4446,8 @@
           }
         ]
       }
-    ]
+    ],
+    "related_products": []
   },
   {
     "id": 31,
@@ -1866,7 +4465,8 @@
         "category": "MAN",
         "models": []
       }
-    ]
+    ],
+    "related_products": []
   },
   {
     "id": 32,
@@ -1898,7 +4498,8 @@
           }
         ]
       }
-    ]
+    ],
+    "related_products": []
   },
   {
     "id": 33,
@@ -1924,7 +4525,8 @@
           }
         ]
       }
-    ]
+    ],
+    "related_products": []
   },
   {
     "id": 34,
@@ -1950,7 +4552,8 @@
           }
         ]
       }
-    ]
+    ],
+    "related_products": []
   },
   {
     "id": 35,
@@ -1982,7 +4585,8 @@
           }
         ]
       }
-    ]
+    ],
+    "related_products": []
   },
   {
     "id": 36,
@@ -2008,6 +4612,27 @@
           }
         ]
       }
-    ]
+    ],
+    "related_products": []
+  },
+  {
+    "id": 37,
+    "name": "حشو فلتر زيت مرسيدس اكتروس MB4",
+    "brand": "EUROSTAR GERMANY",
+    "model": "ES 2109",
+    "vehicle_type": "Truck",
+    "category": "Oil Filter",
+    "part_number": "ES 2109",
+    "image": "assets/images/FILTER/ES 2109.jpeg",
+    "description": "",
+    "available": true,
+    "origin": "Turkey",
+    "full_description": "",
+    "filter_type": "Oil Filter",
+    "dimensions": {},
+    "oem_numbers": {},
+    "features": [],
+    "applications": [],
+    "related_products": []
   }
 ]

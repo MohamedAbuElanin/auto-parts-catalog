@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Catalog Admin Dashboard</title>
+  <link rel="stylesheet" href="admin.css">
+</head>
+<body>
+  <main class="dashboard-shell">
+    <header class="dashboard-header">
+      <div>
+        <p class="eyebrow">Auto Parts Catalog</p>
+        <h1>Admin Dashboard</h1>
+      </div>
+      <a class="site-link" href="index.html">View catalog</a>
+    </header>
+
+    <section class="stats-grid">
+      <div class="stat-card">
+        <span>Total products</span>
+        <strong id="stat-products">0</strong>
+      </div>
+      <div class="stat-card">
+        <span>Total brands</span>
+        <strong id="stat-brands">0</strong>
+      </div>
+      <div class="stat-card">
+        <span>Most used category</span>
+        <strong id="stat-category">-</strong>
+      </div>
+    </section>
+
+    <section class="panel tools-panel">
+      <div class="panel-heading">
+        <div>
+          <h2>Import / Export</h2>
+          <p>Validate bulk data, export JSON, or create a quick backup.</p>
+        </div>
+      </div>
+      <div class="tools-row">
+        <label class="file-field import-field">
+          <span>JSON or Excel file</span>
+          <input id="import-file" type="file" accept=".json,.xlsx,.xls,application/json">
+        </label>
+        <button class="secondary-button" id="validate-import" type="button">Validate import</button>
+        <button class="primary-button" id="commit-import" type="button">Import products</button>
+        <a class="secondary-button tool-link" href="/api/export/products.json">Export JSON</a>
+        <button class="secondary-button" id="backup-products" type="button">Backup products.json</button>
+      </div>
+      <p id="import-message" class="tool-message"></p>
+    </section>
+
+    <section class="panel">
+      <div class="panel-heading">
+        <div>
+          <h2 id="form-title">Add Product</h2>
+          <p id="breadcrumb-path">Vehicle > Brand > Model</p>
+        </div>
+        <div class="header-actions">
+          <button class="secondary-button" id="add-another" type="button">Add Another</button>
+          <button class="secondary-button" id="reset-form" type="button">Clear</button>
+        </div>
+      </div>
+
+      <div class="form-tabs" role="tablist" aria-label="Product form sections">
+        <button class="tab-button active" type="button" data-tab="basic">Basic Info</button>
+        <button class="tab-button" type="button" data-tab="specs">Specifications</button>
+        <button class="tab-button" type="button" data-tab="oem">OEM</button>
+        <button class="tab-button" type="button" data-tab="applications">Applications</button>
+        <button class="tab-button" type="button" data-tab="models">Models</button>
+      </div>
+
+      <div class="form-layout">
+        <form id="product-form" class="product-form" enctype="multipart/form-data">
+          <input type="hidden" id="editing-part-number">
+          <input type="hidden" id="editing-product-id">
+
+          <div class="tab-panel active" data-panel="basic">
+            <label>
+              <span>Part number * <button class="help-star" type="button" title="Unique catalog part number. Duplicate numbers require confirmation.">*</button></span>
+              <input id="part-number" name="partNumber" type="text" required>
+            </label>
+
+            <label>
+              <span>Name <button class="help-star" type="button" title="Product name shown in cards and details.">*</button></span>
+              <input id="name" name="name" type="text">
+            </label>
+
+            <label>
+              <span>Vehicle type <button class="help-star" type="button" title="Used for catalog filtering.">*</button></span>
+              <select id="vehicle-type" name="vehicleType">
+                <option value="Passenger">Passenger</option>
+                <option value="Truck">Truck</option>
+                <option value="Bus">Bus</option>
+                <option value="Equipment">Equipment</option>
+                <option value="Commercial">Commercial</option>
+              </select>
+            </label>
+
+            <label>
+              <span>Brand <button class="help-star" type="button" title="Selecting a frequent brand can auto-fill origin, category, and common features.">*</button></span>
+              <input id="brand" name="brand" type="text" list="brand-suggestions">
+              <datalist id="brand-suggestions"></datalist>
+            </label>
+
+            <label>
+              <span>Model <button class="help-star" type="button" title="Quick admin model value and breadcrumb segment.">*</button></span>
+              <input id="model" name="model" type="text" list="model-suggestions">
+              <datalist id="model-suggestions"></datalist>
+            </label>
+
+            <label>
+              <span>Origin <button class="help-star" type="button" title="Country of origin shown in the product card.">*</button></span>
+              <input id="origin" name="origin" type="text" list="origin-suggestions" placeholder="Turkey, China, Germany">
+              <datalist id="origin-suggestions">
+                <option value="Turkey"></option>
+                <option value="China"></option>
+                <option value="Germany"></option>
+              </datalist>
+            </label>
+
+            <label>
+              <span>Category <button class="help-star" type="button" title="Filter category used by the public catalog.">*</button></span>
+              <select id="category" name="category">
+                <option value="Oil Filter">Oil Filter</option>
+                <option value="Air Filter">Air Filter</option>
+                <option value="Fuel Filter">Fuel Filter</option>
+              </select>
+            </label>
+
+            <label>
+              <span>Tags <button class="help-star" type="button" title="Comma-separated workflow tags like Heavy Duty, Eco, High Performance.">*</button></span>
+              <input id="tags" name="tags" type="text" placeholder="Heavy Duty, Eco">
+            </label>
+
+            <label>
+              <span>Available <button class="help-star" type="button" title="Availability flag saved with the product.">*</button></span>
+              <select id="available" name="available">
+                <option value="true">Available</option>
+                <option value="false">Unavailable</option>
+              </select>
+            </label>
+          </div>
+
+          <div class="tab-panel" data-panel="specs">
+            <label>
+              <span>Filter type <button class="help-star" type="button" title="Detailed filter type, for example Metal Free or Spin-on.">*</button></span>
+              <input id="filter-type" name="filterType" type="text">
+            </label>
+
+            <label class="file-field">
+              <span>Image upload <button class="help-star" type="button" title="Preview before upload. The backend saves it as partNumber.jpg.">*</button></span>
+              <input id="image" name="image" type="file" accept="image/*">
+            </label>
+
+            <label class="wide-field">
+              <span>Description <button class="help-star" type="button" title="Short description used by search and product UI.">*</button></span>
+              <textarea id="description" name="description" rows="3"></textarea>
+            </label>
+
+            <label class="wide-field">
+              <span>Full description <button class="help-star" type="button" title="Detailed text shown on the product details page.">*</button></span>
+              <textarea id="full-description" name="fullDescription" rows="4"></textarea>
+            </label>
+
+            <div class="form-section wide-field">
+              <div class="section-title">
+                <h3>Dimensions <button class="help-star" type="button" title="Dimension rows such as A, B, C, H.">*</button></h3>
+                <button class="secondary-button" id="add-dimension" type="button">Add dimension</button>
+              </div>
+              <div id="dimensions-list" class="repeat-list"></div>
+            </div>
+
+            <div class="form-section wide-field">
+              <div class="section-title">
+                <h3>Features <button class="help-star" type="button" title="Product feature bullets. Smart auto-fill can add common brand features.">*</button></h3>
+                <button class="secondary-button" id="add-feature" type="button">Add feature</button>
+              </div>
+              <div id="features-list" class="repeat-list"></div>
+            </div>
+          </div>
+
+          <div class="tab-panel" data-panel="oem">
+            <div class="form-section wide-field">
+              <div class="section-title">
+                <h3>OEM numbers <button class="help-star" type="button" title="Grouped by manufacturer. Matching OEMs link products automatically.">*</button></h3>
+                <button class="secondary-button" id="add-oem" type="button">Add OEM</button>
+              </div>
+              <div id="oem-list" class="repeat-list"></div>
+            </div>
+            <div class="linked-box">
+              <h3>Linked by OEM</h3>
+              <div id="linked-products">No linked products yet.</div>
+            </div>
+          </div>
+
+          <div class="tab-panel" data-panel="applications">
+            <div class="form-section wide-field">
+              <div class="section-title">
+                <h3>Applications <button class="help-star" type="button" title="Vehicle families or applications this product fits.">*</button></h3>
+                <button class="secondary-button" id="add-application" type="button">Add application</button>
+              </div>
+              <div id="applications-list" class="repeat-list"></div>
+            </div>
+          </div>
+
+          <div class="tab-panel" data-panel="models">
+            <div class="linked-box">
+              <h3>Model workflow</h3>
+              <p>Models are managed inside each application. Use this tab as a focused review area while editing applications.</p>
+              <div id="model-summary">No models added yet.</div>
+            </div>
+          </div>
+
+          <div class="form-actions">
+            <button class="primary-button" id="submit-button" type="submit">Add product</button>
+            <span id="save-spinner" class="spinner" hidden></span>
+            <p id="form-message" role="status"></p>
+          </div>
+        </form>
+
+        <aside class="preview-panel">
+          <h3>Live preview</h3>
+          <div class="preview-card">
+            <div class="preview-image" id="image-preview">No image</div>
+            <span class="part-number-badge" id="preview-part">Part number</span>
+            <h3 id="preview-name">Product name</h3>
+            <dl>
+              <div><dt>Brand</dt><dd id="preview-brand">-</dd></div>
+              <div><dt>Model</dt><dd id="preview-model">-</dd></div>
+              <div><dt>Origin</dt><dd id="preview-origin">-</dd></div>
+              <div><dt>Category</dt><dd id="preview-category">-</dd></div>
+            </dl>
+            <div id="preview-tags" class="tag-list"></div>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <section class="panel">
+      <div class="panel-heading table-heading">
+        <div>
+          <h2>Products</h2>
+          <p id="product-count">0 products</p>
+        </div>
+        <label class="search-field">
+          <span>Advanced search</span>
+          <input id="search" type="search" placeholder="Part number, brand, model, OEM">
+        </label>
+      </div>
+
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th>Part number</th>
+              <th>Brand</th>
+              <th>Model</th>
+              <th>Origin</th>
+              <th>Linked</th>
+              <th>Actions</th>
+            </tr>
+          </thead>
+          <tbody id="products-table"></tbody>
+        </table>
+      </div>
+      <p id="empty-state" class="empty-state">No products found. Try another part number, brand, model, or OEM.</p>
+    </section>
+  </main>
+
+  <div id="toast-stack" class="toast-stack" aria-live="polite"></div>
+  <div id="confirm-modal" class="modal-backdrop" hidden>
+    <div class="confirm-box" role="dialog" aria-modal="true" aria-labelledby="confirm-title">
+      <h2 id="confirm-title">Confirm action</h2>
+      <p id="confirm-message"></p>
+      <div class="confirm-actions">
+        <button class="secondary-button" id="confirm-cancel" type="button">Cancel</button>
+        <button class="danger-button" id="confirm-ok" type="button">Confirm</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="admin.js"></script>
+</body>
+</html>
