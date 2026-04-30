@@ -1739,5 +1739,275 @@
     "image": "assets/images/FILTER/EUROSTAR GERMANY/ES9961.jpeg",
     "description": "High quality oil filter.",
     "available": true
+  },
+  {
+    "id": 27,
+    "name": "فلتر جاز مربع CE 1346 MP",
+    "brand": "Sampiyon Filter",
+    "origin": "Turkey",
+    "vehicle_type": "Truck",
+    "category": "Fuel Filter",
+    "part_number": "CE 1346 MP",
+    "image": "assets/images/FILTER/Sampiyon/CE 1346 MP.png",
+    "description": "فلتر جاز مربع",
+    "available": true,
+    "applications": [
+      {
+        "category": "MAN",
+        "sub_category": "TGA",
+        "models": [
+          {
+            "name": "TGA",
+            "engine": "-",
+            "power": "-",
+            "year": "-"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 28,
+    "name": "فلتر جاز CE 1371 MEX",
+    "brand": "Sampiyon Filter",
+    "origin": "Turkey",
+    "vehicle_type": "Truck",
+    "category": "Fuel Filter",
+    "part_number": "CE 1371 MEX",
+    "image": "assets/images/FILTER/Sampiyon/CE 1371 MEX.png",
+    "description": "فلتر جاز",
+    "available": true,
+    "applications": [
+      {
+        "category": "Scania",
+        "sub_category": "124",
+        "models": [
+          {
+            "name": "124",
+            "engine": "-",
+            "power": "-",
+            "year": "-"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 29,
+    "name": "فلتر جاز CE 1397 MEX",
+    "brand": "Sampiyon Filter",
+    "origin": "Turkey",
+    "vehicle_type": "Truck",
+    "category": "Fuel Filter",
+    "part_number": "CE 1397 MEX",
+    "image": "assets/images/FILTER/Sampiyon/CE 1397 MEX.png",
+    "description": "فلتر جاز",
+    "available": true,
+    "applications": [
+      {
+        "category": "Volvo",
+        "sub_category": "B7R",
+        "models": [
+          {
+            "name": "B7R",
+            "engine": "-",
+            "power": "-",
+            "year": "-"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 30,
+    "name": "فلتر تكييف CK 0020",
+    "brand": "Sampiyon Filter",
+    "origin": "Turkey",
+    "vehicle_type": "Truck",
+    "category": "Cabin Filter",
+    "part_number": "CK 0020",
+    "image": "assets/images/FILTER/Sampiyon/CK 0020.png",
+    "description": "فلتر تكييف",
+    "available": true,
+    "applications": [
+      {
+        "category": "Iveco",
+        "sub_category": "Astra / Stralis",
+        "models": [
+          {
+            "name": "Astra",
+            "engine": "-",
+            "power": "-",
+            "year": "-"
+          },
+          {
+            "name": "Stralis",
+            "engine": "-",
+            "power": "-",
+            "year": "-"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 31,
+    "name": "فلتر هواء داخلي CR 0052",
+    "brand": "Sampiyon Filter",
+    "origin": "Turkey",
+    "vehicle_type": "Truck",
+    "category": "Cabin Air Filter",
+    "part_number": "CR 0052",
+    "image": "assets/images/FILTER/Sampiyon/CR 0052.png",
+    "description": "فلتر هواء داخلي",
+    "available": true,
+    "applications": [
+      {
+        "category": "MAN",
+        "models": []
+      }
+    ]
+  },
+  {
+    "id": 32,
+    "name": "فلتر هواء داخلي CR 0068",
+    "brand": "Sampiyon Filter",
+    "origin": "Turkey",
+    "vehicle_type": "Truck",
+    "category": "Cabin Air Filter",
+    "part_number": "CR 0068",
+    "image": "assets/images/FILTER/Sampiyon/CR 0068.png",
+    "description": "فلتر هواء داخلي",
+    "available": true,
+    "applications": [
+      {
+        "category": "MAN",
+        "sub_category": "TGS / TGA",
+        "models": [
+          {
+            "name": "TGS",
+            "engine": "-",
+            "power": "-",
+            "year": "-"
+          },
+          {
+            "name": "TGA",
+            "engine": "-",
+            "power": "-",
+            "year": "-"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 33,
+    "name": "فلتر هواء داخلي CR 0168",
+    "brand": "Sampiyon Filter",
+    "origin": "Turkey",
+    "vehicle_type": "Truck",
+    "category": "Cabin Air Filter",
+    "part_number": "CR 0168",
+    "image": "assets/images/FILTER/Sampiyon/CR 0168.png",
+    "description": "فلتر هواء داخلي",
+    "available": true,
+    "applications": [
+      {
+        "category": "Volvo",
+        "sub_category": "Truck",
+        "models": [
+          {
+            "name": "Truck",
+            "engine": "-",
+            "power": "-",
+            "year": "-"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 34,
+    "name": "فلتر جاز ابتدائي CS 0049 M1",
+    "brand": "Sampiyon Filter",
+    "origin": "Turkey",
+    "vehicle_type": "Truck",
+    "category": "Fuel Filter Primary",
+    "part_number": "CS 0049 M1",
+    "image": "assets/images/FILTER/Sampiyon/CS 0049 M1.png",
+    "description": "فلتر جاز ابتدائي",
+    "available": true,
+    "applications": [
+      {
+        "category": "Iveco",
+        "sub_category": "Trakker",
+        "models": [
+          {
+            "name": "Trakker",
+            "engine": "-",
+            "power": "-",
+            "year": "-"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 35,
+    "name": "فلتر جاز ثانوي CS 0052 M MB",
+    "brand": "Sampiyon Filter",
+    "origin": "Turkey",
+    "vehicle_type": "Truck",
+    "category": "Fuel Filter Secondary",
+    "part_number": "CS 0052 M MB",
+    "image": "assets/images/FILTER/Sampiyon/CS 0052 M MB.png",
+    "description": "فلتر جاز ثانوي",
+    "available": true,
+    "applications": [
+      {
+        "category": "Iveco",
+        "sub_category": "Trakker / Stralis",
+        "models": [
+          {
+            "name": "Trakker",
+            "engine": "-",
+            "power": "-",
+            "year": "-"
+          },
+          {
+            "name": "Stralis",
+            "engine": "-",
+            "power": "-",
+            "year": "-"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 36,
+    "name": "فلتر زيت CS 1633",
+    "brand": "Sampiyon Filter",
+    "origin": "Turkey",
+    "vehicle_type": "Truck",
+    "category": "Oil Filter",
+    "part_number": "CS 1633",
+    "image": "assets/images/FILTER/Sampiyon/CS 1633.png",
+    "description": "فلتر زيت",
+    "available": true,
+    "applications": [
+      {
+        "category": "Iveco",
+        "sub_category": "Truck",
+        "models": [
+          {
+            "name": "Truck",
+            "engine": "-",
+            "power": "-",
+            "year": "-"
+          }
+        ]
+      }
+    ]
   }
 ]
