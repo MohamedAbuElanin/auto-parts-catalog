@@ -105,11 +105,6 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 function setupProtection() {
-    document.addEventListener('contextmenu', event => {
-        event.preventDefault();
-        showToast('المحتوى محمي بحقوق الطبع والنشر', 'protection');
-    });
-
     document.addEventListener('keydown', event => {
         if (event.key === 'F12' || (event.ctrlKey && ((event.shiftKey && (event.key === 'I' || event.key === 'J')) || event.key === 'u'))) {
             event.preventDefault();

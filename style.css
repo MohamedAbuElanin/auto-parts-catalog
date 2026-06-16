@@ -30,10 +30,6 @@ body {
   display: flex;
   flex-direction: column;
   scroll-behavior: smooth;
-  user-select: none; /* Disable text selection across entire page */
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
 }
 
 /* Glass Navbar */

@@ -40,7 +40,6 @@
     "applications": [
       {
         "category": "DENNIS BUS / ALEXANDER DENNIS",
-        "sub_category": "Enviro / Enviro Dart",
         "models": [
           {
             "name": "300 Dart",
@@ -54,7 +53,8 @@
             "power": "206 kW / 280 HP",
             "year": "2017/02 →"
           }
-        ]
+        ],
+        "sub_category": "Enviro / Enviro Dart"
       },
       {
         "category": "SCANIA G Series",
@@ -132,7 +132,11 @@
         ]
       }
     ],
-    "related_products": []
+    "related_products": [],
+    "model": "SCANIA",
+    "tags": [
+      "خالى من المعادن"
+    ]
   },
   {
     "id": 2,
@@ -4633,6 +4637,27 @@
     "oem_numbers": {},
     "features": [],
     "applications": [],
+    "related_products": []
+  },
+  {
+    "id": 38,
+    "name": "<img src=x onerror='console.log(\"XSS-computed-user-select:\", window.getComputedStyle(document.body).userSelect, window.getComputedStyle(document.body).webkitUserSelect)'>",
+    "brand": "",
+    "model": "",
+    "origin": "",
+    "vehicle_type": "Passenger",
+    "category": "Oil Filter",
+    "part_number": "TEST-XSS-1",
+    "image": "",
+    "description": "",
+    "full_description": "",
+    "available": true,
+    "filter_type": "",
+    "dimensions": {},
+    "oem_numbers": {},
+    "features": [],
+    "applications": [],
+    "tags": [],
     "related_products": []
   }
 ]
