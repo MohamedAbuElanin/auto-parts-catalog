@@ -20,6 +20,105 @@ const VEHICLE_LABELS = {
     Equipment: 'معدات'
 };
 
+const DEFAULT_SERVICE_OPTION = {
+    id: 'all',
+    label: 'كل البنود',
+    icon: 'fa-layer-group',
+    availability: 'catalog'
+};
+
+const SERVICE_TAXONOMY = {
+    Equipment: [
+        { id: 'engine-overhaul', label: 'العمرات والمحركات', icon: 'fa-gears' },
+        { id: 'electrical-electronics', label: 'الكهرباء والإلكترونيات', icon: 'fa-bolt' },
+        { id: 'hydraulics', label: 'الهيدروليك', icon: 'fa-droplet' },
+        { id: 'filters-oils', label: 'الفلاتر والزيوت', icon: 'fa-filter', availability: 'catalog', categories: ['Air Filter', 'Oil Filter', 'Fuel Filter'] },
+        { id: 'cooling', label: 'التبريد', icon: 'fa-temperature-low' },
+        { id: 'brakes', label: 'الفرامل', icon: 'fa-circle-dot' },
+        { id: 'heavy-transmission', label: 'نقل الحركة', icon: 'fa-shuffle' },
+        { id: 'chassis-suspension', label: 'العفشة والشاسيه', icon: 'fa-road' },
+        { id: 'tracks-tires', label: 'الجنزير أو الإطارات', icon: 'fa-gear' },
+        { id: 'cabins-accessories', label: 'الكبائن والإكسسوارات', icon: 'fa-couch' },
+        { id: 'body-frame', label: 'الجسم الخارجي والهيكل', icon: 'fa-tractor' },
+        { id: 'bolts-consumables', label: 'المسامير والمستهلكات', icon: 'fa-screwdriver' }
+    ],
+    Truck: [
+        { id: 'engine-overhaul', label: 'العمرات والمحركات', icon: 'fa-gears' },
+        { id: 'electrical-electronics', label: 'الكهرباء والإلكترونيات', icon: 'fa-bolt' },
+        { id: 'gearbox-clutch', label: 'الفتيس والدبرياج', icon: 'fa-shuffle' },
+        { id: 'differential-axles', label: 'الدفرنس والأكسال', icon: 'fa-arrows-left-right' },
+        { id: 'air-brakes', label: 'الفرامل الهوائية', icon: 'fa-circle-dot' },
+        { id: 'springs-airbags', label: 'التعليق', icon: 'fa-road' },
+        { id: 'cooling', label: 'التبريد', icon: 'fa-temperature-low' },
+        { id: 'filters-oils', label: 'الفلاتر والزيوت', icon: 'fa-filter', availability: 'catalog', categories: ['Air Filter', 'Oil Filter', 'Fuel Filter'] },
+        { id: 'tires-rims', label: 'الإطارات والجنوط', icon: 'fa-compact-disc' },
+        { id: 'cabin-body', label: 'الكابينة والهيكل', icon: 'fa-truck-front' },
+        { id: 'exhaust', label: 'العادم', icon: 'fa-wind' },
+        { id: 'consumables', label: 'المستهلكات', icon: 'fa-screwdriver' }
+    ],
+    Commercial: [
+        { id: 'engine-overhaul', label: 'العمرات والمحركات', icon: 'fa-gears' },
+        { id: 'electrical-electronics', label: 'الكهرباء والإلكترونيات', icon: 'fa-bolt' },
+        { id: 'gearbox-clutch', label: 'الفتيس والدبرياج', icon: 'fa-shuffle' },
+        { id: 'brakes', label: 'الفرامل', icon: 'fa-circle-dot' },
+        { id: 'suspension-steering', label: 'العفشة والتوجيه', icon: 'fa-road' },
+        { id: 'cooling', label: 'التبريد', icon: 'fa-temperature-low' },
+        { id: 'filters-oils', label: 'الفلاتر والزيوت', icon: 'fa-filter', availability: 'catalog', categories: ['Air Filter', 'Oil Filter', 'Fuel Filter'] },
+        { id: 'body-accessories', label: 'الهيكل والكماليات', icon: 'fa-truck-pickup' },
+        { id: 'tires-rims', label: 'الإطارات والجنوط', icon: 'fa-compact-disc' },
+        { id: 'exhaust', label: 'العادم', icon: 'fa-wind' },
+        { id: 'consumables', label: 'المستهلكات', icon: 'fa-screwdriver' }
+    ],
+    Passenger: [
+        { id: 'engine-overhaul', label: 'العمرات والمحركات', icon: 'fa-gears' },
+        { id: 'electrical-electronics', label: 'الكهرباء والإلكترونيات', icon: 'fa-bolt' },
+        { id: 'gearbox-clutch', label: 'الفتيس والدبرياج', icon: 'fa-shuffle' },
+        { id: 'brakes', label: 'الفرامل', icon: 'fa-circle-dot' },
+        { id: 'suspension-steering', label: 'العفشة والتوجيه', icon: 'fa-road' },
+        { id: 'air-conditioning', label: 'التكييف', icon: 'fa-snowflake' },
+        { id: 'cooling', label: 'التبريد', icon: 'fa-temperature-low' },
+        { id: 'filters-oils', label: 'الفلاتر والزيوت', icon: 'fa-filter', availability: 'catalog', categories: ['Air Filter', 'Oil Filter', 'Fuel Filter'] },
+        { id: 'bodywork', label: 'الهيكل والسمكرة', icon: 'fa-car-burst' },
+        { id: 'lighting-accessories', label: 'الإضاءة والكماليات', icon: 'fa-lightbulb' },
+        { id: 'glass-mirrors', label: 'الزجاج والمرايات', icon: 'fa-table-cells-large' },
+        { id: 'tires-rims', label: 'الإطارات والجنوط', icon: 'fa-compact-disc' },
+        { id: 'exhaust', label: 'العادم', icon: 'fa-wind' },
+        { id: 'consumables', label: 'المستهلكات', icon: 'fa-screwdriver' }
+    ],
+    Bus: [
+        { id: 'engine-overhaul', label: 'العمرات والمحركات', icon: 'fa-gears' },
+        { id: 'electrical-electronics', label: 'الكهرباء والإلكترونيات', icon: 'fa-bolt' },
+        { id: 'gearbox-clutch', label: 'الفتيس والدبرياج', icon: 'fa-shuffle' },
+        { id: 'air-brakes', label: 'الفرامل الهوائية', icon: 'fa-circle-dot' },
+        { id: 'suspension', label: 'التعليق والعفشة', icon: 'fa-road' },
+        { id: 'cooling', label: 'التبريد', icon: 'fa-temperature-low' },
+        { id: 'air-conditioning', label: 'التكييف', icon: 'fa-snowflake' },
+        { id: 'filters-oils', label: 'الفلاتر والزيوت', icon: 'fa-filter', availability: 'catalog', categories: ['Air Filter', 'Oil Filter', 'Fuel Filter'] },
+        { id: 'doors-air-systems', label: 'الأبواب والأنظمة الهوائية', icon: 'fa-door-open' },
+        { id: 'seats-interior', label: 'المقاعد والتجهيزات الداخلية', icon: 'fa-couch' },
+        { id: 'outer-body', label: 'الهيكل الخارجي', icon: 'fa-bus' },
+        { id: 'tires-rims', label: 'الإطارات والجنوط', icon: 'fa-compact-disc' },
+        { id: 'exhaust', label: 'العادم', icon: 'fa-wind' },
+        { id: 'consumables', label: 'المستهلكات', icon: 'fa-screwdriver' }
+    ],
+    Minibus: [
+        { id: 'engine-overhaul', label: 'العمرات والمحركات', icon: 'fa-gears' },
+        { id: 'electrical-electronics', label: 'الكهرباء والإلكترونيات', icon: 'fa-bolt' },
+        { id: 'gearbox-clutch', label: 'الفتيس والدبرياج', icon: 'fa-shuffle' },
+        { id: 'brakes', label: 'الفرامل', icon: 'fa-circle-dot' },
+        { id: 'suspension-steering', label: 'العفشة والتوجيه', icon: 'fa-road' },
+        { id: 'cooling', label: 'التبريد', icon: 'fa-temperature-low' },
+        { id: 'air-conditioning', label: 'التكييف', icon: 'fa-snowflake' },
+        { id: 'filters-oils', label: 'الفلاتر والزيوت', icon: 'fa-filter', availability: 'catalog', categories: ['Air Filter', 'Oil Filter', 'Fuel Filter'] },
+        { id: 'doors-air-systems', label: 'الأبواب والأنظمة الهوائية', icon: 'fa-door-open' },
+        { id: 'seats-interior', label: 'المقاعد والتجهيزات الداخلية', icon: 'fa-couch' },
+        { id: 'outer-body', label: 'الهيكل الخارجي', icon: 'fa-van-shuttle' },
+        { id: 'tires-rims', label: 'الإطارات والجنوط', icon: 'fa-compact-disc' },
+        { id: 'exhaust', label: 'العادم', icon: 'fa-wind' },
+        { id: 'consumables', label: 'المستهلكات', icon: 'fa-screwdriver' }
+    ]
+};
+
 const VEHICLE_TAXONOMY = {
     Passenger: {
         Toyota: buildBrandMeta('toyota.com', ['Corolla', 'Yaris', 'Camry', 'Hilux', 'Fortuner'], ['toyota']),
@@ -64,16 +163,20 @@ const hiddenBrandFilter = document.getElementById('brand-filter');
 const vehicleItems = document.querySelectorAll('.vehicle-item');
 const brandSection = document.getElementById('brand-filter-section');
 const brandSelector = document.getElementById('brand-selector');
+const serviceSection = document.getElementById('service-filter-section');
+const serviceSelector = document.getElementById('service-selector');
 const modelSection = document.getElementById('model-filter-section');
 const modelSelector = document.getElementById('model-selector');
 const selectionPathBar = document.getElementById('selection-path-bar');
 const selectionPath = document.getElementById('selection-path');
+const navBrand = document.querySelector('.nav-brand');
 const navWhatsappBtn = document.getElementById('nav-whatsapp-btn');
 const heroWhatsappBtn = document.getElementById('hero-whatsapp-btn');
 
 let currentVehicleFilter = 'all';
 let currentBrandFilter = 'all';
 let currentModelFilter = 'all';
+let currentServiceFilter = 'all';
 
 // Page Checkers
 const isCatalogPage = document.getElementById('catalog') !== null;
@@ -89,6 +192,8 @@ document.addEventListener('DOMContentLoaded', () => {
         updateSelectionPath();
         syncHiddenBrandFilter();
     }
+
+    setupLogoReset();
 
     setupProtection();
 
@@ -191,12 +296,49 @@ function syncNoResultsCopy() {
 }
 
 function setupWhatsAppLinks() {
+    updateWhatsAppLinks();
+}
+
+function setupLogoReset() {
+    if (!navBrand) return;
+
+    navBrand.addEventListener('click', event => {
+        if (!isCatalogPage) return;
+
+        event.preventDefault();
+        resetCatalogFilters({ clearSearch: true, clearCategory: true, scrollTop: true });
+        showToast('تم الرجوع لبداية الكتالوج', 'filter');
+    });
+}
+
+function updateWhatsAppLinks() {
     const phoneNumber = '201107292913';
-    const message = 'السلام عليكم، أريد الاستفسار عن طريق صورة القطعة.';
+    const message = buildCatalogWhatsappMessage();
     const url = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
 
     if (navWhatsappBtn) navWhatsappBtn.href = url;
     if (heroWhatsappBtn) heroWhatsappBtn.href = url;
+}
+
+function buildCatalogWhatsappMessage() {
+    if (!isCatalogPage) {
+        return 'السلام عليكم، أريد الاستفسار عن طريق صورة القطعة.';
+    }
+
+    const selectedService = getSelectedService();
+    const vehicleLabel = VEHICLE_LABELS[currentVehicleFilter] || '';
+    const details = [];
+
+    if (vehicleLabel && currentVehicleFilter !== 'all') details.push(`نوع المركبة: ${vehicleLabel}`);
+    if (currentBrandFilter !== 'all') details.push(`الماركة: ${currentBrandFilter}`);
+    if (currentModelFilter !== 'all') details.push(`الموديل: ${currentModelFilter}`);
+    if (selectedService.id !== 'all') details.push(`البند: ${selectedService.label}`);
+
+    if (details.length === 0) {
+        return 'السلام عليكم، أريد الاستفسار عن طريق صورة القطعة.';
+    }
+
+    return `السلام عليكم، أريد الاستفسار عن قطع غيار. ${details.join(' - ')}`;
 }
 
 async function fetchProducts() {
@@ -211,6 +353,7 @@ async function fetchProducts() {
 
         if (isCatalogPage) {
             if (catalog) catalog.style.display = 'grid';
+            renderServiceSelector();
             renderBrandSelector();
             renderModelSelector();
             updateSelectionPath();
@@ -228,20 +371,16 @@ async function fetchProducts() {
 function setupEventListeners() {
     vehicleItems.forEach(item => {
         item.addEventListener('click', () => {
-            vehicleItems.forEach(vehicle => vehicle.classList.remove('selected'));
-            item.classList.add('selected');
+            const requestedVehicle = item.dataset.value;
+            const nextVehicle = requestedVehicle !== 'all' && currentVehicleFilter === requestedVehicle ? 'all' : requestedVehicle;
 
-            currentVehicleFilter = item.dataset.value;
-            currentBrandFilter = 'all';
-            currentModelFilter = 'all';
+            setVehicleFilter(nextVehicle);
 
-            renderBrandSelector();
-            renderModelSelector();
-            updateSelectionPath();
-            syncHiddenBrandFilter();
-            applyFilters();
+            const selectedLabel = nextVehicle === 'all'
+                ? 'كل الفئات'
+                : (item.querySelector('span') ? item.querySelector('span').textContent : nextVehicle);
 
-            showToast(`تم اختيار الفئة: ${item.querySelector('span').textContent}`, 'filter');
+            showToast(`تم اختيار الفئة: ${selectedLabel}`, 'filter');
         });
     });
 
@@ -268,6 +407,45 @@ function setupEventListeners() {
             applyFilters();
             scrollToInventory();
         });
+    }
+}
+
+function setVehicleFilter(vehicleValue) {
+    currentVehicleFilter = vehicleValue;
+    currentBrandFilter = 'all';
+    currentModelFilter = 'all';
+    currentServiceFilter = 'all';
+
+    updateVehicleSelection();
+    renderServiceSelector();
+    renderBrandSelector();
+    renderModelSelector();
+    updateSelectionPath();
+    syncHiddenBrandFilter();
+    applyFilters();
+    updateWhatsAppLinks();
+}
+
+function updateVehicleSelection() {
+    vehicleItems.forEach(vehicle => {
+        vehicle.classList.toggle('selected', vehicle.dataset.value === currentVehicleFilter);
+    });
+}
+
+function resetCatalogFilters({ clearSearch = false, clearCategory = false, scrollTop = false } = {}) {
+    if (clearSearch && searchInput) {
+        searchInput.value = '';
+    }
+
+    if (clearCategory && categoryFilter) {
+        categoryFilter.value = 'all';
+    }
+
+    setVehicleFilter('all');
+    syncNoResultsCopy();
+
+    if (scrollTop) {
+        window.scrollTo({ top: 0, behavior: 'smooth' });
     }
 }
 
@@ -337,6 +515,63 @@ function deriveVehicleMeta(product) {
     return { brandOptions, modelMap };
 }
 
+function renderServiceSelector() {
+    if (!serviceSelector || !serviceSection) return;
+
+    const services = getServiceOptions(currentVehicleFilter);
+    const shouldShow = currentVehicleFilter !== 'all' && services.length > 0;
+
+    setPanelVisibility(serviceSection, shouldShow);
+    serviceSelector.innerHTML = '';
+
+    if (!shouldShow) {
+        currentServiceFilter = 'all';
+        return;
+    }
+
+    services.forEach(service => {
+        serviceSelector.appendChild(createServicePill(service));
+    });
+}
+
+function createServicePill(service) {
+    const button = document.createElement('button');
+    button.type = 'button';
+    button.className = `service-pill${currentServiceFilter === service.id ? ' selected' : ''}`;
+    button.dataset.service = service.id;
+    button.innerHTML = `
+        <i class="fa-solid ${escapeHtml(service.icon || 'fa-screwdriver-wrench')}"></i>
+        <span>${escapeHtml(service.label)}</span>
+    `;
+    button.addEventListener('click', () => handleServiceSelection(service.id, service.label));
+    return button;
+}
+
+function handleServiceSelection(serviceValue, label) {
+    currentServiceFilter = serviceValue;
+
+    renderServiceSelector();
+    updateSelectionPath();
+    applyFilters();
+    updateWhatsAppLinks();
+
+    playFeedbackSound('click');
+    showToast(`تم اختيار البند: ${label}`, 'filter');
+}
+
+function getServiceOptions(vehicleType) {
+    const serviceItems = SERVICE_TAXONOMY[vehicleType] || [];
+    return [DEFAULT_SERVICE_OPTION, ...serviceItems];
+}
+
+function getSelectedService() {
+    return getServiceOptions(currentVehicleFilter).find(service => service.id === currentServiceFilter) || DEFAULT_SERVICE_OPTION;
+}
+
+function isCatalogService(service) {
+    return service.id === 'all' || service.availability === 'catalog';
+}
+
 function renderBrandSelector() {
     if (!brandSelector || !brandSection) return;
 
@@ -399,6 +634,7 @@ function handleBrandSelection(brandValue, label) {
     updateSelectionPath();
     syncHiddenBrandFilter();
     applyFilters();
+    updateWhatsAppLinks();
 
     playFeedbackSound('click');
     showToast(`تم اختيار الماركة: ${label}`, 'filter');
@@ -438,6 +674,7 @@ function handleModelSelection(modelValue, label) {
     renderModelSelector();
     updateSelectionPath();
     applyFilters();
+    updateWhatsAppLinks();
 
     playFeedbackSound('click');
     showToast(`تم اختيار الموديل: ${label}`, 'filter');
@@ -477,6 +714,10 @@ function updateSelectionPath() {
         segments.push(currentModelFilter);
     }
 
+    if (currentServiceFilter !== 'all') {
+        segments.push(getSelectedService().label);
+    }
+
     selectionPathBar.hidden = segments.length === 0;
     selectionPath.innerHTML = segments
         .map(segment => `<span>${escapeHtml(segment)}</span>`)
@@ -507,6 +748,11 @@ function setPanelVisibility(panel, shouldShow) {
 function applyFilters() {
     const searchTerm = searchInput ? searchInput.value.toLowerCase() : '';
     const categoryTerm = categoryFilter ? categoryFilter.value : 'all';
+    const selectedService = getSelectedService();
+    const serviceCategories = selectedService.categories || [];
+    const matchesServiceInventory = isCatalogService(selectedService);
+
+    updateWhatsAppLinks();
 
     const filtered = productsData.filter(product => {
         const matchesSearch =
@@ -518,14 +764,15 @@ function applyFilters() {
         const matchesBrand = currentBrandFilter === 'all' || product.vehicle_brand_options.includes(currentBrandFilter);
         const matchesModel = currentModelFilter === 'all' || productMatchesModel(product, currentBrandFilter, currentModelFilter);
         const matchesCategory = categoryTerm === 'all' || product.category === categoryTerm;
+        const matchesService = selectedService.id === 'all' || serviceCategories.includes(product.category);
 
-        return matchesSearch && matchesVehicle && matchesBrand && matchesModel && matchesCategory;
+        return matchesServiceInventory && matchesSearch && matchesVehicle && matchesBrand && matchesModel && matchesCategory && matchesService;
     });
 
-    renderProducts(filtered);
+    renderProducts(filtered, selectedService);
 }
 
-function renderProducts(products) {
+function renderProducts(products, selectedService = DEFAULT_SERVICE_OPTION) {
     if (!catalog) return;
 
     catalog.innerHTML = '';
@@ -533,6 +780,7 @@ function renderProducts(products) {
     if (products.length === 0) {
         catalog.style.display = 'none';
         if (noResults) noResults.style.display = 'block';
+        syncEmptyState(selectedService);
         return;
     }
 
@@ -576,6 +824,28 @@ function renderProducts(products) {
 
         catalog.appendChild(card);
     });
+}
+
+function syncEmptyState(selectedService = DEFAULT_SERVICE_OPTION) {
+    if (!noResults) return;
+
+    const title = noResults.querySelector('h3');
+    const description = noResults.querySelector('p');
+    const isRequestOnly = !isCatalogService(selectedService);
+    const vehicleLabel = VEHICLE_LABELS[currentVehicleFilter] || 'المركبة';
+    const serviceLabel = selectedService.id === 'all' ? 'البنود المطلوبة' : selectedService.label;
+
+    if (title) {
+        title.innerHTML = isRequestOnly
+            ? '<i class="fa-solid fa-headset" style="color: var(--accent-color); font-size: 2rem; margin-bottom: 1rem;"></i><br>البند جاهز للاستفسار'
+            : '<i class="fa-solid fa-circle-exclamation" style="color: var(--badge-out-of-stock); font-size: 2rem; margin-bottom: 1rem;"></i><br>لا توجد نتائج مطابقة';
+    }
+
+    if (description) {
+        description.innerHTML = isRequestOnly
+            ? `اخترت ${escapeHtml(serviceLabel)} لفئة ${escapeHtml(vehicleLabel)}. ابعت الطلب على واتساب وسنساعدك في تحديد القطعة المناسبة. <a class="empty-whatsapp-link" href="${heroWhatsappBtn ? heroWhatsappBtn.href : '#'}" target="_blank">إرسال الطلب</a>`
+            : 'جرّب تغيير نوع المركبة أو الماركة أو الموديل أو القسم.';
+    }
 }
 
 function mergeUniqueModels(models) {
